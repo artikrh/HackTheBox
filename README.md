@@ -1,2 +1,2 @@
 # HackTheBox
-Collection of scripts and documentations of retired machines in the hackthebox.eu platform
+Collection of my own scripts and documentations of retired machines in the hackthebox.eu platform.
