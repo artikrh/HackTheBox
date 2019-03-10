@@ -1,0 +1,3 @@
+- Make sure port 73 and 136 are listening for openssl connections with your cert and key files generated beforehand
+- Read jorge.py first to understand the scenario
+- You only need to run the bash script (run ./jorge.py only if you want to reconnect)
