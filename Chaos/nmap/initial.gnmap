@@ -1,0 +1,5 @@
+# Nmap 7.70 scan initiated Sun Dec 16 02:52:19 2018 as: nmap -sC -sV -oA nmap/initial -v -p- 10.10.10.120
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.120 ()	Status: Up
+Host: 10.10.10.120 ()	Ports: 80/open/tcp//http//Apache httpd 2.4.34 ((Ubuntu))/, 110/open/tcp//pop3//Dovecot pop3d/, 143/open/tcp//imap//Dovecot imapd (Ubuntu)/, 993/open/tcp//ssl|imap//Dovecot imapd (Ubuntu)/, 995/open/tcp//ssl|pop3//Dovecot pop3d/, 10000/open/tcp//http//MiniServ 1.890 (Webmin httpd)/	Ignored State: closed (65529)
+# Nmap done at Sun Dec 16 02:53:36 2018 -- 1 IP address (1 host up) scanned in 77.44 seconds

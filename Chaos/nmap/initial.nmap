@@ -1,0 +1,72 @@
+# Nmap 7.70 scan initiated Sun Dec 16 02:52:19 2018 as: nmap -sC -sV -oA nmap/initial -v -p- 10.10.10.120
+Nmap scan report for 10.10.10.120
+Host is up (0.056s latency).
+Not shown: 65529 closed ports
+PORT      STATE SERVICE  VERSION
+80/tcp    open  http     Apache httpd 2.4.34 ((Ubuntu))
+| http-methods: 
+|_  Supported Methods: HEAD GET POST OPTIONS
+|_http-server-header: Apache/2.4.34 (Ubuntu)
+|_http-title: Site doesn't have a title (text/html).
+110/tcp   open  pop3     Dovecot pop3d
+|_pop3-capabilities: UIDL PIPELINING AUTH-RESP-CODE STLS SASL CAPA TOP RESP-CODES
+| ssl-cert: Subject: commonName=chaos
+| Subject Alternative Name: DNS:chaos
+| Issuer: commonName=chaos
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2018-10-28T10:01:49
+| Not valid after:  2028-10-25T10:01:49
+| MD5:   af90 2165 92c7 740f d97a 786a 7e9f cb92
+|_SHA-1: 5a4d 4223 3b08 a24b 7d5a e509 09bf 9570 aa2c f6ba
+|_ssl-date: TLS randomness does not represent time
+143/tcp   open  imap     Dovecot imapd (Ubuntu)
+|_imap-capabilities: IMAP4rev1 more have post-login IDLE listed LITERAL+ ENABLE LOGINDISABLEDA0001 LOGIN-REFERRALS ID capabilities Pre-login OK STARTTLS SASL-IR
+| ssl-cert: Subject: commonName=chaos
+| Subject Alternative Name: DNS:chaos
+| Issuer: commonName=chaos
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2018-10-28T10:01:49
+| Not valid after:  2028-10-25T10:01:49
+| MD5:   af90 2165 92c7 740f d97a 786a 7e9f cb92
+|_SHA-1: 5a4d 4223 3b08 a24b 7d5a e509 09bf 9570 aa2c f6ba
+|_ssl-date: TLS randomness does not represent time
+993/tcp   open  ssl/imap Dovecot imapd (Ubuntu)
+|_imap-capabilities: IMAP4rev1 more have IDLE post-login LITERAL+ ENABLE listed LOGIN-REFERRALS AUTH=PLAINA0001 capabilities Pre-login OK ID SASL-IR
+| ssl-cert: Subject: commonName=chaos
+| Subject Alternative Name: DNS:chaos
+| Issuer: commonName=chaos
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2018-10-28T10:01:49
+| Not valid after:  2028-10-25T10:01:49
+| MD5:   af90 2165 92c7 740f d97a 786a 7e9f cb92
+|_SHA-1: 5a4d 4223 3b08 a24b 7d5a e509 09bf 9570 aa2c f6ba
+|_ssl-date: TLS randomness does not represent time
+995/tcp   open  ssl/pop3 Dovecot pop3d
+|_pop3-capabilities: UIDL PIPELINING AUTH-RESP-CODE SASL(PLAIN) USER CAPA TOP RESP-CODES
+| ssl-cert: Subject: commonName=chaos
+| Subject Alternative Name: DNS:chaos
+| Issuer: commonName=chaos
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2018-10-28T10:01:49
+| Not valid after:  2028-10-25T10:01:49
+| MD5:   af90 2165 92c7 740f d97a 786a 7e9f cb92
+|_SHA-1: 5a4d 4223 3b08 a24b 7d5a e509 09bf 9570 aa2c f6ba
+|_ssl-date: TLS randomness does not represent time
+10000/tcp open  http     MiniServ 1.890 (Webmin httpd)
+|_http-favicon: Unknown favicon MD5: EA9A0A98E2A16B0ADEA1F6ED448F4CEF
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: Site doesn't have a title (text/html; Charset=iso-8859-1).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Dec 16 02:53:36 2018 -- 1 IP address (1 host up) scanned in 77.44 seconds

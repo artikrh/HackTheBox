@@ -1,0 +1,30 @@
+sudo masscan -p1-65535,U:1-65535 10.10.10.116 --rate=1000 -e tun0
+Discovered open port 161/udp on 10.10.10.116 
+
+snmpwalk -v 2c -c public 10.10.10.116
+
+iso.3.6.1.2.1.1.4.0 = STRING: "IKE VPN password PSK - 9C8B1A372B1878851BE2C097031B6E43"
+iso.3.6.1.2.1.1.5.0 = STRING: "Conceal"
+
+9c8b1a372b1878851be2c097031b6e43:Dudecake1!
+
+
+| snmp-win32-software: 
+|   Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161; 2018-10-12T20:10:30
+|   Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161; 2018-10-12T20:10:22
+|_  VMware Tools; 2018-10-12T20:11:02
+| snmp-win32-users: 
+|   Administrator
+|   DefaultAccount
+|   Destitute
+|_  Guest
+
+
+# /etc/ipsec.conf
+# /etc/ipsec.secrets
+
+sudo /usr/sbin/ipsec start --nofork --debug
+
+http://10.10.10.116/upload/
+
+ALPC 0 day msf module

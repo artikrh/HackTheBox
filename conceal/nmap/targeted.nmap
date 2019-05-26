@@ -1,0 +1,274 @@
+# Nmap 7.70 scan initiated Sat Jan 12 06:46:53 2019 as: nmap -sUCV -p161 -oA nmap/targeted 10.10.10.116
+Nmap scan report for 10.10.10.116
+Host is up (0.056s latency).
+
+PORT    STATE SERVICE VERSION
+161/udp open  snmp    SNMPv1 server (public)
+| snmp-interfaces: 
+|   Software Loopback Interface 1\x00
+|     IP address: 127.0.0.1  Netmask: 255.0.0.0
+|     Type: softwareLoopback  Speed: 1 Gbps
+|     Traffic stats: 0.00 Kb sent, 0.00 Kb received
+|   Intel(R) 82574L Gigabit Network Connection\x00
+|     IP address: 10.10.10.116  Netmask: 255.255.255.0
+|     MAC address: 00:50:56:b9:f2:f5 (VMware)
+|     Type: ethernetCsmacd  Speed: 1 Gbps
+|     Traffic stats: 214.03 Kb sent, 505.86 Kb received
+|   Intel(R) 82574L Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000\x00
+|     MAC address: 00:50:56:b9:f2:f5 (VMware)
+|     Type: ethernetCsmacd  Speed: 1 Gbps
+|     Traffic stats: 214.03 Kb sent, 505.86 Kb received
+|   Intel(R) 82574L Gigabit Network Connection-QoS Packet Scheduler-0000\x00
+|     MAC address: 00:50:56:b9:f2:f5 (VMware)
+|     Type: ethernetCsmacd  Speed: 1 Gbps
+|     Traffic stats: 214.03 Kb sent, 505.86 Kb received
+|   Intel(R) 82574L Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000\x00
+|     MAC address: 00:50:56:b9:f2:f5 (VMware)
+|     Type: ethernetCsmacd  Speed: 1 Gbps
+|_    Traffic stats: 214.03 Kb sent, 505.86 Kb received
+| snmp-netstat: 
+|   TCP  0.0.0.0:21           0.0.0.0:0
+|   TCP  0.0.0.0:80           0.0.0.0:0
+|   TCP  0.0.0.0:135          0.0.0.0:0
+|   TCP  0.0.0.0:445          0.0.0.0:0
+|   TCP  0.0.0.0:49664        0.0.0.0:0
+|   TCP  0.0.0.0:49665        0.0.0.0:0
+|   TCP  0.0.0.0:49666        0.0.0.0:0
+|   TCP  0.0.0.0:49667        0.0.0.0:0
+|   TCP  0.0.0.0:49668        0.0.0.0:0
+|   TCP  0.0.0.0:49669        0.0.0.0:0
+|   TCP  0.0.0.0:49670        0.0.0.0:0
+|   TCP  10.10.10.116:139     0.0.0.0:0
+|   UDP  0.0.0.0:161          *:*
+|   UDP  0.0.0.0:500          *:*
+|   UDP  0.0.0.0:4500         *:*
+|   UDP  0.0.0.0:5353         *:*
+|   UDP  0.0.0.0:5355         *:*
+|   UDP  0.0.0.0:49793        *:*
+|   UDP  0.0.0.0:49996        *:*
+|   UDP  0.0.0.0:54671        *:*
+|   UDP  0.0.0.0:56989        *:*
+|   UDP  0.0.0.0:58122        *:*
+|   UDP  0.0.0.0:62691        *:*
+|   UDP  0.0.0.0:63268        *:*
+|   UDP  10.10.10.116:137     *:*
+|_  UDP  10.10.10.116:138     *:*
+| snmp-processes: 
+|   1: 
+|     Name: System Idle Process
+|   4: 
+|     Name: System
+|   68: 
+|     Name: svchost.exe
+|     Path: C:\Windows\System32\
+|     Params: -k LocalSystemNetworkRestricted
+|   312: 
+|     Name: smss.exe
+|   396: 
+|     Name: csrss.exe
+|   476: 
+|     Name: wininit.exe
+|   488: 
+|     Name: csrss.exe
+|   568: 
+|     Name: winlogon.exe
+|   592: 
+|     Name: services.exe
+|   620: 
+|     Name: lsass.exe
+|     Path: C:\Windows\system32\
+|   700: 
+|     Name: svchost.exe
+|     Path: C:\Windows\system32\
+|     Params: -k DcomLaunch
+|   712: 
+|     Name: fontdrvhost.exe
+|   720: 
+|     Name: fontdrvhost.exe
+|   764: 
+|     Name: svchost.exe
+|     Path: C:\Windows\system32\
+|     Params: -k LocalService
+|   816: 
+|     Name: svchost.exe
+|     Path: C:\Windows\system32\
+|     Params: -k RPCSS
+|   904: 
+|     Name: dwm.exe
+|   976: 
+|     Name: svchost.exe
+|     Path: C:\Windows\system32\
+|     Params: -k netsvcs
+|   984: 
+|     Name: svchost.exe
+|     Path: C:\Windows\system32\
+|     Params: -k LocalServiceNoNetwork
+|   992: 
+|     Name: svchost.exe
+|     Path: C:\Windows\System32\
+|     Params: -k LocalServiceNetworkRestricted
+|   1040: 
+|     Name: vmacthlp.exe
+|     Path: C:\Program Files\VMware\VMware Tools\
+|   1128: 
+|     Name: svchost.exe
+|     Path: C:\Windows\System32\
+|     Params: -k NetworkService
+|   1224: 
+|     Name: svchost.exe
+|     Path: C:\Windows\System32\
+|     Params: -k LocalServiceNetworkRestricted
+|   1252: 
+|     Name: powershell.exe
+|     Params: -exec bypass -file c:\admin_checks\checks.ps1
+|   1284: 
+|     Name: svchost.exe
+|     Path: C:\Windows\System32\
+|     Params: -k LocalServiceNetworkRestricted
+|   1292: 
+|     Name: svchost.exe
+|     Path: C:\Windows\system32\
+|     Params: -k LocalServiceNetworkRestricted
+|   1416: 
+|     Name: spoolsv.exe
+|     Path: C:\Windows\System32\
+|   1464: 
+|     Name: powershell.exe
+|     Params: -exec bypass -file c:\admin_checks\checks.ps1
+|   1592: 
+|     Name: svchost.exe
+|     Path: C:\Windows\system32\
+|     Params: -k appmodel
+|   1704: 
+|     Name: svchost.exe
+|     Path: C:\Windows\system32\
+|     Params: -k apphost
+|   1716: 
+|     Name: svchost.exe
+|     Path: C:\Windows\System32\
+|     Params: -k utcsvc
+|   1724: 
+|     Name: svchost.exe
+|     Path: C:\Windows\system32\
+|     Params: -k ftpsvc
+|   1800: 
+|     Name: snmp.exe
+|     Path: C:\Windows\System32\
+|   1808: 
+|     Name: SecurityHealthService.exe
+|   1836: 
+|     Name: VGAuthService.exe
+|     Path: C:\Program Files\VMware\VMware Tools\VMware VGAuth\
+|   1844: 
+|     Name: vmtoolsd.exe
+|     Path: C:\Program Files\VMware\VMware Tools\
+|   1868: 
+|     Name: ManagementAgentHost.exe
+|     Path: C:\Program Files\VMware\VMware Tools\VMware CAF\pme\bin\
+|   1900: 
+|     Name: svchost.exe
+|     Path: C:\Windows\system32\
+|     Params: -k iissvcs
+|   1928: 
+|     Name: MsMpEng.exe
+|   1996: 
+|     Name: dllhost.exe
+|     Path: C:\Windows\system32\
+|     Params: /Processid:{E10F6C3A-F1AE-4ADC-AA9D-2FE65525666E}
+|   2036: 
+|     Name: Memory Compression
+|   2204: 
+|     Name: sysprep.exe
+|     Path: Sysprep\
+|_    Params: /respecialize /quiet
+| snmp-sysdescr: Hardware: Intel64 Family 6 Model 79 Stepping 1 AT/AT COMPATIBLE - Software: Windows Version 6.3 (Build 15063 Multiprocessor Free)
+|_  System uptime: 20.23s (2023 timeticks)
+| snmp-win32-services: 
+|   Application Host Helper Service
+|   Background Tasks Infrastructure Service
+|   Base Filtering Engine
+|   CNG Key Isolation
+|   COM+ Event System
+|   COM+ System Application
+|   Client License Service (ClipSVC)
+|   Connected User Experiences and Telemetry
+|   CoreMessaging
+|   Cryptographic Services
+|   DCOM Server Process Launcher
+|   DHCP Client
+|   DNS Client
+|   Data Usage
+|   Device Install Service
+|   Device Setup Manager
+|   Diagnostic Policy Service
+|   Diagnostic Service Host
+|   Distributed Link Tracking Client
+|   Distributed Transaction Coordinator
+|   Group Policy Client
+|   IKE and AuthIP IPsec Keying Modules
+|   IP Helper
+|   IPsec Policy Agent
+|   Local Session Manager
+|   Microsoft Account Sign-in Assistant
+|   Microsoft FTP Service
+|   Network Connection Broker
+|   Network List Service
+|   Network Location Awareness
+|   Network Store Interface Service
+|   Plug and Play
+|   Portable Device Enumerator Service
+|   Power
+|   Print Spooler
+|   Program Compatibility Assistant Service
+|   RPC Endpoint Mapper
+|   Remote Procedure Call (RPC)
+|   SNMP Service
+|   Security Accounts Manager
+|   Server
+|   Shell Hardware Detection
+|   State Repository Service
+|   Superfetch
+|   System Event Notification Service
+|   System Events Broker
+|   TCP/IP NetBIOS Helper
+|   Task Scheduler
+|   Themes
+|   Tile Data model server
+|   Time Broker
+|   User Manager
+|   User Profile Service
+|   VMware Alias Manager and Ticket Service
+|   VMware CAF Management Agent Service
+|   VMware Physical Disk Helper Service
+|   VMware Snapshot Provider
+|   VMware Tools
+|   WinHTTP Web Proxy Auto-Discovery Service
+|   Windows Audio
+|   Windows Audio Endpoint Builder
+|   Windows Connection Manager
+|   Windows Defender Antivirus Network Inspection Service
+|   Windows Defender Antivirus Service
+|   Windows Defender Security Centre Service
+|   Windows Event Log
+|   Windows Firewall
+|   Windows Font Cache Service
+|   Windows Management Instrumentation
+|   Windows Process Activation Service
+|   Windows Push Notifications System Service
+|   Windows Search
+|   Windows Update
+|   Workstation
+|_  World Wide Web Publishing Service
+| snmp-win32-software: 
+|   Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161; 2018-10-12T20:10:30
+|   Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161; 2018-10-12T20:10:22
+|_  VMware Tools; 2018-10-12T20:11:02
+| snmp-win32-users: 
+|   Administrator
+|   DefaultAccount
+|   Destitute
+|_  Guest
+Service Info: Host: Conceal
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jan 12 06:47:20 2019 -- 1 IP address (1 host up) scanned in 26.72 seconds

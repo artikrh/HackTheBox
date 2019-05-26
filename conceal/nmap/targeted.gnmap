@@ -1,0 +1,4 @@
+# Nmap 7.70 scan initiated Sat Jan 12 06:46:53 2019 as: nmap -sUCV -p161 -oA nmap/targeted 10.10.10.116
+Host: 10.10.10.116 ()	Status: Up
+Host: 10.10.10.116 ()	Ports: 161/open/udp//snmp//SNMPv1 server (public)/
+# Nmap done at Sat Jan 12 06:47:20 2019 -- 1 IP address (1 host up) scanned in 26.72 seconds

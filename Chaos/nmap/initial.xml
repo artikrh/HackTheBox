@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Sun Dec 16 02:52:19 2018 as: nmap -sC -sV -oA nmap/initial -v -p- 10.10.10.120 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -oA nmap/initial -v -p- 10.10.10.120" start="1544925139" startstr="Sun Dec 16 02:52:19 2018" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1544925139"/>
+<taskend task="NSE" time="1544925139"/>
+<taskbegin task="NSE" time="1544925139"/>
+<taskend task="NSE" time="1544925139"/>
+<taskbegin task="Ping Scan" time="1544925139"/>
+<taskend task="Ping Scan" time="1544925139" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1544925139"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1544925139"/>
+<taskbegin task="Connect Scan" time="1544925139"/>
+<taskprogress task="Connect Scan" time="1544925160" percent="59.32" remaining="15" etc="1544925174"/>
+<taskend task="Connect Scan" time="1544925172" extrainfo="65535 total ports"/>
+<taskbegin task="Service scan" time="1544925172"/>
+<taskend task="Service scan" time="1544925184" extrainfo="6 services on 1 host"/>
+<taskbegin task="NSE" time="1544925184"/>
+<taskend task="NSE" time="1544925216"/>
+<taskbegin task="NSE" time="1544925216"/>
+<taskend task="NSE" time="1544925216"/>
+<host starttime="1544925139" endtime="1544925216"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.10.120" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65529">
+<extrareasons reason="conn-refused" count="65529"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="Apache httpd" version="2.4.34" extrainfo="(Ubuntu)" method="probed" conf="10"><cpe>cpe:/a:apache:http_server:2.4.34</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: HEAD GET POST OPTIONS"><table key="Supported Methods">
+<elem>HEAD</elem>
+<elem>GET</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-server-header" output="Apache/2.4.34 (Ubuntu)"><elem>Apache/2.4.34 (Ubuntu)</elem>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html)."></script></port>
+<port protocol="tcp" portid="110"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="pop3" product="Dovecot pop3d" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service><script id="pop3-capabilities" output="UIDL PIPELINING AUTH-RESP-CODE STLS SASL CAPA TOP RESP-CODES"/><script id="ssl-cert" output="Subject: commonName=chaos&#xa;Subject Alternative Name: DNS:chaos&#xa;Issuer: commonName=chaos&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2018-10-28T10:01:49&#xa;Not valid after:  2028-10-25T10:01:49&#xa;MD5:   af90 2165 92c7 740f d97a 786a 7e9f cb92&#xa;SHA-1: 5a4d 4223 3b08 a24b 7d5a e509 09bf 9570 aa2c f6ba"><table key="subject">
+<elem key="commonName">chaos</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">chaos</elem>
+</table>
+<table key="pubkey">
+<elem key="modulus">userdata: 0x56235f117f98</elem>
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="exponent">userdata: 0x56235f117f58</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:chaos</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2018-10-28T10:01:49</elem>
+<elem key="notAfter">2028-10-25T10:01:49</elem>
+</table>
+<elem key="md5">af90216592c7740fd97a786a7e9fcb92</elem>
+<elem key="sha1">5a4d42233b08a24b7d5ae50909bf9570aa2cf6ba</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIICzTCCAbWgAwIBAgIUR18iuul5tpZRMbhU/i2x/e1kGE4wDQYJKoZIhvcNAQEL&#xa;BQAwEDEOMAwGA1UEAwwFY2hhb3MwHhcNMTgxMDI4MTAwMTQ5WhcNMjgxMDI1MTAw&#xa;MTQ5WjAQMQ4wDAYDVQQDDAVjaGFvczCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC&#xa;AQoCggEBAJ3R009h0wK/xOFpkbF0R4T+6sxB/qaoMQkgIuRvUV1m1O6vSqrcf5fs&#xa;jT9ePbEqxT6MQPNzbsMQkv7DRx04COy5swfPnYaU7ggQh839JaIg9NrYg5Idkg0b&#xa;dST0M6XixXjj3ZhYDAq1pfGJD0jGXjjJ947GtYdeH0lFXcnIu91fAdVMRD09K26F&#xa;1tmqAU8+08u8H1juf1Ohl8lwP6W3IViBPXyQvuyf+uMv9TdHRjvQpDZEnAsgh64l&#xa;moiQKRK6SznvZVgTngeYVXpqSV7shOBoN7FMM+qhX1f8NPhvFFqvfUtPGls2D8c/&#xa;8lQnNNAVMCjVg6RJQsSkOBgwd9hc36MCAwEAAaMfMB0wCQYDVR0TBAIwADAQBgNV&#xa;HREECTAHggVjaGFvczANBgkqhkiG9w0BAQsFAAOCAQEAiB1XtWlMRtVE0SQWB+dq&#xa;2L3xnis32DWHz+8wvXGtLb99zl539CKknFOqcundqDNkJuSWwVXXaDDsjQlw289A&#xa;rfmiXMwCIrGUfRoTNoK+PocT+yiLfAZzQfuEiQZbOguJNLZvnYwqy1m9AbJrYtrw&#xa;/mucbGHfDOp9OUGUzChzwWe75xzP235VUhLtNhcm7alWUTzEMEnwPFu2sXUNxxOR&#xa;Q9t/HaFNZOLks/R85TUwsCkega43gDpLZAdCp2Z8SPso0Cz1kFBFytotjf6Ws5c/&#xa;nOgq8WcIr+1ilvLvCB41ht5SoGVh8pVS4U4llopbcfKD/Bwq+gRkOxiC1nwDYCPX&#xa;eA==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script></port>
+<port protocol="tcp" portid="143"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" extrainfo="Ubuntu" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="imap-capabilities" output="IMAP4rev1 more have post-login IDLE listed LITERAL+ ENABLE LOGINDISABLEDA0001 LOGIN-REFERRALS ID capabilities Pre-login OK STARTTLS SASL-IR"/><script id="ssl-cert" output="Subject: commonName=chaos&#xa;Subject Alternative Name: DNS:chaos&#xa;Issuer: commonName=chaos&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2018-10-28T10:01:49&#xa;Not valid after:  2028-10-25T10:01:49&#xa;MD5:   af90 2165 92c7 740f d97a 786a 7e9f cb92&#xa;SHA-1: 5a4d 4223 3b08 a24b 7d5a e509 09bf 9570 aa2c f6ba"><table key="subject">
+<elem key="commonName">chaos</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">chaos</elem>
+</table>
+<table key="pubkey">
+<elem key="modulus">userdata: 0x56235f083ed8</elem>
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="exponent">userdata: 0x56235f083e98</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:chaos</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2018-10-28T10:01:49</elem>
+<elem key="notAfter">2028-10-25T10:01:49</elem>
+</table>
+<elem key="md5">af90216592c7740fd97a786a7e9fcb92</elem>
+<elem key="sha1">5a4d42233b08a24b7d5ae50909bf9570aa2cf6ba</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIICzTCCAbWgAwIBAgIUR18iuul5tpZRMbhU/i2x/e1kGE4wDQYJKoZIhvcNAQEL&#xa;BQAwEDEOMAwGA1UEAwwFY2hhb3MwHhcNMTgxMDI4MTAwMTQ5WhcNMjgxMDI1MTAw&#xa;MTQ5WjAQMQ4wDAYDVQQDDAVjaGFvczCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC&#xa;AQoCggEBAJ3R009h0wK/xOFpkbF0R4T+6sxB/qaoMQkgIuRvUV1m1O6vSqrcf5fs&#xa;jT9ePbEqxT6MQPNzbsMQkv7DRx04COy5swfPnYaU7ggQh839JaIg9NrYg5Idkg0b&#xa;dST0M6XixXjj3ZhYDAq1pfGJD0jGXjjJ947GtYdeH0lFXcnIu91fAdVMRD09K26F&#xa;1tmqAU8+08u8H1juf1Ohl8lwP6W3IViBPXyQvuyf+uMv9TdHRjvQpDZEnAsgh64l&#xa;moiQKRK6SznvZVgTngeYVXpqSV7shOBoN7FMM+qhX1f8NPhvFFqvfUtPGls2D8c/&#xa;8lQnNNAVMCjVg6RJQsSkOBgwd9hc36MCAwEAAaMfMB0wCQYDVR0TBAIwADAQBgNV&#xa;HREECTAHggVjaGFvczANBgkqhkiG9w0BAQsFAAOCAQEAiB1XtWlMRtVE0SQWB+dq&#xa;2L3xnis32DWHz+8wvXGtLb99zl539CKknFOqcundqDNkJuSWwVXXaDDsjQlw289A&#xa;rfmiXMwCIrGUfRoTNoK+PocT+yiLfAZzQfuEiQZbOguJNLZvnYwqy1m9AbJrYtrw&#xa;/mucbGHfDOp9OUGUzChzwWe75xzP235VUhLtNhcm7alWUTzEMEnwPFu2sXUNxxOR&#xa;Q9t/HaFNZOLks/R85TUwsCkega43gDpLZAdCp2Z8SPso0Cz1kFBFytotjf6Ws5c/&#xa;nOgq8WcIr+1ilvLvCB41ht5SoGVh8pVS4U4llopbcfKD/Bwq+gRkOxiC1nwDYCPX&#xa;eA==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script></port>
+<port protocol="tcp" portid="993"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="imap" product="Dovecot imapd" extrainfo="Ubuntu" ostype="Linux" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="imap-capabilities" output="IMAP4rev1 more have IDLE post-login LITERAL+ ENABLE listed LOGIN-REFERRALS AUTH=PLAINA0001 capabilities Pre-login OK ID SASL-IR"/><script id="ssl-cert" output="Subject: commonName=chaos&#xa;Subject Alternative Name: DNS:chaos&#xa;Issuer: commonName=chaos&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2018-10-28T10:01:49&#xa;Not valid after:  2028-10-25T10:01:49&#xa;MD5:   af90 2165 92c7 740f d97a 786a 7e9f cb92&#xa;SHA-1: 5a4d 4223 3b08 a24b 7d5a e509 09bf 9570 aa2c f6ba"><table key="subject">
+<elem key="commonName">chaos</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">chaos</elem>
+</table>
+<table key="pubkey">
+<elem key="modulus">userdata: 0x56235f0fa4c8</elem>
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="exponent">userdata: 0x56235f0fa488</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:chaos</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2018-10-28T10:01:49</elem>
+<elem key="notAfter">2028-10-25T10:01:49</elem>
+</table>
+<elem key="md5">af90216592c7740fd97a786a7e9fcb92</elem>
+<elem key="sha1">5a4d42233b08a24b7d5ae50909bf9570aa2cf6ba</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIICzTCCAbWgAwIBAgIUR18iuul5tpZRMbhU/i2x/e1kGE4wDQYJKoZIhvcNAQEL&#xa;BQAwEDEOMAwGA1UEAwwFY2hhb3MwHhcNMTgxMDI4MTAwMTQ5WhcNMjgxMDI1MTAw&#xa;MTQ5WjAQMQ4wDAYDVQQDDAVjaGFvczCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC&#xa;AQoCggEBAJ3R009h0wK/xOFpkbF0R4T+6sxB/qaoMQkgIuRvUV1m1O6vSqrcf5fs&#xa;jT9ePbEqxT6MQPNzbsMQkv7DRx04COy5swfPnYaU7ggQh839JaIg9NrYg5Idkg0b&#xa;dST0M6XixXjj3ZhYDAq1pfGJD0jGXjjJ947GtYdeH0lFXcnIu91fAdVMRD09K26F&#xa;1tmqAU8+08u8H1juf1Ohl8lwP6W3IViBPXyQvuyf+uMv9TdHRjvQpDZEnAsgh64l&#xa;moiQKRK6SznvZVgTngeYVXpqSV7shOBoN7FMM+qhX1f8NPhvFFqvfUtPGls2D8c/&#xa;8lQnNNAVMCjVg6RJQsSkOBgwd9hc36MCAwEAAaMfMB0wCQYDVR0TBAIwADAQBgNV&#xa;HREECTAHggVjaGFvczANBgkqhkiG9w0BAQsFAAOCAQEAiB1XtWlMRtVE0SQWB+dq&#xa;2L3xnis32DWHz+8wvXGtLb99zl539CKknFOqcundqDNkJuSWwVXXaDDsjQlw289A&#xa;rfmiXMwCIrGUfRoTNoK+PocT+yiLfAZzQfuEiQZbOguJNLZvnYwqy1m9AbJrYtrw&#xa;/mucbGHfDOp9OUGUzChzwWe75xzP235VUhLtNhcm7alWUTzEMEnwPFu2sXUNxxOR&#xa;Q9t/HaFNZOLks/R85TUwsCkega43gDpLZAdCp2Z8SPso0Cz1kFBFytotjf6Ws5c/&#xa;nOgq8WcIr+1ilvLvCB41ht5SoGVh8pVS4U4llopbcfKD/Bwq+gRkOxiC1nwDYCPX&#xa;eA==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script></port>
+<port protocol="tcp" portid="995"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="pop3" product="Dovecot pop3d" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:dovecot:dovecot</cpe></service><script id="pop3-capabilities" output="UIDL PIPELINING AUTH-RESP-CODE SASL(PLAIN) USER CAPA TOP RESP-CODES"/><script id="ssl-cert" output="Subject: commonName=chaos&#xa;Subject Alternative Name: DNS:chaos&#xa;Issuer: commonName=chaos&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2018-10-28T10:01:49&#xa;Not valid after:  2028-10-25T10:01:49&#xa;MD5:   af90 2165 92c7 740f d97a 786a 7e9f cb92&#xa;SHA-1: 5a4d 4223 3b08 a24b 7d5a e509 09bf 9570 aa2c f6ba"><table key="subject">
+<elem key="commonName">chaos</elem>
+</table>
+<table key="issuer">
+<elem key="commonName">chaos</elem>
+</table>
+<table key="pubkey">
+<elem key="modulus">userdata: 0x56235d3ae278</elem>
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="exponent">userdata: 0x56235d3ae238</elem>
+</table>
+<table key="extensions">
+<table>
+<elem key="name">X509v3 Basic Constraints</elem>
+<elem key="value">CA:FALSE</elem>
+</table>
+<table>
+<elem key="name">X509v3 Subject Alternative Name</elem>
+<elem key="value">DNS:chaos</elem>
+</table>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2018-10-28T10:01:49</elem>
+<elem key="notAfter">2028-10-25T10:01:49</elem>
+</table>
+<elem key="md5">af90216592c7740fd97a786a7e9fcb92</elem>
+<elem key="sha1">5a4d42233b08a24b7d5ae50909bf9570aa2cf6ba</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIICzTCCAbWgAwIBAgIUR18iuul5tpZRMbhU/i2x/e1kGE4wDQYJKoZIhvcNAQEL&#xa;BQAwEDEOMAwGA1UEAwwFY2hhb3MwHhcNMTgxMDI4MTAwMTQ5WhcNMjgxMDI1MTAw&#xa;MTQ5WjAQMQ4wDAYDVQQDDAVjaGFvczCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC&#xa;AQoCggEBAJ3R009h0wK/xOFpkbF0R4T+6sxB/qaoMQkgIuRvUV1m1O6vSqrcf5fs&#xa;jT9ePbEqxT6MQPNzbsMQkv7DRx04COy5swfPnYaU7ggQh839JaIg9NrYg5Idkg0b&#xa;dST0M6XixXjj3ZhYDAq1pfGJD0jGXjjJ947GtYdeH0lFXcnIu91fAdVMRD09K26F&#xa;1tmqAU8+08u8H1juf1Ohl8lwP6W3IViBPXyQvuyf+uMv9TdHRjvQpDZEnAsgh64l&#xa;moiQKRK6SznvZVgTngeYVXpqSV7shOBoN7FMM+qhX1f8NPhvFFqvfUtPGls2D8c/&#xa;8lQnNNAVMCjVg6RJQsSkOBgwd9hc36MCAwEAAaMfMB0wCQYDVR0TBAIwADAQBgNV&#xa;HREECTAHggVjaGFvczANBgkqhkiG9w0BAQsFAAOCAQEAiB1XtWlMRtVE0SQWB+dq&#xa;2L3xnis32DWHz+8wvXGtLb99zl539CKknFOqcundqDNkJuSWwVXXaDDsjQlw289A&#xa;rfmiXMwCIrGUfRoTNoK+PocT+yiLfAZzQfuEiQZbOguJNLZvnYwqy1m9AbJrYtrw&#xa;/mucbGHfDOp9OUGUzChzwWe75xzP235VUhLtNhcm7alWUTzEMEnwPFu2sXUNxxOR&#xa;Q9t/HaFNZOLks/R85TUwsCkega43gDpLZAdCp2Z8SPso0Cz1kFBFytotjf6Ws5c/&#xa;nOgq8WcIr+1ilvLvCB41ht5SoGVh8pVS4U4llopbcfKD/Bwq+gRkOxiC1nwDYCPX&#xa;eA==&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script></port>
+<port protocol="tcp" portid="10000"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="MiniServ" version="1.890" extrainfo="Webmin httpd" method="probed" conf="10"/><script id="http-favicon" output="Unknown favicon MD5: EA9A0A98E2A16B0ADEA1F6ED448F4CEF"/><script id="http-methods" output="&#xa;  Supported Methods: GET HEAD POST OPTIONS"><table key="Supported Methods">
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+<elem>OPTIONS</elem>
+</table>
+</script><script id="http-title" output="Site doesn&apos;t have a title (text/html; Charset=iso-8859-1)."></script></port>
+</ports>
+<times srtt="55683" rttvar="140" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1544925216"/>
+<taskend task="NSE" time="1544925216"/>
+<taskbegin task="NSE" time="1544925216"/>
+<taskend task="NSE" time="1544925216"/>
+<runstats><finished time="1544925216" timestr="Sun Dec 16 02:53:36 2018" elapsed="77.44" summary="Nmap done at Sun Dec 16 02:53:36 2018; 1 IP address (1 host up) scanned in 77.44 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

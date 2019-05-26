@@ -1,0 +1,32 @@
+# Nmap 7.70 scan initiated Sat Jan 12 07:39:44 2019 as: nmap -sC -sV -oA nmap/ipsec -v 10.10.10.116
+Nmap scan report for 10.10.10.116
+Host is up (0.062s latency).
+Not shown: 995 closed ports
+PORT    STATE SERVICE       VERSION
+21/tcp  open  ftp           Microsoft ftpd
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| ftp-syst: 
+|_  SYST: Windows_NT
+80/tcp  open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows
+135/tcp open  msrpc         Microsoft Windows RPC
+139/tcp open  netbios-ssn   Microsoft Windows netbios-ssn
+445/tcp open  microsoft-ds?
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1s, deviation: 0s, median: -1s
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2019-01-12 07:39:55
+|_  start_date: 2019-01-12 06:46:34
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jan 12 07:40:06 2019 -- 1 IP address (1 host up) scanned in 21.61 seconds

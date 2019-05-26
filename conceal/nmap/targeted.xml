@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Sat Jan 12 06:46:53 2019 as: nmap -sUCV -p161 -oA nmap/targeted 10.10.10.116 -->
+<nmaprun scanner="nmap" args="nmap -sUCV -p161 -oA nmap/targeted 10.10.10.116" start="1547272013" startstr="Sat Jan 12 06:46:53 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="udp" protocol="udp" numservices="1" services="161"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<host starttime="1547272013" endtime="1547272040"><status state="up" reason="echo-reply" reason_ttl="127"/>
+<address addr="10.10.10.116" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><port protocol="udp" portid="161"><state state="open" reason="udp-response" reason_ttl="0"/><service name="snmp" product="SNMPv1 server" extrainfo="public" hostname="Conceal" method="probed" conf="10"/><script id="snmp-interfaces" output="&#xa;  Software Loopback Interface 1\x00&#xa;    IP address: 127.0.0.1  Netmask: 255.0.0.0&#xa;    Type: softwareLoopback  Speed: 1 Gbps&#xa;    Traffic stats: 0.00 Kb sent, 0.00 Kb received&#xa;  Intel(R) 82574L Gigabit Network Connection\x00&#xa;    IP address: 10.10.10.116  Netmask: 255.255.255.0&#xa;    MAC address: 00:50:56:b9:f2:f5 (VMware)&#xa;    Type: ethernetCsmacd  Speed: 1 Gbps&#xa;    Traffic stats: 214.03 Kb sent, 505.86 Kb received&#xa;  Intel(R) 82574L Gigabit Network Connection-WFP Native MAC Layer LightWeight Filter-0000\x00&#xa;    MAC address: 00:50:56:b9:f2:f5 (VMware)&#xa;    Type: ethernetCsmacd  Speed: 1 Gbps&#xa;    Traffic stats: 214.03 Kb sent, 505.86 Kb received&#xa;  Intel(R) 82574L Gigabit Network Connection-QoS Packet Scheduler-0000\x00&#xa;    MAC address: 00:50:56:b9:f2:f5 (VMware)&#xa;    Type: ethernetCsmacd  Speed: 1 Gbps&#xa;    Traffic stats: 214.03 Kb sent, 505.86 Kb received&#xa;  Intel(R) 82574L Gigabit Network Connection-WFP 802.3 MAC Layer LightWeight Filter-0000\x00&#xa;    MAC address: 00:50:56:b9:f2:f5 (VMware)&#xa;    Type: ethernetCsmacd  Speed: 1 Gbps&#xa;    Traffic stats: 214.03 Kb sent, 505.86 Kb received&#xa;"/><script id="snmp-netstat" output="&#xa;  TCP  0.0.0.0:21           0.0.0.0:0&#xa;  TCP  0.0.0.0:80           0.0.0.0:0&#xa;  TCP  0.0.0.0:135          0.0.0.0:0&#xa;  TCP  0.0.0.0:445          0.0.0.0:0&#xa;  TCP  0.0.0.0:49664        0.0.0.0:0&#xa;  TCP  0.0.0.0:49665        0.0.0.0:0&#xa;  TCP  0.0.0.0:49666        0.0.0.0:0&#xa;  TCP  0.0.0.0:49667        0.0.0.0:0&#xa;  TCP  0.0.0.0:49668        0.0.0.0:0&#xa;  TCP  0.0.0.0:49669        0.0.0.0:0&#xa;  TCP  0.0.0.0:49670        0.0.0.0:0&#xa;  TCP  10.10.10.116:139     0.0.0.0:0&#xa;  UDP  0.0.0.0:161          *:*&#xa;  UDP  0.0.0.0:500          *:*&#xa;  UDP  0.0.0.0:4500         *:*&#xa;  UDP  0.0.0.0:5353         *:*&#xa;  UDP  0.0.0.0:5355         *:*&#xa;  UDP  0.0.0.0:49793        *:*&#xa;  UDP  0.0.0.0:49996        *:*&#xa;  UDP  0.0.0.0:54671        *:*&#xa;  UDP  0.0.0.0:56989        *:*&#xa;  UDP  0.0.0.0:58122        *:*&#xa;  UDP  0.0.0.0:62691        *:*&#xa;  UDP  0.0.0.0:63268        *:*&#xa;  UDP  10.10.10.116:137     *:*&#xa;  UDP  10.10.10.116:138     *:*&#xa;"/><script id="snmp-processes" output="&#xa;  1: &#xa;    Name: System Idle Process&#xa;  4: &#xa;    Name: System&#xa;  68: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\System32\&#xa;    Params: -k LocalSystemNetworkRestricted&#xa;  312: &#xa;    Name: smss.exe&#xa;  396: &#xa;    Name: csrss.exe&#xa;  476: &#xa;    Name: wininit.exe&#xa;  488: &#xa;    Name: csrss.exe&#xa;  568: &#xa;    Name: winlogon.exe&#xa;  592: &#xa;    Name: services.exe&#xa;  620: &#xa;    Name: lsass.exe&#xa;    Path: C:\Windows\system32\&#xa;  700: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\system32\&#xa;    Params: -k DcomLaunch&#xa;  712: &#xa;    Name: fontdrvhost.exe&#xa;  720: &#xa;    Name: fontdrvhost.exe&#xa;  764: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\system32\&#xa;    Params: -k LocalService&#xa;  816: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\system32\&#xa;    Params: -k RPCSS&#xa;  904: &#xa;    Name: dwm.exe&#xa;  976: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\system32\&#xa;    Params: -k netsvcs&#xa;  984: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\system32\&#xa;    Params: -k LocalServiceNoNetwork&#xa;  992: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\System32\&#xa;    Params: -k LocalServiceNetworkRestricted&#xa;  1040: &#xa;    Name: vmacthlp.exe&#xa;    Path: C:\Program Files\VMware\VMware Tools\&#xa;  1128: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\System32\&#xa;    Params: -k NetworkService&#xa;  1224: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\System32\&#xa;    Params: -k LocalServiceNetworkRestricted&#xa;  1252: &#xa;    Name: powershell.exe&#xa;    Params: -exec bypass -file c:\admin_checks\checks.ps1&#xa;  1284: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\System32\&#xa;    Params: -k LocalServiceNetworkRestricted&#xa;  1292: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\system32\&#xa;    Params: -k LocalServiceNetworkRestricted&#xa;  1416: &#xa;    Name: spoolsv.exe&#xa;    Path: C:\Windows\System32\&#xa;  1464: &#xa;    Name: powershell.exe&#xa;    Params: -exec bypass -file c:\admin_checks\checks.ps1&#xa;  1592: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\system32\&#xa;    Params: -k appmodel&#xa;  1704: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\system32\&#xa;    Params: -k apphost&#xa;  1716: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\System32\&#xa;    Params: -k utcsvc&#xa;  1724: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\system32\&#xa;    Params: -k ftpsvc&#xa;  1800: &#xa;    Name: snmp.exe&#xa;    Path: C:\Windows\System32\&#xa;  1808: &#xa;    Name: SecurityHealthService.exe&#xa;  1836: &#xa;    Name: VGAuthService.exe&#xa;    Path: C:\Program Files\VMware\VMware Tools\VMware VGAuth\&#xa;  1844: &#xa;    Name: vmtoolsd.exe&#xa;    Path: C:\Program Files\VMware\VMware Tools\&#xa;  1868: &#xa;    Name: ManagementAgentHost.exe&#xa;    Path: C:\Program Files\VMware\VMware Tools\VMware CAF\pme\bin\&#xa;  1900: &#xa;    Name: svchost.exe&#xa;    Path: C:\Windows\system32\&#xa;    Params: -k iissvcs&#xa;  1928: &#xa;    Name: MsMpEng.exe&#xa;  1996: &#xa;    Name: dllhost.exe&#xa;    Path: C:\Windows\system32\&#xa;    Params: /Processid:{E10F6C3A-F1AE-4ADC-AA9D-2FE65525666E}&#xa;  2036: &#xa;    Name: Memory Compression&#xa;  2204: &#xa;    Name: sysprep.exe&#xa;    Path: Sysprep\&#xa;    Params: /respecialize /quiet"><table key="1">
+<elem key="Name">System Idle Process</elem>
+</table>
+<table key="4">
+<elem key="Name">System</elem>
+</table>
+<table key="68">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\System32\</elem>
+<elem key="Params">-k LocalSystemNetworkRestricted</elem>
+</table>
+<table key="312">
+<elem key="Name">smss.exe</elem>
+</table>
+<table key="396">
+<elem key="Name">csrss.exe</elem>
+</table>
+<table key="476">
+<elem key="Name">wininit.exe</elem>
+</table>
+<table key="488">
+<elem key="Name">csrss.exe</elem>
+</table>
+<table key="568">
+<elem key="Name">winlogon.exe</elem>
+</table>
+<table key="592">
+<elem key="Name">services.exe</elem>
+</table>
+<table key="620">
+<elem key="Name">lsass.exe</elem>
+<elem key="Path">C:\Windows\system32\</elem>
+</table>
+<table key="700">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\system32\</elem>
+<elem key="Params">-k DcomLaunch</elem>
+</table>
+<table key="712">
+<elem key="Name">fontdrvhost.exe</elem>
+</table>
+<table key="720">
+<elem key="Name">fontdrvhost.exe</elem>
+</table>
+<table key="764">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\system32\</elem>
+<elem key="Params">-k LocalService</elem>
+</table>
+<table key="816">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\system32\</elem>
+<elem key="Params">-k RPCSS</elem>
+</table>
+<table key="904">
+<elem key="Name">dwm.exe</elem>
+</table>
+<table key="976">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\system32\</elem>
+<elem key="Params">-k netsvcs</elem>
+</table>
+<table key="984">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\system32\</elem>
+<elem key="Params">-k LocalServiceNoNetwork</elem>
+</table>
+<table key="992">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\System32\</elem>
+<elem key="Params">-k LocalServiceNetworkRestricted</elem>
+</table>
+<table key="1040">
+<elem key="Name">vmacthlp.exe</elem>
+<elem key="Path">C:\Program Files\VMware\VMware Tools\</elem>
+</table>
+<table key="1128">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\System32\</elem>
+<elem key="Params">-k NetworkService</elem>
+</table>
+<table key="1224">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\System32\</elem>
+<elem key="Params">-k LocalServiceNetworkRestricted</elem>
+</table>
+<table key="1252">
+<elem key="Name">powershell.exe</elem>
+<elem key="Params">-exec bypass -file c:\admin_checks\checks.ps1</elem>
+</table>
+<table key="1284">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\System32\</elem>
+<elem key="Params">-k LocalServiceNetworkRestricted</elem>
+</table>
+<table key="1292">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\system32\</elem>
+<elem key="Params">-k LocalServiceNetworkRestricted</elem>
+</table>
+<table key="1416">
+<elem key="Name">spoolsv.exe</elem>
+<elem key="Path">C:\Windows\System32\</elem>
+</table>
+<table key="1464">
+<elem key="Name">powershell.exe</elem>
+<elem key="Params">-exec bypass -file c:\admin_checks\checks.ps1</elem>
+</table>
+<table key="1592">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\system32\</elem>
+<elem key="Params">-k appmodel</elem>
+</table>
+<table key="1704">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\system32\</elem>
+<elem key="Params">-k apphost</elem>
+</table>
+<table key="1716">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\System32\</elem>
+<elem key="Params">-k utcsvc</elem>
+</table>
+<table key="1724">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\system32\</elem>
+<elem key="Params">-k ftpsvc</elem>
+</table>
+<table key="1800">
+<elem key="Name">snmp.exe</elem>
+<elem key="Path">C:\Windows\System32\</elem>
+</table>
+<table key="1808">
+<elem key="Name">SecurityHealthService.exe</elem>
+</table>
+<table key="1836">
+<elem key="Name">VGAuthService.exe</elem>
+<elem key="Path">C:\Program Files\VMware\VMware Tools\VMware VGAuth\</elem>
+</table>
+<table key="1844">
+<elem key="Name">vmtoolsd.exe</elem>
+<elem key="Path">C:\Program Files\VMware\VMware Tools\</elem>
+</table>
+<table key="1868">
+<elem key="Name">ManagementAgentHost.exe</elem>
+<elem key="Path">C:\Program Files\VMware\VMware Tools\VMware CAF\pme\bin\</elem>
+</table>
+<table key="1900">
+<elem key="Name">svchost.exe</elem>
+<elem key="Path">C:\Windows\system32\</elem>
+<elem key="Params">-k iissvcs</elem>
+</table>
+<table key="1928">
+<elem key="Name">MsMpEng.exe</elem>
+</table>
+<table key="1996">
+<elem key="Name">dllhost.exe</elem>
+<elem key="Path">C:\Windows\system32\</elem>
+<elem key="Params">/Processid:{E10F6C3A-F1AE-4ADC-AA9D-2FE65525666E}</elem>
+</table>
+<table key="2036">
+<elem key="Name">Memory Compression</elem>
+</table>
+<table key="2204">
+<elem key="Name">sysprep.exe</elem>
+<elem key="Path">Sysprep\</elem>
+<elem key="Params">/respecialize /quiet</elem>
+</table>
+</script><script id="snmp-sysdescr" output="Hardware: Intel64 Family 6 Model 79 Stepping 1 AT/AT COMPATIBLE - Software: Windows Version 6.3 (Build 15063 Multiprocessor Free)&#xa;  System uptime: 20.23s (2023 timeticks)"/><script id="snmp-win32-services" output="&#xa;  Application Host Helper Service&#xa;  Background Tasks Infrastructure Service&#xa;  Base Filtering Engine&#xa;  CNG Key Isolation&#xa;  COM+ Event System&#xa;  COM+ System Application&#xa;  Client License Service (ClipSVC)&#xa;  Connected User Experiences and Telemetry&#xa;  CoreMessaging&#xa;  Cryptographic Services&#xa;  DCOM Server Process Launcher&#xa;  DHCP Client&#xa;  DNS Client&#xa;  Data Usage&#xa;  Device Install Service&#xa;  Device Setup Manager&#xa;  Diagnostic Policy Service&#xa;  Diagnostic Service Host&#xa;  Distributed Link Tracking Client&#xa;  Distributed Transaction Coordinator&#xa;  Group Policy Client&#xa;  IKE and AuthIP IPsec Keying Modules&#xa;  IP Helper&#xa;  IPsec Policy Agent&#xa;  Local Session Manager&#xa;  Microsoft Account Sign-in Assistant&#xa;  Microsoft FTP Service&#xa;  Network Connection Broker&#xa;  Network List Service&#xa;  Network Location Awareness&#xa;  Network Store Interface Service&#xa;  Plug and Play&#xa;  Portable Device Enumerator Service&#xa;  Power&#xa;  Print Spooler&#xa;  Program Compatibility Assistant Service&#xa;  RPC Endpoint Mapper&#xa;  Remote Procedure Call (RPC)&#xa;  SNMP Service&#xa;  Security Accounts Manager&#xa;  Server&#xa;  Shell Hardware Detection&#xa;  State Repository Service&#xa;  Superfetch&#xa;  System Event Notification Service&#xa;  System Events Broker&#xa;  TCP/IP NetBIOS Helper&#xa;  Task Scheduler&#xa;  Themes&#xa;  Tile Data model server&#xa;  Time Broker&#xa;  User Manager&#xa;  User Profile Service&#xa;  VMware Alias Manager and Ticket Service&#xa;  VMware CAF Management Agent Service&#xa;  VMware Physical Disk Helper Service&#xa;  VMware Snapshot Provider&#xa;  VMware Tools&#xa;  WinHTTP Web Proxy Auto-Discovery Service&#xa;  Windows Audio&#xa;  Windows Audio Endpoint Builder&#xa;  Windows Connection Manager&#xa;  Windows Defender Antivirus Network Inspection Service&#xa;  Windows Defender Antivirus Service&#xa;  Windows Defender Security Centre Service&#xa;  Windows Event Log&#xa;  Windows Firewall&#xa;  Windows Font Cache Service&#xa;  Windows Management Instrumentation&#xa;  Windows Process Activation Service&#xa;  Windows Push Notifications System Service&#xa;  Windows Search&#xa;  Windows Update&#xa;  Workstation&#xa;  World Wide Web Publishing Service"><elem>Application Host Helper Service</elem>
+<elem>Background Tasks Infrastructure Service</elem>
+<elem>Base Filtering Engine</elem>
+<elem>CNG Key Isolation</elem>
+<elem>COM+ Event System</elem>
+<elem>COM+ System Application</elem>
+<elem>Client License Service (ClipSVC)</elem>
+<elem>Connected User Experiences and Telemetry</elem>
+<elem>CoreMessaging</elem>
+<elem>Cryptographic Services</elem>
+<elem>DCOM Server Process Launcher</elem>
+<elem>DHCP Client</elem>
+<elem>DNS Client</elem>
+<elem>Data Usage</elem>
+<elem>Device Install Service</elem>
+<elem>Device Setup Manager</elem>
+<elem>Diagnostic Policy Service</elem>
+<elem>Diagnostic Service Host</elem>
+<elem>Distributed Link Tracking Client</elem>
+<elem>Distributed Transaction Coordinator</elem>
+<elem>Group Policy Client</elem>
+<elem>IKE and AuthIP IPsec Keying Modules</elem>
+<elem>IP Helper</elem>
+<elem>IPsec Policy Agent</elem>
+<elem>Local Session Manager</elem>
+<elem>Microsoft Account Sign-in Assistant</elem>
+<elem>Microsoft FTP Service</elem>
+<elem>Network Connection Broker</elem>
+<elem>Network List Service</elem>
+<elem>Network Location Awareness</elem>
+<elem>Network Store Interface Service</elem>
+<elem>Plug and Play</elem>
+<elem>Portable Device Enumerator Service</elem>
+<elem>Power</elem>
+<elem>Print Spooler</elem>
+<elem>Program Compatibility Assistant Service</elem>
+<elem>RPC Endpoint Mapper</elem>
+<elem>Remote Procedure Call (RPC)</elem>
+<elem>SNMP Service</elem>
+<elem>Security Accounts Manager</elem>
+<elem>Server</elem>
+<elem>Shell Hardware Detection</elem>
+<elem>State Repository Service</elem>
+<elem>Superfetch</elem>
+<elem>System Event Notification Service</elem>
+<elem>System Events Broker</elem>
+<elem>TCP/IP NetBIOS Helper</elem>
+<elem>Task Scheduler</elem>
+<elem>Themes</elem>
+<elem>Tile Data model server</elem>
+<elem>Time Broker</elem>
+<elem>User Manager</elem>
+<elem>User Profile Service</elem>
+<elem>VMware Alias Manager and Ticket Service</elem>
+<elem>VMware CAF Management Agent Service</elem>
+<elem>VMware Physical Disk Helper Service</elem>
+<elem>VMware Snapshot Provider</elem>
+<elem>VMware Tools</elem>
+<elem>WinHTTP Web Proxy Auto-Discovery Service</elem>
+<elem>Windows Audio</elem>
+<elem>Windows Audio Endpoint Builder</elem>
+<elem>Windows Connection Manager</elem>
+<elem>Windows Defender Antivirus Network Inspection Service</elem>
+<elem>Windows Defender Antivirus Service</elem>
+<elem>Windows Defender Security Centre Service</elem>
+<elem>Windows Event Log</elem>
+<elem>Windows Firewall</elem>
+<elem>Windows Font Cache Service</elem>
+<elem>Windows Management Instrumentation</elem>
+<elem>Windows Process Activation Service</elem>
+<elem>Windows Push Notifications System Service</elem>
+<elem>Windows Search</elem>
+<elem>Windows Update</elem>
+<elem>Workstation</elem>
+<elem>World Wide Web Publishing Service</elem>
+</script><script id="snmp-win32-software" output="&#xa;  Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161; 2018-10-12T20:10:30&#xa;  Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161; 2018-10-12T20:10:22&#xa;  VMware Tools; 2018-10-12T20:11:02"><table>
+<elem key="install_date">2018-10-12T20:10:30</elem>
+<elem key="name">Microsoft Visual C++ 2008 Redistributable - x64 9.0.30729.6161</elem>
+</table>
+<table>
+<elem key="install_date">2018-10-12T20:10:22</elem>
+<elem key="name">Microsoft Visual C++ 2008 Redistributable - x86 9.0.30729.6161</elem>
+</table>
+<table>
+<elem key="install_date">2018-10-12T20:11:02</elem>
+<elem key="name">VMware Tools</elem>
+</table>
+</script><script id="snmp-win32-users" output="&#xa;  Administrator&#xa;  DefaultAccount&#xa;  Destitute&#xa;  Guest"><elem>Administrator</elem>
+<elem>DefaultAccount</elem>
+<elem>Destitute</elem>
+<elem>Guest</elem>
+</script></port>
+</ports>
+<times srtt="56480" rttvar="56480" to="282400"/>
+</host>
+<runstats><finished time="1547272040" timestr="Sat Jan 12 06:47:20 2019" elapsed="26.72" summary="Nmap done at Sat Jan 12 06:47:20 2019; 1 IP address (1 host up) scanned in 26.72 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
