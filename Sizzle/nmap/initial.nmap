@@ -1,0 +1,107 @@
+# Nmap 7.70 scan initiated Sat Jan 12 20:55:42 2019 as: nmap -sC -sV -oA nmap/initial -v --max-retries=1 10.10.10.103
+Warning: 10.10.10.103 giving up on port because retransmission cap hit (1).
+Increasing send delay for 10.10.10.103 from 0 to 5 due to 11 out of 27 dropped probes since last increase.
+Nmap scan report for 10.10.10.103
+Host is up (0.41s latency).
+Not shown: 987 filtered ports
+PORT     STATE SERVICE       VERSION
+21/tcp   open  ftp           Microsoft ftpd
+|_ftp-anon: Anonymous FTP login allowed (FTP code 230)
+| ftp-syst: 
+|_  SYST: Windows_NT
+53/tcp   open  domain?
+| fingerprint-strings: 
+|   DNSVersionBindReqTCP: 
+|     version
+|_    bind
+80/tcp   open  http          Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Site doesn't have a title (text/html).
+135/tcp  open  msrpc         Microsoft Windows RPC
+139/tcp  open  netbios-ssn   Microsoft Windows netbios-ssn
+389/tcp  open  ldap          Microsoft Windows Active Directory LDAP (Domain: HTB.LOCAL, Site: Default-First-Site-Name)
+| ssl-cert: Subject: commonName=sizzle.htb.local
+| Issuer: commonName=HTB-SIZZLE-CA
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2018-07-03T17:58:55
+| Not valid after:  2020-07-02T17:58:55
+| MD5:   240b 1eff 5a65 ad8d c64d 855e aeb5 9e6b
+|_SHA-1: 77bb 3f67 1b6b 3e09 b8f9 6503 ddc1 0bbf 0b75 0c72
+|_ssl-date: 2019-01-12T20:01:45+00:00; +10s from scanner time.
+443/tcp  open  ssl/http      Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Site doesn't have a title (text/html).
+| ssl-cert: Subject: commonName=sizzle.htb.local
+| Issuer: commonName=HTB-SIZZLE-CA
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2018-07-03T17:58:55
+| Not valid after:  2020-07-02T17:58:55
+| MD5:   240b 1eff 5a65 ad8d c64d 855e aeb5 9e6b
+|_SHA-1: 77bb 3f67 1b6b 3e09 b8f9 6503 ddc1 0bbf 0b75 0c72
+|_ssl-date: 2019-01-12T20:01:41+00:00; +10s from scanner time.
+| tls-alpn: 
+|   h2
+|_  http/1.1
+445/tcp  open  microsoft-ds?
+464/tcp  open  kpasswd5?
+593/tcp  open  tcpwrapped
+636/tcp  open  ssl/ldap      Microsoft Windows Active Directory LDAP (Domain: HTB.LOCAL, Site: Default-First-Site-Name)
+| ssl-cert: Subject: commonName=sizzle.htb.local
+| Issuer: commonName=HTB-SIZZLE-CA
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2018-07-03T17:58:55
+| Not valid after:  2020-07-02T17:58:55
+| MD5:   240b 1eff 5a65 ad8d c64d 855e aeb5 9e6b
+|_SHA-1: 77bb 3f67 1b6b 3e09 b8f9 6503 ddc1 0bbf 0b75 0c72
+3268/tcp open  ldap          Microsoft Windows Active Directory LDAP (Domain: HTB.LOCAL, Site: Default-First-Site-Name)
+| ssl-cert: Subject: commonName=sizzle.htb.local
+| Issuer: commonName=HTB-SIZZLE-CA
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2018-07-03T17:58:55
+| Not valid after:  2020-07-02T17:58:55
+| MD5:   240b 1eff 5a65 ad8d c64d 855e aeb5 9e6b
+|_SHA-1: 77bb 3f67 1b6b 3e09 b8f9 6503 ddc1 0bbf 0b75 0c72
+|_ssl-date: 2019-01-12T20:01:45+00:00; +10s from scanner time.
+3269/tcp open  ssl/ldap      Microsoft Windows Active Directory LDAP (Domain: HTB.LOCAL, Site: Default-First-Site-Name)
+| ssl-cert: Subject: commonName=sizzle.htb.local
+| Issuer: commonName=HTB-SIZZLE-CA
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2018-07-03T17:58:55
+| Not valid after:  2020-07-02T17:58:55
+| MD5:   240b 1eff 5a65 ad8d c64d 855e aeb5 9e6b
+|_SHA-1: 77bb 3f67 1b6b 3e09 b8f9 6503 ddc1 0bbf 0b75 0c72
+|_ssl-date: 2019-01-12T20:01:42+00:00; +9s from scanner time.
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port53-TCP:V=7.70%I=7%D=1/12%Time=5C3A4704%P=x86_64-pc-linux-gnu%r(DNSV
+SF:ersionBindReqTCP,20,"\0\x1e\0\x06\x81\x04\0\x01\0\0\0\0\0\0\x07version\
+SF:x04bind\0\0\x10\0\x03");
+Service Info: Host: SIZZLE; OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: 9s, deviation: 0s, median: 9s
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled and required
+| smb2-time: 
+|   date: 2019-01-12 21:01:48
+|_  start_date: 2019-01-12 20:01:34
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jan 12 21:02:16 2019 -- 1 IP address (1 host up) scanned in 393.73 seconds
