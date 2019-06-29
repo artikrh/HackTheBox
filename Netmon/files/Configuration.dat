@@ -1,0 +1,19 @@
+<login>
+                  prtgadmin
+                </login>
+                <name>
+                  PRTG System Administrator
+                </name>
+                <ownerid>
+                  100
+                </ownerid>
+                <password>
+                  <flags>
+                    <encrypted/>
+                  </flags>
+                  <cell col="0" crypt="PRTG">
+                    JO3Y7LLK7IBKCMDN3DABSVAQO5MR5IDWF3MJLDOWSA======
+                  </cell>
+                  <cell col="1" crypt="PRTG">
+                    OEASMEIE74Q5VXSPFJA2EEGBMEUEXFWW
+                  </cell>
