@@ -1,7 +1,7 @@
 # HackTheBox
 Collection of my own scripts and documentations of retired machines in the hackthebox.eu platform.
 
-I no longer can afford the time for write-ups, nonetheless, I am still publicly posting my scripts, which are typically written in Python and are soley used for automation purposes.
+I can no longer afford the time for write-ups, nonetheless, I am still publicly posting my scripts, which are typically written in Python and are soley used for automation purposes.
 
 ## About
 
