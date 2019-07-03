@@ -5,7 +5,7 @@ I can no longer afford the time for write-ups, nonetheless, I am still publicly 
 
 ## About
 
-HackTheBox (HTB) is an online penetration testing platform with more than a 140,000 hackers from all around the world. At the time of writing this piece (June 2019), I am sitting at Top 10 from the Hall of Fame -- however, at some point of time, I had also reached Top 5 as seen in the following screenshot:
+HackTheBox (HTB) is an online penetration testing platform with more than 140,000 hackers from all around the world. At the time of writing this piece (June 2019), I am sitting at Top 10 from the Hall of Fame -- however, at some point of time, I had also reached Top 5 as seen in the following screenshot:
 
 ![Top5HoF](https://raw.githubusercontent.com/artikrh/HackTheBox/master/top5.jpg)
 
