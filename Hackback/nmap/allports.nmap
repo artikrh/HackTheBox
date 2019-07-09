@@ -1,0 +1,12 @@
+# Nmap 7.70 scan initiated Sun Feb 24 10:13:10 2019 as: nmap -p- -oA nmap/allports -v 10.10.10.128
+Increasing send delay for 10.10.10.128 from 0 to 5 due to 19 out of 63 dropped probes since last increase.
+Nmap scan report for 10.10.10.128
+Host is up (0.17s latency).
+Not shown: 65532 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+6666/tcp  open  irc
+64831/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Feb 24 10:25:12 2019 -- 1 IP address (1 host up) scanned in 722.02 seconds

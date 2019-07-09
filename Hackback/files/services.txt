@@ -1,0 +1,1274 @@
+[
+    {
+        "name":  "AJRouter",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "AllJoyn Router Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "ALG",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Application Layer Gateway Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "AppHostSvc",
+        "startname":  "localSystem",
+        "displayname":  "Application Host Helper Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "AppIDSvc",
+        "startname":  "NT Authority\\LocalService",
+        "displayname":  "Application Identity",
+        "status":  "OK"
+    },
+    {
+        "name":  "Appinfo",
+        "startname":  "LocalSystem",
+        "displayname":  "Application Information",
+        "status":  "OK"
+    },
+    {
+        "name":  "AppMgmt",
+        "startname":  "LocalSystem",
+        "displayname":  "Application Management",
+        "status":  "OK"
+    },
+    {
+        "name":  "AppReadiness",
+        "startname":  "LocalSystem",
+        "displayname":  "App Readiness",
+        "status":  "OK"
+    },
+    {
+        "name":  "AppVClient",
+        "startname":  "LocalSystem",
+        "displayname":  "Microsoft App-V Client",
+        "status":  "OK"
+    },
+    {
+        "name":  "AppXSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "AppX Deployment Service (AppXSVC)",
+        "status":  "OK"
+    },
+    {
+        "name":  "aspnet_state",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "ASP.NET State Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "AudioEndpointBuilder",
+        "startname":  "LocalSystem",
+        "displayname":  "Windows Audio Endpoint Builder",
+        "status":  "OK"
+    },
+    {
+        "name":  "Audiosrv",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Windows Audio",
+        "status":  "OK"
+    },
+    {
+        "name":  "AxInstSV",
+        "startname":  "LocalSystem",
+        "displayname":  "ActiveX Installer (AxInstSV)",
+        "status":  "OK"
+    },
+    {
+        "name":  "BFE",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Base Filtering Engine",
+        "status":  "OK"
+    },
+    {
+        "name":  "BITS",
+        "startname":  "LocalSystem",
+        "displayname":  "Background Intelligent Transfer Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "BrokerInfrastructure",
+        "startname":  "LocalSystem",
+        "displayname":  "Background Tasks Infrastructure Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "BTAGService",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Bluetooth Audio Gateway Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "BthAvctpSvc",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "AVCTP service",
+        "status":  "OK"
+    },
+    {
+        "name":  "bthserv",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Bluetooth Support Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "camsvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Capability Access Manager Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "CDPSvc",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Connected Devices Platform Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "CertPropSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Certificate Propagation",
+        "status":  "OK"
+    },
+    {
+        "name":  "ClipSVC",
+        "startname":  "LocalSystem",
+        "displayname":  "Client License Service (ClipSVC)",
+        "status":  "OK"
+    },
+    {
+        "name":  "COMSysApp",
+        "startname":  "LocalSystem",
+        "displayname":  "COM+ System Application",
+        "status":  "OK"
+    },
+    {
+        "name":  "CoreMessagingRegistrar",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "CoreMessaging",
+        "status":  "OK"
+    },
+    {
+        "name":  "CryptSvc",
+        "startname":  "NT Authority\\NetworkService",
+        "displayname":  "Cryptographic Services",
+        "status":  "OK"
+    },
+    {
+        "name":  "CscService",
+        "startname":  "LocalSystem",
+        "displayname":  "Offline Files",
+        "status":  "OK"
+    },
+    {
+        "name":  "darkweb",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "darkweb",
+        "status":  "OK"
+    },
+    {
+        "name":  "DcomLaunch",
+        "startname":  "LocalSystem",
+        "displayname":  "DCOM Server Process Launcher",
+        "status":  "OK"
+    },
+    {
+        "name":  "defragsvc",
+        "startname":  "localSystem",
+        "displayname":  "Optimize drives",
+        "status":  "OK"
+    },
+    {
+        "name":  "DeviceAssociationService",
+        "startname":  "LocalSystem",
+        "displayname":  "Device Association Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "DeviceInstall",
+        "startname":  "LocalSystem",
+        "displayname":  "Device Install Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "DevQueryBroker",
+        "startname":  "LocalSystem",
+        "displayname":  "DevQuery Background Discovery Broker",
+        "status":  "OK"
+    },
+    {
+        "name":  "Dhcp",
+        "startname":  "NT Authority\\LocalService",
+        "displayname":  "DHCP Client",
+        "status":  "OK"
+    },
+    {
+        "name":  "diagnosticshub.standardcollector.service",
+        "startname":  "LocalSystem",
+        "displayname":  "Microsoft (R) Diagnostics Hub Standard Collector Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "DiagTrack",
+        "startname":  "LocalSystem",
+        "displayname":  "Connected User Experiences and Telemetry",
+        "status":  "OK"
+    },
+    {
+        "name":  "DmEnrollmentSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Device Management Enrollment Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "dmwappushservice",
+        "startname":  "LocalSystem",
+        "displayname":  "Device Management Wireless Application Protocol (WAP) Push message Routing Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "Dnscache",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "DNS Client",
+        "status":  "OK"
+    },
+    {
+        "name":  "DoSvc",
+        "startname":  "NT Authority\\NetworkService",
+        "displayname":  "Delivery Optimization",
+        "status":  "OK"
+    },
+    {
+        "name":  "dot3svc",
+        "startname":  "localSystem",
+        "displayname":  "Wired AutoConfig",
+        "status":  "OK"
+    },
+    {
+        "name":  "DPS",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Diagnostic Policy Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "DsmSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Device Setup Manager",
+        "status":  "OK"
+    },
+    {
+        "name":  "DsSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Data Sharing Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "Eaphost",
+        "startname":  "localSystem",
+        "displayname":  "Extensible Authentication Protocol",
+        "status":  "OK"
+    },
+    {
+        "name":  "EFS",
+        "startname":  "LocalSystem",
+        "displayname":  "Encrypting File System (EFS)",
+        "status":  "OK"
+    },
+    {
+        "name":  "embeddedmode",
+        "startname":  "LocalSystem",
+        "displayname":  "Embedded Mode",
+        "status":  "OK"
+    },
+    {
+        "name":  "EntAppSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Enterprise App Management Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "EventLog",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Windows Event Log",
+        "status":  "OK"
+    },
+    {
+        "name":  "EventSystem",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "COM+ Event System",
+        "status":  "OK"
+    },
+    {
+        "name":  "fdPHost",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Function Discovery Provider Host",
+        "status":  "OK"
+    },
+    {
+        "name":  "FDResPub",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Function Discovery Resource Publication",
+        "status":  "OK"
+    },
+    {
+        "name":  "FontCache",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Windows Font Cache Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "FontCache3.0.0.0",
+        "startname":  "NT Authority\\LocalService",
+        "displayname":  "Windows Presentation Foundation Font Cache 3.0.0.0",
+        "status":  "OK"
+    },
+    {
+        "name":  "FrameServer",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Windows Camera Frame Server",
+        "status":  "OK"
+    },
+    {
+        "name":  "gophish",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "gophish",
+        "status":  "OK"
+    },
+    {
+        "name":  "gpsvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Group Policy Client",
+        "status":  "OK"
+    },
+    {
+        "name":  "GraphicsPerfSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "GraphicsPerfSvc",
+        "status":  "OK"
+    },
+    {
+        "name":  "hidserv",
+        "startname":  "LocalSystem",
+        "displayname":  "Human Interface Device Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "hns",
+        "startname":  "LocalSystem",
+        "displayname":  "Host Network Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "HvHost",
+        "startname":  "LocalSystem",
+        "displayname":  "HV Host Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "icssvc",
+        "startname":  "NT Authority\\LocalService",
+        "displayname":  "Windows Mobile Hotspot Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "IISADMIN",
+        "startname":  "localSystem",
+        "displayname":  "IIS Admin Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "IKEEXT",
+        "startname":  "LocalSystem",
+        "displayname":  "IKE and AuthIP IPsec Keying Modules",
+        "status":  "OK"
+    },
+    {
+        "name":  "InstallService",
+        "startname":  "LocalSystem",
+        "displayname":  "Microsoft Store Install Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "iphlpsvc",
+        "startname":  "LocalSystem",
+        "displayname":  "IP Helper",
+        "status":  "OK"
+    },
+    {
+        "name":  "KeyIso",
+        "startname":  "LocalSystem",
+        "displayname":  "CNG Key Isolation",
+        "status":  "OK"
+    },
+    {
+        "name":  "KPSSVC",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "KDC Proxy Server service (KPS)",
+        "status":  "OK"
+    },
+    {
+        "name":  "KtmRm",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "KtmRm for Distributed Transaction Coordinator",
+        "status":  "OK"
+    },
+    {
+        "name":  "LanmanServer",
+        "startname":  "LocalSystem",
+        "displayname":  "Server",
+        "status":  "OK"
+    },
+    {
+        "name":  "LanmanWorkstation",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "Workstation",
+        "status":  "OK"
+    },
+    {
+        "name":  "lfsvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Geolocation Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "LicenseManager",
+        "startname":  "NT Authority\\LocalService",
+        "displayname":  "Windows License Manager Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "lltdsvc",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Link-Layer Topology Discovery Mapper",
+        "status":  "OK"
+    },
+    {
+        "name":  "lmhosts",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "TCP/IP NetBIOS Helper",
+        "status":  "OK"
+    },
+    {
+        "name":  "LSM",
+        "startname":  null,
+        "displayname":  "LSM",
+        "status":  "UNKNOWN"
+    },
+    {
+        "name":  "MapsBroker",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "Downloaded Maps Manager",
+        "status":  "OK"
+    },
+    {
+        "name":  "mpssvc",
+        "startname":  "NT Authority\\LocalService",
+        "displayname":  "Windows Defender Firewall",
+        "status":  "OK"
+    },
+    {
+        "name":  "MSDTC",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "Distributed Transaction Coordinator",
+        "status":  "OK"
+    },
+    {
+        "name":  "MSiSCSI",
+        "startname":  "LocalSystem",
+        "displayname":  "Microsoft iSCSI Initiator Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "msiserver",
+        "startname":  "LocalSystem",
+        "displayname":  "Windows Installer",
+        "status":  "OK"
+    },
+    {
+        "name":  "NcaSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Network Connectivity Assistant",
+        "status":  "OK"
+    },
+    {
+        "name":  "NcbService",
+        "startname":  "LocalSystem",
+        "displayname":  "Network Connection Broker",
+        "status":  "OK"
+    },
+    {
+        "name":  "Netlogon",
+        "startname":  "LocalSystem",
+        "displayname":  "Netlogon",
+        "status":  "OK"
+    },
+    {
+        "name":  "Netman",
+        "startname":  "LocalSystem",
+        "displayname":  "Network Connections",
+        "status":  "OK"
+    },
+    {
+        "name":  "netprofm",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Network List Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "NetSetupSvc",
+        "startname":  null,
+        "displayname":  "NetSetupSvc",
+        "status":  "UNKNOWN"
+    },
+    {
+        "name":  "NetTcpPortSharing",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Net.Tcp Port Sharing Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "NgcCtnrSvc",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Microsoft Passport Container",
+        "status":  "OK"
+    },
+    {
+        "name":  "NgcSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Microsoft Passport",
+        "status":  "OK"
+    },
+    {
+        "name":  "NlaSvc",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "Network Location Awareness",
+        "status":  "OK"
+    },
+    {
+        "name":  "nsi",
+        "startname":  "NT Authority\\LocalService",
+        "displayname":  "Network Store Interface Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "nvagent",
+        "startname":  "LocalSystem",
+        "displayname":  "Network Virtualization Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "PcaSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Program Compatibility Assistant Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "PerfHost",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Performance Counter DLL Host",
+        "status":  "OK"
+    },
+    {
+        "name":  "PhoneSvc",
+        "startname":  "NT Authority\\LocalService",
+        "displayname":  "Phone Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "pla",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Performance Logs \u0026 Alerts",
+        "status":  "OK"
+    },
+    {
+        "name":  "PlugPlay",
+        "startname":  "LocalSystem",
+        "displayname":  "Plug and Play",
+        "status":  "OK"
+    },
+    {
+        "name":  "PolicyAgent",
+        "startname":  "NT Authority\\NetworkService",
+        "displayname":  "IPsec Policy Agent",
+        "status":  "OK"
+    },
+    {
+        "name":  "Power",
+        "startname":  "LocalSystem",
+        "displayname":  "Power",
+        "status":  "OK"
+    },
+    {
+        "name":  "PrintNotify",
+        "startname":  "LocalSystem",
+        "displayname":  "Printer Extensions and Notifications",
+        "status":  "OK"
+    },
+    {
+        "name":  "ProfSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "User Profile Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "PushToInstall",
+        "startname":  "LocalSystem",
+        "displayname":  "Windows PushToInstall Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "QWAVE",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Quality Windows Audio Video Experience",
+        "status":  "OK"
+    },
+    {
+        "name":  "RasAuto",
+        "startname":  "localSystem",
+        "displayname":  "Remote Access Auto Connection Manager",
+        "status":  "OK"
+    },
+    {
+        "name":  "RasMan",
+        "startname":  "localSystem",
+        "displayname":  "Remote Access Connection Manager",
+        "status":  "OK"
+    },
+    {
+        "name":  "RemoteAccess",
+        "startname":  "localSystem",
+        "displayname":  "Routing and Remote Access",
+        "status":  "OK"
+    },
+    {
+        "name":  "RemoteRegistry",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Remote Registry",
+        "status":  "OK"
+    },
+    {
+        "name":  "RmSvc",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Radio Management Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "RpcEptMapper",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "RPC Endpoint Mapper",
+        "status":  "OK"
+    },
+    {
+        "name":  "RpcLocator",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "Remote Procedure Call (RPC) Locator",
+        "status":  "OK"
+    },
+    {
+        "name":  "RpcSs",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "Remote Procedure Call (RPC)",
+        "status":  "OK"
+    },
+    {
+        "name":  "RSoPProv",
+        "startname":  "LocalSystem",
+        "displayname":  "Resultant Set of Policy Provider",
+        "status":  "OK"
+    },
+    {
+        "name":  "sacsvr",
+        "startname":  "LocalSystem",
+        "displayname":  "Special Administration Console Helper",
+        "status":  "OK"
+    },
+    {
+        "name":  "SamSs",
+        "startname":  "LocalSystem",
+        "displayname":  "Security Accounts Manager",
+        "status":  "OK"
+    },
+    {
+        "name":  "SCardSvr",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Smart Card",
+        "status":  "OK"
+    },
+    {
+        "name":  "ScDeviceEnum",
+        "startname":  "LocalSystem",
+        "displayname":  "Smart Card Device Enumeration Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "Schedule",
+        "startname":  "LocalSystem",
+        "displayname":  "Task Scheduler",
+        "status":  "OK"
+    },
+    {
+        "name":  "SCPolicySvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Smart Card Removal Policy",
+        "status":  "OK"
+    },
+    {
+        "name":  "seclogon",
+        "startname":  "LocalSystem",
+        "displayname":  "Secondary Logon",
+        "status":  "OK"
+    },
+    {
+        "name":  "SecurityHealthService",
+        "startname":  "LocalSystem",
+        "displayname":  "Windows Security Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "SEMgrSvc",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Payments and NFC/SE Manager",
+        "status":  "OK"
+    },
+    {
+        "name":  "SENS",
+        "startname":  "LocalSystem",
+        "displayname":  "System Event Notification Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "Sense",
+        "startname":  "LocalSystem",
+        "displayname":  "Windows Defender Advanced Threat Protection Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "SensorDataService",
+        "startname":  "LocalSystem",
+        "displayname":  "Sensor Data Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "SensorService",
+        "startname":  "LocalSystem",
+        "displayname":  "Sensor Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "SensrSvc",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Sensor Monitoring Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "SessionEnv",
+        "startname":  "localSystem",
+        "displayname":  "Remote Desktop Configuration",
+        "status":  "OK"
+    },
+    {
+        "name":  "SgrmBroker",
+        "startname":  "LocalSystem",
+        "displayname":  "System Guard Runtime Monitor Broker",
+        "status":  "OK"
+    },
+    {
+        "name":  "SharedAccess",
+        "startname":  "LocalSystem",
+        "displayname":  "Internet Connection Sharing (ICS)",
+        "status":  "OK"
+    },
+    {
+        "name":  "ShellHWDetection",
+        "startname":  "LocalSystem",
+        "displayname":  "Shell Hardware Detection",
+        "status":  "OK"
+    },
+    {
+        "name":  "shpamsvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Shared PC Account Manager",
+        "status":  "OK"
+    },
+    {
+        "name":  "smphost",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "Microsoft Storage Spaces SMP",
+        "status":  "OK"
+    },
+    {
+        "name":  "SMTPSVC",
+        "startname":  "localSystem",
+        "displayname":  "Simple Mail Transfer Protocol (SMTP)",
+        "status":  "OK"
+    },
+    {
+        "name":  "SNMP",
+        "startname":  "LocalSystem",
+        "displayname":  "SNMP Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "SNMPTRAP",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "SNMP Trap",
+        "status":  "OK"
+    },
+    {
+        "name":  "Spooler",
+        "startname":  "LocalSystem",
+        "displayname":  "Print Spooler",
+        "status":  "OK"
+    },
+    {
+        "name":  "sppsvc",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "Software Protection",
+        "status":  "OK"
+    },
+    {
+        "name":  "SSDPSRV",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "SSDP Discovery",
+        "status":  "OK"
+    },
+    {
+        "name":  "ssh-agent",
+        "startname":  "LocalSystem",
+        "displayname":  "OpenSSH Authentication Agent",
+        "status":  "OK"
+    },
+    {
+        "name":  "sshd",
+        "startname":  "LocalSystem",
+        "displayname":  "OpenSSH SSH Server",
+        "status":  "OK"
+    },
+    {
+        "name":  "SstpSvc",
+        "startname":  "NT Authority\\LocalService",
+        "displayname":  "Secure Socket Tunneling Protocol Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "StateRepository",
+        "startname":  "LocalSystem",
+        "displayname":  "State Repository Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "stisvc",
+        "startname":  "NT Authority\\LocalService",
+        "displayname":  "Windows Image Acquisition (WIA)",
+        "status":  "OK"
+    },
+    {
+        "name":  "StorSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Storage Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "svsvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Spot Verifier",
+        "status":  "OK"
+    },
+    {
+        "name":  "swprv",
+        "startname":  "LocalSystem",
+        "displayname":  "Microsoft Software Shadow Copy Provider",
+        "status":  "OK"
+    },
+    {
+        "name":  "SysMain",
+        "startname":  "LocalSystem",
+        "displayname":  "SysMain",
+        "status":  "OK"
+    },
+    {
+        "name":  "SystemEventsBroker",
+        "startname":  "LocalSystem",
+        "displayname":  "System Events Broker",
+        "status":  "OK"
+    },
+    {
+        "name":  "TabletInputService",
+        "startname":  "LocalSystem",
+        "displayname":  "Touch Keyboard and Handwriting Panel Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "tapisrv",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "Telephony",
+        "status":  "OK"
+    },
+    {
+        "name":  "TermService",
+        "startname":  "NT Authority\\NetworkService",
+        "displayname":  "Remote Desktop Services",
+        "status":  "OK"
+    },
+    {
+        "name":  "Themes",
+        "startname":  "LocalSystem",
+        "displayname":  "Themes",
+        "status":  "OK"
+    },
+    {
+        "name":  "TieringEngineService",
+        "startname":  "localSystem",
+        "displayname":  "Storage Tiers Management",
+        "status":  "OK"
+    },
+    {
+        "name":  "TimeBrokerSvc",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Time Broker",
+        "status":  "OK"
+    },
+    {
+        "name":  "TokenBroker",
+        "startname":  "LocalSystem",
+        "displayname":  "Web Account Manager",
+        "status":  "OK"
+    },
+    {
+        "name":  "TrkWks",
+        "startname":  "LocalSystem",
+        "displayname":  "Distributed Link Tracking Client",
+        "status":  "OK"
+    },
+    {
+        "name":  "TrustedInstaller",
+        "startname":  "localSystem",
+        "displayname":  "Windows Modules Installer",
+        "status":  "OK"
+    },
+    {
+        "name":  "tzautoupdate",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Auto Time Zone Updater",
+        "status":  "OK"
+    },
+    {
+        "name":  "UALSVC",
+        "startname":  "LocalSystem",
+        "displayname":  "User Access Logging Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "UevAgentService",
+        "startname":  "LocalSystem",
+        "displayname":  "User Experience Virtualization Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "UmRdpService",
+        "startname":  "localSystem",
+        "displayname":  "Remote Desktop Services UserMode Port Redirector",
+        "status":  "OK"
+    },
+    {
+        "name":  "upnphost",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "UPnP Device Host",
+        "status":  "OK"
+    },
+    {
+        "name":  "UserLogger",
+        "startname":  "LocalSystem",
+        "displayname":  "User Logger",
+        "status":  "OK"
+    },
+    {
+        "name":  "UserManager",
+        "startname":  "LocalSystem",
+        "displayname":  "User Manager",
+        "status":  "OK"
+    },
+    {
+        "name":  "UsoSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Update Orchestrator Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "VaultSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Credential Manager",
+        "status":  "OK"
+    },
+    {
+        "name":  "vds",
+        "startname":  "LocalSystem",
+        "displayname":  "Virtual Disk",
+        "status":  "OK"
+    },
+    {
+        "name":  "VGAuthService",
+        "startname":  "LocalSystem",
+        "displayname":  "VMware Alias Manager and Ticket Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "vmcompute",
+        "startname":  "LocalSystem",
+        "displayname":  "Hyper-V Host Compute Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "vmicguestinterface",
+        "startname":  "LocalSystem",
+        "displayname":  "Hyper-V Guest Service Interface",
+        "status":  "OK"
+    },
+    {
+        "name":  "vmicheartbeat",
+        "startname":  "LocalSystem",
+        "displayname":  "Hyper-V Heartbeat Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "vmickvpexchange",
+        "startname":  "LocalSystem",
+        "displayname":  "Hyper-V Data Exchange Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "vmicrdv",
+        "startname":  "LocalSystem",
+        "displayname":  "Hyper-V Remote Desktop Virtualization Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "vmicshutdown",
+        "startname":  "LocalSystem",
+        "displayname":  "Hyper-V Guest Shutdown Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "vmictimesync",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Hyper-V Time Synchronization Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "vmicvmsession",
+        "startname":  "LocalSystem",
+        "displayname":  "Hyper-V PowerShell Direct Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "vmicvss",
+        "startname":  "LocalSystem",
+        "displayname":  "Hyper-V Volume Shadow Copy Requestor",
+        "status":  "OK"
+    },
+    {
+        "name":  "VMTools",
+        "startname":  "LocalSystem",
+        "displayname":  "VMware Tools",
+        "status":  "OK"
+    },
+    {
+        "name":  "vmvss",
+        "startname":  "LocalSystem",
+        "displayname":  "VMware Snapshot Provider",
+        "status":  "OK"
+    },
+    {
+        "name":  "VMwareCAFCommAmqpListener",
+        "startname":  "LocalSystem",
+        "displayname":  "VMware CAF AMQP Communication Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "VMwareCAFManagementAgentHost",
+        "startname":  "LocalSystem",
+        "displayname":  "VMware CAF Management Agent Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "VSS",
+        "startname":  "LocalSystem",
+        "displayname":  "Volume Shadow Copy",
+        "status":  "OK"
+    },
+    {
+        "name":  "W32Time",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Windows Time",
+        "status":  "OK"
+    },
+    {
+        "name":  "w3logsvc",
+        "startname":  "localSystem",
+        "displayname":  "W3C Logging Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "W3SVC",
+        "startname":  "localSystem",
+        "displayname":  "World Wide Web Publishing Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "WaaSMedicSvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Windows Update Medic Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "WalletService",
+        "startname":  "LocalSystem",
+        "displayname":  "WalletService",
+        "status":  "OK"
+    },
+    {
+        "name":  "WarpJITSvc",
+        "startname":  "NT Authority\\LocalService",
+        "displayname":  "WarpJITSvc",
+        "status":  "OK"
+    },
+    {
+        "name":  "WAS",
+        "startname":  "localSystem",
+        "displayname":  "Windows Process Activation Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "WbioSrvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Windows Biometric Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "Wcmsvc",
+        "startname":  "NT Authority\\LocalService",
+        "displayname":  "Windows Connection Manager",
+        "status":  "OK"
+    },
+    {
+        "name":  "WdiServiceHost",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Diagnostic Service Host",
+        "status":  "OK"
+    },
+    {
+        "name":  "WdiSystemHost",
+        "startname":  "LocalSystem",
+        "displayname":  "Diagnostic System Host",
+        "status":  "OK"
+    },
+    {
+        "name":  "WdNisSvc",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Windows Defender Antivirus Network Inspection Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "Wecsvc",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "Windows Event Collector",
+        "status":  "OK"
+    },
+    {
+        "name":  "WEPHOSTSVC",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "Windows Encryption Provider Host Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "wercplsupport",
+        "startname":  "localSystem",
+        "displayname":  "Problem Reports and Solutions Control Panel Support",
+        "status":  "OK"
+    },
+    {
+        "name":  "WerSvc",
+        "startname":  "localSystem",
+        "displayname":  "Windows Error Reporting Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "WiaRpc",
+        "startname":  "LocalSystem",
+        "displayname":  "Still Image Acquisition Events",
+        "status":  "OK"
+    },
+    {
+        "name":  "WinDefend",
+        "startname":  "LocalSystem",
+        "displayname":  "Windows Defender Antivirus Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "WinHttpAutoProxySvc",
+        "startname":  "NT AUTHORITY\\LocalService",
+        "displayname":  "WinHTTP Web Proxy Auto-Discovery Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "Winmgmt",
+        "startname":  "localSystem",
+        "displayname":  "Windows Management Instrumentation",
+        "status":  "OK"
+    },
+    {
+        "name":  "WinRM",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "Windows Remote Management (WS-Management)",
+        "status":  "OK"
+    },
+    {
+        "name":  "wisvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Windows Insider Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "wlidsvc",
+        "startname":  "LocalSystem",
+        "displayname":  "Microsoft Account Sign-in Assistant",
+        "status":  "OK"
+    },
+    {
+        "name":  "wmiApSrv",
+        "startname":  "localSystem",
+        "displayname":  "WMI Performance Adapter",
+        "status":  "OK"
+    },
+    {
+        "name":  "WMPNetworkSvc",
+        "startname":  "NT AUTHORITY\\NetworkService",
+        "displayname":  "Windows Media Player Network Sharing Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "WPDBusEnum",
+        "startname":  "LocalSystem",
+        "displayname":  "Portable Device Enumerator Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "WpnService",
+        "startname":  "LocalSystem",
+        "displayname":  "Windows Push Notifications System Service",
+        "status":  "OK"
+    },
+    {
+        "name":  "WSearch",
+        "startname":  "LocalSystem",
+        "displayname":  "Windows Search",
+        "status":  "OK"
+    },
+    {
+        "name":  "wuauserv",
+        "startname":  "LocalSystem",
+        "displayname":  "Windows Update",
+        "status":  "OK"
+    }
+]

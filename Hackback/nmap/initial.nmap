@@ -1,0 +1,21 @@
+# Nmap 7.70 scan initiated Sun Feb 24 10:11:47 2019 as: nmap -sC -sV -oA nmap/initial -v 10.10.10.128
+Nmap scan report for 10.10.10.128
+Host is up (0.20s latency).
+Not shown: 998 filtered ports
+PORT     STATE SERVICE VERSION
+80/tcp   open  http    Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: IIS Windows Server
+6666/tcp open  http    Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Microsoft-HTTPAPI/2.0
+|_http-title: Site doesn't have a title.
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Feb 24 10:12:32 2019 -- 1 IP address (1 host up) scanned in 45.38 seconds

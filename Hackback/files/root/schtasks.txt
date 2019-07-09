@@ -1,0 +1,3547 @@
+Folder: \
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Server Initial Configuration Task
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:40:22 AM
+Last Result:                          0
+Author:                               $(@%systemroot%\system32\SrvInitConfig.exe,-100)
+Task To Run:                          %windir%\system32\srvinitconfig.exe /disableconfigtask
+Start In:                             N/A
+Comment:                              $(@%systemroot%\system32\SrvInitConfig.exe,-101)
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\.NET Framework
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:44 AM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 02:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:44 AM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 02:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 64 Critical
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/16/2018 2:55:52 PM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 02:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At idle time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\.NET Framework\.NET Framework NGEN v4.0.30319 Critical
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/16/2018 2:55:52 PM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 02:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At idle time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Active Directory Rights Management Services Client
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Automated)
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Updates the AD RMS rights policy templates for the user. This job does not provide a credential prompt if authentication to the template distribution web service on the server fails. In this case, it fails silently.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          Everyone
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily
+Start Time:                           3:00:00 AM
+Start Date:                           11/9/2006
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Automated)
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Updates the AD RMS rights policy templates for the user. This job does not provide a credential prompt if authentication to the template distribution web service on the server fails. In this case, it fails silently.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          Everyone
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Active Directory Rights Management Services Client\AD RMS Rights Policy Template Management (Manual)
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Updates the AD RMS rights policy templates for the user. This job provides a credential prompt if authentication to the template distribution web service on the server fails.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Everyone
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\AppID
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\AppID\PolicyConverter
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:42:18 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\appidpolicyconverter.exe
+Start In:                             N/A
+Comment:                              Converts the software restriction policies policy from XML into binary format.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\AppID\VerifiedPublisherCertStoreCheck
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:40 AM
+Last Result:                          -2147020576
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\appidcertstorecheck.exe
+Start In:                             N/A
+Comment:                              Inspects the AppID certificate cache for invalid or revoked certificates.
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 3 minutes, If Not Idle Retry For 1380 minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Application Experience
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser
+Next Run Time:                        5/11/2019 4:11:14 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\compattelrunner.exe
+Start In:                             N/A
+Comment:                              Collects program telemetry information if opted-in to the Microsoft Customer Experience Improvement Program.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 96:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly
+Start Time:                           3:00:00 AM
+Start Date:                           9/1/2008
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        24 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Application Experience\Microsoft Compatibility Appraiser
+Next Run Time:                        5/11/2019 3:04:31 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\compattelrunner.exe
+Start In:                             N/A
+Comment:                              Collects program telemetry information if opted-in to the Microsoft Customer Experience Improvement Program.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 96:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Application Experience\ProgramDataUpdater
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:41 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\compattelrunner.exe -maintenance
+Start In:                             N/A
+Comment:                              Collects program telemetry information if opted-in to the Microsoft Customer Experience Improvement Program
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Application Experience\StartupAppTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:06:50 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\rundll32.exe Startupscan.dll,SusRunTask
+Start In:                             N/A
+Comment:                              Scans startup entries and raises notification to the user if there are too many startup entries.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\ApplicationData
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\ApplicationData\appuriverifierdaily
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/9/2019 6:29:09 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\AppHostRegistrationVerifier.exe
+Start In:                             N/A
+Comment:                              Verifies AppUriHandler host registrations.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:15:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\ApplicationData\appuriverifierinstall
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\AppHostRegistrationVerifier.exe
+Start In:                             N/A
+Comment:                              Verifies AppUriHandler host registrations.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:15:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\ApplicationData\CleanupTemporaryState
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:40 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\rundll32.exe Windows.Storage.ApplicationData.dll,CleanupTemporaryState
+Start In:                             N/A
+Comment:                              Cleans up each package's unused temporary files.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\ApplicationData\DsSvcCleanup
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:41 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\dstokenclean.exe
+Start In:                             N/A
+Comment:                              Performs maintenance for the Data Sharing Service.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\AppxDeploymentClient
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\AppxDeploymentClient\Pre-staged app cleanup
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/16/2018 4:00:15 PM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          %windir%\system32\rundll32.exe %windir%\system32\AppxDeploymentClient.dll,AppxPreStageCleanupRunTask
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for 15 minutes, If Not Idle Retry For 15 minutes
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Autochk
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Autochk\Proxy
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 7:20:40 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\rundll32.exe /d acproxy.dll,PerformAutochkOperations
+Start In:                             N/A
+Comment:                              This task collects and uploads autochk SQM data if opted-in to the Microsoft Customer Experience Improvement Program.
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 10 minutes, If Not Idle Retry For 525600 minutes
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\BitLocker
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\BitLocker\BitLocker Encrypt All Drives
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\BitLocker\BitLocker MDM policy Refresh
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Bluetooth
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Bluetooth\UninstallDeviceTask
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft
+Task To Run:                          BthUdTask.exe $(Arg0)
+Start In:                             N/A
+Comment:                              Uninstalls the PnP device associated with the specified Bluetooth service ID
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\BrokerInfrastructure
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\BrokerInfrastructure\BgTaskRegistrationMaintenanceTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:41 AM
+Last Result:                          268435456
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Maintains registrations for background tasks for Universal Windows Platform applications.
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 0 minutes, If Not Idle Retry For 0 minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:05:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Chkdsk
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Chkdsk\ProactiveScan
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:41 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              NTFS Volume Health Scan
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Chkdsk\SyspartRepair
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          %windir%\system32\bcdboot.exe %windir% /sysrepair
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\CloudExperienceHost
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\CloudExperienceHost\CreateObjectTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Data Integrity Scan
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Data Integrity Scan\Data Integrity Scan
+Next Run Time:                        5/16/2019 12:18:21 PM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Scans fault-tolerant volumes for latent corruptions
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Weekly
+Start Time:                           11:00:00 PM
+Start Date:                           1/1/2011
+End Date:                             N/A
+Days:                                 SAT
+Months:                               Every 4 week(s)
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Data Integrity Scan\Data Integrity Scan
+Next Run Time:                        5/15/2019 1:36:59 PM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Scans fault-tolerant volumes for latent corruptions
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Data Integrity Scan\Data Integrity Scan for Crash Recovery
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Scans fault-tolerant volumes for fast crash recovery
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Defrag
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Defrag\ScheduledDefrag
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:41 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\defrag.exe -c -h -k -g -$
+Start In:                             N/A
+Comment:                              This task optimizes local storage drives.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Device Information
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Device Information\Device
+Next Run Time:                        5/11/2019 4:59:52 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          %windir%\system32\devicecensus.exe
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 96:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly
+Start Time:                           3:00:00 AM
+Start Date:                           9/1/2008
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        24 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Device Information\Device
+Next Run Time:                        5/11/2019 3:37:17 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          %windir%\system32\devicecensus.exe
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 96:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Diagnosis
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Diagnosis\Scheduled
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:06:50 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              The Windows Scheduled Maintenance Task performs periodic maintenance of the computer system by fixing problems automatically or reporting them through Security and Maintenance.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\DirectX
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\DirectX\DXGIAdapterCache
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:40:23 AM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          %windir%\system32\dxgiadaptercache.exe
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\DirectX\DXGIAdapterCache
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:40:23 AM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          %windir%\system32\dxgiadaptercache.exe
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\DiskCleanup
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\DiskCleanup\SilentCleanup
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:19:39 PM
+Last Result:                          -2147020576
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\cleanmgr.exe /autoclean /d %systemdrive%
+Start In:                             N/A
+Comment:                              Maintenance task used by the system to launch a silent auto disk cleanup when running low on free disk space.
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 10 minutes, If Not Idle Retry For 60 minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:15:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\DiskDiagnostic
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticDataCollector
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:06:50 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\rundll32.exe dfdts.dll,DfdGetDefaultPolicyAndSMART
+Start In:                             N/A
+Comment:                              The Windows Disk Diagnostic reports general disk and system information to Microsoft for users participating in the Customer Experience Program.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\DiskDiagnostic\Microsoft-Windows-DiskDiagnosticResolver
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\DFDWiz.exe
+Start In:                             N/A
+Comment:                              The Microsoft-Windows-DiskDiagnosticResolver warns users about faults reported by hard disks that support the Self Monitoring and Reporting Technology (S.M.A.R.T.) standard. This task is triggered automatically by the Diagnostic Policy Service when a S.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\DiskFootprint
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\DiskFootprint\Diagnostics
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:41 AM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          %windir%\system32\disksnapshot.exe -z
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for  minutes, If Not Idle Retry For  minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\DiskFootprint\StorageSense
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:06:50 PM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for  minutes, If Not Idle Retry For  minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\EDP
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\EDP\EDP App Launch Task
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\EDP\EDP Auth Task
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\EDP\EDP Inaccessible Credentials Task
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\EDP\StorageCardEncryption Task
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\ExploitGuard
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\ExploitGuard\ExploitGuard MDM policy Refresh
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:40:21 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Task for applying changes to the machine's Exploit Protection settings.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\ExploitGuard\ExploitGuard MDM policy Refresh
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:40:21 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Task for applying changes to the machine's Exploit Protection settings.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\ExploitGuard\ExploitGuard MDM policy Refresh
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:40:21 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Task for applying changes to the machine's Exploit Protection settings.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\File Classification Infrastructure
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\File Classification Infrastructure\Property Definition Sync
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Synchronizes the File Classification Infrastructure taxonomy on the computer with the resource property definitions stored in Active Directory Domain Services.
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for 1 minutes, If Not Idle Retry For 1 minutes
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:05:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily
+Start Time:                           3:00:00 AM
+Start Date:                           11/9/2006
+End Date:                             N/A
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\Flighting
+INFO: There are no scheduled tasks presently available at your access level.
+
+Folder: \Microsoft\Windows\Flighting\OneSettings
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Flighting\OneSettings\RefreshCache
+Next Run Time:                        5/10/2019 6:30:46 PM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          -2147020576
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Task periodically refreshing data for OneSettings clients.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:05:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly
+Start Time:                           10:54:03 AM
+Start Date:                           12/7/2018
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        23 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\InstallService
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\InstallService\ScanForUpdates
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 7:59:49 PM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 04:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly
+Start Time:                           5:00:00 PM
+Start Date:                           12/31/2013
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        24 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\InstallService\ScanForUpdates
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 7:59:49 PM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 04:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\InstallService\ScanForUpdates
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 7:59:49 PM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 04:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only
+Start Time:                           5:00:00 PM
+Start Date:                           12/31/2013
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\InstallService\ScanForUpdatesAsUser
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:06:50 PM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 04:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\InstallService\WakeUpAndContinueUpdates
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for  minutes, If Not Idle Retry For  minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 04:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\InstallService\WakeUpAndScanForUpdates
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for  minutes, If Not Idle Retry For  minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 04:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly
+Start Time:                           5:00:00 PM
+Start Date:                           12/31/2013
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        24 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\Location
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Location\Notifications
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          %windir%\System32\LocationNotificationWindows.exe
+Start In:                             N/A
+Comment:                              Location Notification
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          Authenticated Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Location\WindowsActionDialog
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          %windir%\System32\WindowsActionDialog.exe
+Start In:                             N/A
+Comment:                              Location Notification
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          Authenticated Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Maintenance
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Maintenance\WinSAT
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:07:57 PM
+Last Result:                          1073807364
+Author:                               Microsoft
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Measures a system's performance and capabilities
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Administrators
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:30:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Maps
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Maps\MapsToastTask
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task shows various Map related toasts
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:00:05
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Maps\MapsUpdateTask
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task checks for updates to maps which you have downloaded for offline use. Disabling this task will prevent Windows from notifying you of updated maps.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          NETWORK SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:00:40
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly
+Start Time:                           12:00:00 AM
+Start Date:                           10/21/2014
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        24 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\MemoryDiagnostic
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Schedules a memory diagnostic in response to system events.
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for  minutes, If Not Idle Retry For  minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Administrators
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 02:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Schedules a memory diagnostic in response to system events.
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for  minutes, If Not Idle Retry For  minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Administrators
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 02:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Schedules a memory diagnostic in response to system events.
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for  minutes, If Not Idle Retry For  minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Administrators
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 02:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\MemoryDiagnostic\ProcessMemoryDiagnosticEvents
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Schedules a memory diagnostic in response to system events.
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for  minutes, If Not Idle Retry For  minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Administrators
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 02:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\MemoryDiagnostic\RunFullMemoryDiagnostic
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Detects and mitigates problems in physical memory (RAM).
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for  minutes, If Not Idle Retry For  minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Administrators
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 02:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Mobile Broadband Accounts
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Mobile Broadband Accounts\MNO Metadata Parser
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft
+Task To Run:                          %SystemRoot%\System32\MbaeParserTask.exe
+Start In:                             N/A
+Comment:                              Mobile Broadband Account Experience Metadata Parser
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:03:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\MUI
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\MUI\LPRemove
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:41 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\lpremove.exe
+Start In:                             N/A
+Comment:                              Launch language cleanup tool
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 09:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Multimedia
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Multimedia\SystemSoundsService
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              System Sounds User Mode Agent
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\NetTrace
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\NetTrace\GatherNetworkInfo
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft
+Task To Run:                          %windir%\system32\gatherNetworkInfo.vbs
+Start In:                             $(Arg1)
+Comment:                              Network information collector
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Offline Files
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Offline Files\Background Synchronization
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task controls periodic background synchronization of Offline Files when the user is working in an offline mode.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          Authenticated Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 24:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly
+Start Time:                           12:00:00 AM
+Start Date:                           1/1/2008
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        2 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Offline Files\Logon Synchronization
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task initiates synchronization of Offline Files when a user logs onto the system.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          Authenticated Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 24:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\PLA
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\PLA\Server Manager Performance Monitor
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          %systemroot%\system32\rundll32.exe %systemroot%\system32\pla.dll,PlaHost "Server Manager Performance Monitor" "$(Arg0)"
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Plug and Play
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Plug and Play\Device Install Group Policy
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        12/21/2018 6:17:45 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Device Installation Group Policy Change Handler
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 24:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Plug and Play\Device Install Reboot Required
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:10:11 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Notifies the user that Windows needs to be restarted to finish setting up a device.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Plug and Play\Device Install Reboot Required
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:10:11 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Notifies the user that Windows needs to be restarted to finish setting up a device.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Plug and Play\Sysprep Generalize Drivers
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          %SystemRoot%\System32\drvinst.exe 6
+Start In:                             N/A
+Comment:                              Generalize driver state in order to prepare the system to be bootable on any hardware configuration.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Power Efficiency Diagnostics
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Power Efficiency Diagnostics\AnalyzeSystem
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:56:28 AM
+Last Result:                          -2147024893
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task analyzes the system looking for conditions that may cause high energy use.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:05:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\RecoveryEnvironment
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\RecoveryEnvironment\VerifyWinRE
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/2018 2:52:04 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Validates the Windows Recovery Environment.
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for  minutes, If Not Idle Retry For  minutes
+Power Management:                     No Start On Batteries
+Run As User:                          Administrators
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Server Manager
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Server Manager\CleanupOldPerfLogs
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          %systemroot%\system32\cscript.exe /B /nologo %systemroot%\system32\calluxxprovider.vbs $(Arg0) $(Arg1) $(Arg2)
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:02:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Server Manager\ServerManager
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:10:11 PM
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\ServerManagerLauncher.exe
+Start In:                             N/A
+Comment:                              Task for launching Initial Configuration Tasks or Server Manager at logon.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          Administrators
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Servicing
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Servicing\StartComponentCleanup
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:41 AM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\SharedPC
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\SharedPC\Account Cleanup
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          %windir%\System32\rundll32.exe %windir%\System32\Windows.SharedPC.AccountManager.dll,StartMaintenance
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Disabled
+Idle Time:                            Only Start If Idle for  minutes, If Not Idle Retry For  minutes Stop the task if Idle State end
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:30:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Shell
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Shell\CreateObjectTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/17/2019 2:07:02 PM
+Last Result:                          -2147020576
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Provides support for shell components that access system data
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:00:30
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Shell\IndexerAutomaticMaintenance
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:41 AM
+Last Result:                          1
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Keeps the search index up to date
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Software Inventory Logging
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Software Inventory Logging\Collection
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          %systemroot%\system32\cmd.exe /d /c %systemroot%\system32\silcollector.cmd publish
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:10:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly
+Start Time:                           3:00:00 AM
+Start Date:                           1/1/2000
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        1 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Software Inventory Logging\Configuration
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:41:22 AM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          %systemroot%\system32\cmd.exe /d /c %systemroot%\system32\silcollector.cmd configure
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:02:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\SpacePort
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\SpacePort\SpaceAgentTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\SpaceAgent.exe
+Start In:                             N/A
+Comment:                              Storage Spaces Settings
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 06:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\SpacePort\SpaceAgentTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\SpaceAgent.exe
+Start In:                             N/A
+Comment:                              Storage Spaces Settings
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 06:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\SpacePort\SpaceManagerTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               $(@%SystemRoot%\system32\spaceman.exe,-2)
+Task To Run:                          %windir%\system32\spaceman.exe /Work
+Start In:                             N/A
+Comment:                              $(@%SystemRoot%\system32\spaceman.exe,-3)
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\SpacePort\SpaceManagerTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               $(@%SystemRoot%\system32\spaceman.exe,-2)
+Task To Run:                          %windir%\system32\spaceman.exe /Work
+Start In:                             N/A
+Comment:                              $(@%SystemRoot%\system32\spaceman.exe,-3)
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Speech
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Speech\HeadsetButtonPress
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          %windir%\system32\speech_onecore\common\SpeechRuntime.exe StartedFromTask
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Speech\SpeechModelDownloadTask
+Next Run Time:                        5/11/2019 2:15:45 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:40 AM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          %windir%\system32\speech_onecore\common\SpeechModelDownload.exe
+Start In:                             N/A
+Comment:                              N/A
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 10 minutes, If Not Idle Retry For 10 minutes
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          NETWORK SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:10:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly
+Start Time:                           12:00:00 AM
+Start Date:                           1/1/2004
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        24 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\Storage Tiers Management
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Storage Tiers Management\Storage Tiers Management Initialization
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Initializes the Storage Tiers Management service when the first tiered storage space is detected on the system. Do not remove or modify this task.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Storage Tiers Management\Storage Tiers Optimization
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\defrag.exe -c -h -g -# -m 8 -i 13500
+Start In:                             N/A
+Comment:                              Optimizes the placement of data in storage tiers on all tiered storage spaces in the system.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Hourly
+Start Time:                           1:00:00 AM
+Start Date:                           1/1/2013
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        4 Hour(s), 0 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\TextServicesFramework
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\TextServicesFramework\MsCtfMonitor
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:10:11 PM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              TextServicesFramework monitor task
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Time Synchronization
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Time Synchronization\ForceSynchronizeTime
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task performs time synchronization.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Time Synchronization\SynchronizeTime
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:41 AM
+Last Result:                          1056
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\sc.exe start w32time task_started
+Start In:                             N/A
+Comment:                              Maintains date and time synchronization on all clients and servers in the network. If this service is stopped, date and time synchronization will be unavailable. If this service is disabled, any services that explicitly depend on it will fail to start.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode, No Start On Batteries
+Run As User:                          LOCAL SERVICE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Time Zone
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Time Zone\SynchronizeTimeZone
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:41 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\tzsync.exe
+Start In:                             N/A
+Comment:                              Updates timezone information. If this task is stopped, local time may not be accurate for some time zones.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     Stop On Battery Mode
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 01:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\UPnP
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\UPnP\UPnPHostConfig
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft
+Task To Run:                          sc.exe config upnphost start= auto
+Start In:                             N/A
+Comment:                              Set UPnPHost service to Auto-Start
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Windows Defender
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Windows Defender\Windows Defender Cache Maintenance
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:50:41 AM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          C:\ProgramData\Microsoft\Windows Defender\platform\4.18.1812.3-0\MpCmdRun.exe -IdleTask -TaskName WdCacheMaintenance
+Start In:                             N/A
+Comment:                              Periodic maintenance task.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Windows Defender\Windows Defender Cleanup
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:40:25 AM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          C:\ProgramData\Microsoft\Windows Defender\platform\4.18.1812.3-0\MpCmdRun.exe -IdleTask -TaskName WdCleanup
+Start In:                             N/A
+Comment:                              Periodic cleanup task.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Windows Defender\Windows Defender Scheduled Scan
+Next Run Time:                        5/11/2019 3:55:22 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          C:\ProgramData\Microsoft\Windows Defender\platform\4.18.1812.3-0\MpCmdRun.exe Scan -ScheduleJob -ScanTrigger 55
+Start In:                             N/A
+Comment:                              Periodic scan task.
+Scheduled Task State:                 Enabled
+Idle Time:                            Only Start If Idle for 1 minutes, If Not Idle Retry For 240 minutes
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Daily
+Start Time:                           3:55:22 AM
+Start Date:                           1/1/2000
+End Date:                             1/1/2100
+Days:                                 Every 1 day(s)
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Windows Defender\Windows Defender Verification
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:40:25 AM
+Last Result:                          0
+Author:                               N/A
+Task To Run:                          C:\ProgramData\Microsoft\Windows Defender\platform\4.18.1812.3-0\MpCmdRun.exe -IdleTask -TaskName WdVerification
+Start In:                             N/A
+Comment:                              Periodic verification task.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        On demand only
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Windows Error Reporting
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Windows Error Reporting\QueueReporting
+Next Run Time:                        5/10/2019 11:09:38 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\wermgr.exe -upload
+Start In:                             N/A
+Comment:                              Windows Error Reporting task to process queued reports.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 04:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At system start up
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Windows Error Reporting\QueueReporting
+Next Run Time:                        5/10/2019 10:54:26 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\wermgr.exe -upload
+Start In:                             N/A
+Comment:                              Windows Error Reporting task to process queued reports.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 04:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Windows Error Reporting\QueueReporting
+Next Run Time:                        5/10/2019 11:04:04 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\wermgr.exe -upload
+Start In:                             N/A
+Comment:                              Windows Error Reporting task to process queued reports.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 04:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Windows Error Reporting\QueueReporting
+Next Run Time:                        5/10/2019 11:08:38 AM
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\wermgr.exe -upload
+Start In:                             N/A
+Comment:                              Windows Error Reporting task to process queued reports.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:                     No Start On Batteries
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 04:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only, Minute
+Start Time:                           7:18:15 PM
+Start Date:                           2/8/2019
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        0 Hour(s), 30 Minute(s)
+Repeat: Until: Time:                  None
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+Folder: \Microsoft\Windows\Windows Filtering Platform
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Windows Filtering Platform\BfeOnServiceStartTypeChange
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          %windir%\system32\rundll32.exe bfe.dll,BfeOnServiceStartTypeChange
+Start In:                             N/A
+Comment:                              This task adjusts the start type for firewall-triggered services when the start type of the Base Filtering Engine (BFE) is disabled.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Windows Media Sharing
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Windows Media Sharing\UpdateLibrary
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               Microsoft Corporation
+Task To Run:                          "%ProgramFiles%\Windows Media Player\wmpnscfg.exe"
+Start In:                             N/A
+Comment:                              This task updates the cached list of folders and the security permissions on any new files in a user's shared media library.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          Authenticated Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\WindowsColorSystem
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\WindowsColorSystem\Calibration Loader
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:10:11 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task applies color calibration settings.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\WindowsColorSystem\Calibration Loader
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:10:11 PM
+Last Result:                          0
+Author:                               Microsoft Corporation
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              This task applies color calibration settings.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\WindowsUpdate
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\WindowsUpdate\Scheduled Start
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          1056
+Author:                               Microsoft Corporation.
+Task To Run:                          C:\Windows\system32\sc.exe start wuauserv
+Start In:                             N/A
+Comment:                              This task is used to start the Windows Update service when needed to perform scheduled operations such as scans.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        One Time Only
+Start Time:                           11:07:58 PM
+Start Date:                           2/20/2019
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        Disabled
+Repeat: Until: Time:                  Disabled
+Repeat: Until: Duration:              Disabled
+Repeat: Stop If Still Running:        Disabled
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\WindowsUpdate\Scheduled Start
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          1056
+Author:                               Microsoft Corporation.
+Task To Run:                          C:\Windows\system32\sc.exe start wuauserv
+Start In:                             N/A
+Comment:                              This task is used to start the Windows Update service when needed to perform scheduled operations such as scans.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\WindowsUpdate\Scheduled Start
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          1056
+Author:                               Microsoft Corporation.
+Task To Run:                          C:\Windows\system32\sc.exe start wuauserv
+Start In:                             N/A
+Comment:                              This task is used to start the Windows Update service when needed to perform scheduled operations such as scans.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\WindowsUpdate\Scheduled Start
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        5/10/2019 6:43:22 AM
+Last Result:                          1056
+Author:                               Microsoft Corporation.
+Task To Run:                          C:\Windows\system32\sc.exe start wuauserv
+Start In:                             N/A
+Comment:                              This task is used to start the Windows Update service when needed to perform scheduled operations such as scans.
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 72:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        Undefined
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Wininet
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Wininet\CacheTask
+Next Run Time:                        N/A
+Status:                               Ready
+Logon Mode:                           Interactive/Background
+Last Run Time:                        2/20/2019 8:10:11 PM
+Last Result:                          1073807364
+Author:                               Microsoft
+Task To Run:                          COM handler
+Start In:                             N/A
+Comment:                              Wininet Cache Task
+Scheduled Task State:                 Enabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          Users
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: Disabled
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+Folder: \Microsoft\Windows\Workplace Join
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Workplace Join\Automatic-Device-Join
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          %SystemRoot%\System32\dsregcmd.exe $(Arg0) $(Arg1) $(Arg2)
+Start In:                             N/A
+Comment:                              Register this computer if the computer is already joined to an Active Directory domain.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:05:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Workplace Join\Automatic-Device-Join
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          %SystemRoot%\System32\dsregcmd.exe $(Arg0) $(Arg1) $(Arg2)
+Start In:                             N/A
+Comment:                              Register this computer if the computer is already joined to an Active Directory domain.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          SYSTEM
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 00:05:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        When an event occurs
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
+
+HostName:                             HACKBACK
+TaskName:                             \Microsoft\Windows\Workplace Join\Recovery-Check
+Next Run Time:                        N/A
+Status:                               Disabled
+Logon Mode:                           Interactive/Background
+Last Run Time:                        11/30/1999 12:00:00 AM
+Last Result:                          267011
+Author:                               N/A
+Task To Run:                          %SystemRoot%\System32\dsregcmd.exe /checkrecovery
+Start In:                             N/A
+Comment:                              Performs recovery check.
+Scheduled Task State:                 Disabled
+Idle Time:                            Disabled
+Power Management:
+Run As User:                          INTERACTIVE
+Delete Task If Not Rescheduled:       Disabled
+Stop Task If Runs X Hours and X Mins: 02:00:00
+Schedule:                             Scheduling data is not available in this format.
+Schedule Type:                        At logon time
+Start Time:                           N/A
+Start Date:                           N/A
+End Date:                             N/A
+Days:                                 N/A
+Months:                               N/A
+Repeat: Every:                        N/A
+Repeat: Until: Time:                  N/A
+Repeat: Until: Duration:              N/A
+Repeat: Stop If Still Running:        N/A
