@@ -1,0 +1,47 @@
+# Nmap 7.70 scan initiated Sun Mar 31 16:05:39 2019 as: nmap -sC -sV -oA nmap/initial -v 10.10.10.131
+Increasing send delay for 10.10.10.131 from 10 to 20 due to 11 out of 24 dropped probes since last increase.
+Increasing send delay for 10.10.10.131 from 160 to 320 due to 11 out of 17 dropped probes since last increase.
+Nmap scan report for 10.10.10.131
+Host is up (0.25s latency).
+Not shown: 992 closed ports
+PORT      STATE    SERVICE       VERSION
+21/tcp    open     ftp           vsftpd 2.3.4
+22/tcp    open     ssh           OpenSSH 7.9 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 03:e1:c2:c9:79:1c:a6:6b:51:34:8d:7a:c3:c7:c8:50 (RSA)
+|   256 41:e4:95:a3:39:0b:25:f9:da:de:be:6a:dc:59:48:6d (ECDSA)
+|_  256 30:0b:c6:66:2b:8f:5e:4f:26:28:75:0e:f5:b1:71:e4 (ED25519)
+80/tcp    open     http          Node.js (Express middleware)
+|_http-favicon: Unknown favicon MD5: 621D76BDE56526A10B529BF2BC0776CA
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-title: La Casa De Papel
+443/tcp   open     ssl/http      Node.js Express framework
+|_http-favicon: Unknown favicon MD5: 621D76BDE56526A10B529BF2BC0776CA
+| http-methods: 
+|_  Supported Methods: GET POST OPTIONS
+|_http-title: La Casa De Papel
+| ssl-cert: Subject: commonName=lacasadepapel.htb/organizationName=La Casa De Papel
+| Issuer: commonName=lacasadepapel.htb/organizationName=La Casa De Papel
+| Public Key type: rsa
+| Public Key bits: 2048
+| Signature Algorithm: sha256WithRSAEncryption
+| Not valid before: 2019-01-27T08:35:30
+| Not valid after:  2029-01-24T08:35:30
+| MD5:   6ea4 933a a347 ce50 8c40 5f9b 1ea8 8e9a
+|_SHA-1: 8c47 7f3e 53d8 e76b 4cdf ecca adb6 0551 b1b6 38d4
+|_ssl-date: TLS randomness does not represent time
+| tls-alpn: 
+|_  http/1.1
+| tls-nextprotoneg: 
+|   http/1.1
+|_  http/1.0
+1046/tcp  filtered wfremotertm
+2126/tcp  filtered pktcable-cops
+2809/tcp  filtered corbaloc
+49154/tcp filtered unknown
+Service Info: OS: Unix
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Mar 31 16:10:12 2019 -- 1 IP address (1 host up) scanned in 273.87 seconds
