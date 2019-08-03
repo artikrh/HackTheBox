@@ -1,0 +1,584 @@
+
+[00;31m#########################################################[00m
+[00;31m#[00m [00;33mLocal Linux Enumeration & Privilege Escalation Script[00m [00;31m#[00m
+[00;31m#########################################################[00m
+[00;33m# www.rebootuser.com[00m
+[00;33m# version 0.95[00m
+
+[-] Debug Info
+[+] Thorough tests = Enabled
+
+
+[00;33mScan started at:
+Sat Mar 16 22:07:39 EDT 2019
+[00m
+
+[00;33m### SYSTEM ##############################################[00m
+[00;31m[-] Kernel information:[00m
+OpenBSD fortune.htb 6.4 GENERIC#349 amd64
+
+
+[00;31m[-] Hostname:[00m
+fortune.htb
+
+
+[00;33m### USER/GROUP ##########################################[00m
+[00;31m[-] Current user/group info:[00m
+uid=1000(charlie) gid=1000(charlie) groups=1000(charlie), 0(wheel)
+
+
+[00;31m[-] Who else is logged on:[00m
+10:07PM  up  4:21, 3 users, load averages: 0.04, 0.03, 0.00
+USER    TTY FROM              LOGIN@  IDLE WHAT
+nfsuser  p0 10.10.14.2        8:52PM  1:14 -authpf: nfsuser@10.10.14.2
+charlie  p1 10.10.14.2        9:15PM     0 -ksh 
+bob      p2 10.10.14.2       10:03PM     0 -ksh 
+
+
+[00;31m[-] Group memberships:[00m
+uid=0(root) gid=0(wheel) groups=0(wheel), 2(kmem), 3(sys), 4(tty), 5(operator), 20(staff), 31(guest)
+uid=1(daemon) gid=1(daemon) groups=1(daemon)
+uid=2(operator) gid=5(operator) groups=5(operator)
+uid=3(bin) gid=7(bin) groups=7(bin)
+uid=21(build) gid=21(wobj) groups=21(wobj)
+uid=27(sshd) gid=27(sshd) groups=27(sshd)
+uid=28(_portmap) gid=28(_portmap) groups=28(_portmap)
+uid=29(_identd) gid=29(_identd) groups=29(_identd)
+uid=30(_rstatd) gid=30(_rstatd) groups=30(_rstatd)
+uid=32(_rusersd) gid=32(_rusersd) groups=32(_rusersd)
+uid=33(_fingerd) gid=33(_fingerd) groups=33(_fingerd)
+uid=35(_x11) gid=35(_x11) groups=35(_x11)
+uid=49(_switchd) gid=49(_switchd) groups=49(_switchd)
+uid=50(_traceroute) gid=50(_traceroute) groups=50(_traceroute)
+uid=51(_ping) gid=51(_ping) groups=51(_ping)
+uid=52(_rebound) gid=52(_rebound) groups=52(_rebound)
+uid=53(_unbound) gid=53(_unbound) groups=53(_unbound)
+uid=54(_dpb) gid=54(_dpb) groups=54(_dpb)
+uid=55(_pbuild) gid=55(_pbuild) groups=55(_pbuild)
+uid=56(_pfetch) gid=56(_pfetch) groups=56(_pfetch)
+uid=57(_pkgfetch) gid=57(_pkgfetch) groups=57(_pkgfetch)
+uid=58(_pkguntar) gid=58(_pkguntar) groups=58(_pkguntar)
+uid=62(_spamd) gid=62(_spamd) groups=62(_spamd)
+uid=67(www) gid=67(www) groups=67(www)
+uid=68(_isakmpd) gid=68(_isakmpd) groups=68(_isakmpd)
+uid=73(_syslogd) gid=73(_syslogd) groups=73(_syslogd)
+uid=74(_pflogd) gid=74(_pflogd) groups=74(_pflogd)
+uid=75(_bgpd) gid=75(_bgpd) groups=75(_bgpd)
+uid=76(_tcpdump) gid=76(_tcpdump) groups=76(_tcpdump)
+uid=77(_dhcp) gid=77(_dhcp) groups=77(_dhcp)
+uid=78(_mopd) gid=78(_mopd) groups=78(_mopd)
+uid=79(_tftpd) gid=79(_tftpd) groups=79(_tftpd)
+uid=80(_rbootd) gid=80(_rbootd) groups=80(_rbootd)
+uid=82(_ppp) gid=82(_ppp) groups=82(_ppp)
+uid=83(_ntp) gid=83(_ntp) groups=83(_ntp)
+uid=84(_ftp) gid=84(_ftp) groups=84(_ftp)
+uid=85(_ospfd) gid=85(_ospfd) groups=85(_ospfd)
+uid=86(_hostapd) gid=86(_hostapd) groups=86(_hostapd)
+uid=87(_dvmrpd) gid=87(_dvmrpd) groups=87(_dvmrpd)
+uid=88(_ripd) gid=88(_ripd) groups=88(_ripd)
+uid=89(_relayd) gid=89(_relayd) groups=89(_relayd)
+uid=90(_ospf6d) gid=90(_ospf6d) groups=90(_ospf6d)
+uid=91(_snmpd) gid=91(_snmpd) groups=91(_snmpd)
+uid=93(_ypldap) gid=93(_ypldap) groups=93(_ypldap)
+uid=94(_rad) gid=94(_rad) groups=94(_rad)
+uid=95(_smtpd) gid=95(_smtpd) groups=95(_smtpd)
+uid=96(_rwalld) gid=96(_rwalld) groups=96(_rwalld)
+uid=97(_nsd) gid=97(_nsd) groups=97(_nsd)
+uid=98(_ldpd) gid=98(_ldpd) groups=98(_ldpd)
+uid=99(_sndio) gid=99(_sndio) groups=99(_sndio)
+uid=100(_ldapd) gid=100(_ldapd) groups=100(_ldapd)
+uid=101(_iked) gid=101(_iked) groups=101(_iked)
+uid=102(_iscsid) gid=102(_iscsid) groups=102(_iscsid)
+uid=103(_smtpq) gid=103(_smtpq) groups=103(_smtpq)
+uid=104(_file) gid=104(_file) groups=104(_file)
+uid=105(_radiusd) gid=105(_radiusd) groups=105(_radiusd)
+uid=106(_eigrpd) gid=106(_eigrpd) groups=106(_eigrpd)
+uid=107(_vmd) gid=107(_vmd) groups=107(_vmd)
+uid=108(_tftp_proxy) gid=108(_tftp_proxy) groups=108(_tftp_proxy)
+uid=109(_ftp_proxy) gid=109(_ftp_proxy) groups=109(_ftp_proxy)
+uid=110(_sndiop) gid=110(_sndiop) groups=110(_sndiop)
+uid=112(_syspatch) gid=112(_syspatch) groups=112(_syspatch)
+uid=115(_slaacd) gid=115(_slaacd) groups=115(_slaacd)
+uid=503(_postgresql) gid=503(_postgresql) groups=503(_postgresql)
+uid=511(_pgadmin4) gid=511(_pgadmin4) groups=511(_pgadmin4)
+uid=512(_fortune) gid=512(_fortune) groups=512(_fortune)
+uid=513(_sshauth) gid=513(_sshauth) groups=513(_sshauth)
+uid=32767(nobody) gid=32767(nobody) groups=32767(nobody)
+uid=1000(charlie) gid=1000(charlie) groups=1000(charlie), 0(wheel)
+uid=1001(bob) gid=1001(bob) groups=1001(bob)
+uid=1002(nfsuser) gid=1002(nfsuser) groups=1002(nfsuser)
+
+
+[00;33m[+] It looks like we have password hashes in /etc/passwd![00m
+root:*:0:0:Charlie &:/root:/bin/ksh
+daemon:*:1:1:The devil himself:/root:/sbin/nologin
+operator:*:2:5:System &:/operator:/sbin/nologin
+bin:*:3:7:Binaries Commands and Source:/:/sbin/nologin
+build:*:21:21:base and xenocara build:/var/empty:/bin/ksh
+sshd:*:27:27:sshd privsep:/var/empty:/sbin/nologin
+_portmap:*:28:28:portmap:/var/empty:/sbin/nologin
+_identd:*:29:29:identd:/var/empty:/sbin/nologin
+_rstatd:*:30:30:rpc.rstatd:/var/empty:/sbin/nologin
+_rusersd:*:32:32:rpc.rusersd:/var/empty:/sbin/nologin
+_fingerd:*:33:33:fingerd:/var/empty:/sbin/nologin
+_x11:*:35:35:X Server:/var/empty:/sbin/nologin
+_switchd:*:49:49:Switch Daemon:/var/empty:/sbin/nologin
+_traceroute:*:50:50:traceroute privdrop user:/var/empty:/sbin/nologin
+_ping:*:51:51:ping privdrop user:/var/empty:/sbin/nologin
+_rebound:*:52:52:Rebound DNS Daemon:/var/empty:/sbin/nologin
+_unbound:*:53:53:Unbound Daemon:/var/unbound:/sbin/nologin
+_dpb:*:54:54:dpb privsep:/var/empty:/sbin/nologin
+_pbuild:*:55:55:dpb build user:/nonexistent:/sbin/nologin
+_pfetch:*:56:56:dpb fetch user:/nonexistent:/sbin/nologin
+_pkgfetch:*:57:57:pkg fetch user:/nonexistent:/sbin/nologin
+_pkguntar:*:58:58:pkg untar user:/nonexistent:/sbin/nologin
+_spamd:*:62:62:Spam Daemon:/var/empty:/sbin/nologin
+www:*:67:67:HTTP Server:/var/www:/sbin/nologin
+_isakmpd:*:68:68:isakmpd privsep:/var/empty:/sbin/nologin
+_syslogd:*:73:73:Syslog Daemon:/var/empty:/sbin/nologin
+_pflogd:*:74:74:pflogd privsep:/var/empty:/sbin/nologin
+_bgpd:*:75:75:BGP Daemon:/var/empty:/sbin/nologin
+_tcpdump:*:76:76:tcpdump privsep:/var/empty:/sbin/nologin
+_dhcp:*:77:77:DHCP programs:/var/empty:/sbin/nologin
+_mopd:*:78:78:MOP Daemon:/var/empty:/sbin/nologin
+_tftpd:*:79:79:TFTP Daemon:/var/empty:/sbin/nologin
+_rbootd:*:80:80:rbootd Daemon:/var/empty:/sbin/nologin
+_ppp:*:82:82:PPP utilities:/var/empty:/sbin/nologin
+_ntp:*:83:83:NTP Daemon:/var/empty:/sbin/nologin
+_ftp:*:84:84:FTP Daemon:/var/empty:/sbin/nologin
+_ospfd:*:85:85:OSPF Daemon:/var/empty:/sbin/nologin
+_hostapd:*:86:86:HostAP Daemon:/var/empty:/sbin/nologin
+_dvmrpd:*:87:87:DVMRP Daemon:/var/empty:/sbin/nologin
+_ripd:*:88:88:RIP Daemon:/var/empty:/sbin/nologin
+_relayd:*:89:89:Relay Daemon:/var/empty:/sbin/nologin
+_ospf6d:*:90:90:OSPF6 Daemon:/var/empty:/sbin/nologin
+_snmpd:*:91:91:SNMP Daemon:/var/empty:/sbin/nologin
+_ypldap:*:93:93:YP to LDAP Daemon:/var/empty:/sbin/nologin
+_rad:*:94:94:IPv6 Router Advertisement Daemon:/var/empty:/sbin/nologin
+_smtpd:*:95:95:SMTP Daemon:/var/empty:/sbin/nologin
+_rwalld:*:96:96:rpc.rwalld:/var/empty:/sbin/nologin
+_nsd:*:97:97:NSD Daemon:/var/empty:/sbin/nologin
+_ldpd:*:98:98:LDP Daemon:/var/empty:/sbin/nologin
+_sndio:*:99:99:sndio privsep:/var/empty:/sbin/nologin
+_ldapd:*:100:100:LDAP Daemon:/var/empty:/sbin/nologin
+_iked:*:101:101:IKEv2 Daemon:/var/empty:/sbin/nologin
+_iscsid:*:102:102:iSCSI Daemon:/var/empty:/sbin/nologin
+_smtpq:*:103:103:SMTP Daemon:/var/empty:/sbin/nologin
+_file:*:104:104:file privsep:/var/empty:/sbin/nologin
+_radiusd:*:105:105:RADIUS Daemon:/var/empty:/sbin/nologin
+_eigrpd:*:106:106:EIGRP Daemon:/var/empty:/sbin/nologin
+_vmd:*:107:107:VM Daemon:/var/empty:/sbin/nologin
+_tftp_proxy:*:108:108:tftp proxy daemon:/nonexistent:/sbin/nologin
+_ftp_proxy:*:109:109:ftp proxy daemon:/nonexistent:/sbin/nologin
+_sndiop:*:110:110:sndio privileged user:/var/empty:/sbin/nologin
+_syspatch:*:112:112:syspatch unprivileged user:/var/empty:/sbin/nologin
+_slaacd:*:115:115:SLAAC Daemon:/var/empty:/sbin/nologin
+_postgresql:*:503:503:PostgreSQL Manager:/var/postgresql:/bin/sh
+_pgadmin4:*:511:511::/usr/local/pgadmin4:/usr/local/bin/bash
+_fortune:*:512:512::/var/appsrv/fortune:/sbin/nologin
+_sshauth:*:513:513::/var/appsrv/sshauth:/sbin/nologin
+nobody:*:32767:32767:Unprivileged user:/nonexistent:/sbin/nologin
+charlie:*:1000:1000:Charlie:/home/charlie:/bin/ksh
+bob:*:1001:1001::/home/bob:/bin/ksh
+nfsuser:*:1002:1002::/home/nfsuser:/usr/sbin/authpf
+
+
+[00;31m[-] Contents of /etc/passwd:[00m
+root:*:0:0:Charlie &:/root:/bin/ksh
+daemon:*:1:1:The devil himself:/root:/sbin/nologin
+operator:*:2:5:System &:/operator:/sbin/nologin
+bin:*:3:7:Binaries Commands and Source:/:/sbin/nologin
+build:*:21:21:base and xenocara build:/var/empty:/bin/ksh
+sshd:*:27:27:sshd privsep:/var/empty:/sbin/nologin
+_portmap:*:28:28:portmap:/var/empty:/sbin/nologin
+_identd:*:29:29:identd:/var/empty:/sbin/nologin
+_rstatd:*:30:30:rpc.rstatd:/var/empty:/sbin/nologin
+_rusersd:*:32:32:rpc.rusersd:/var/empty:/sbin/nologin
+_fingerd:*:33:33:fingerd:/var/empty:/sbin/nologin
+_x11:*:35:35:X Server:/var/empty:/sbin/nologin
+_switchd:*:49:49:Switch Daemon:/var/empty:/sbin/nologin
+_traceroute:*:50:50:traceroute privdrop user:/var/empty:/sbin/nologin
+_ping:*:51:51:ping privdrop user:/var/empty:/sbin/nologin
+_rebound:*:52:52:Rebound DNS Daemon:/var/empty:/sbin/nologin
+_unbound:*:53:53:Unbound Daemon:/var/unbound:/sbin/nologin
+_dpb:*:54:54:dpb privsep:/var/empty:/sbin/nologin
+_pbuild:*:55:55:dpb build user:/nonexistent:/sbin/nologin
+_pfetch:*:56:56:dpb fetch user:/nonexistent:/sbin/nologin
+_pkgfetch:*:57:57:pkg fetch user:/nonexistent:/sbin/nologin
+_pkguntar:*:58:58:pkg untar user:/nonexistent:/sbin/nologin
+_spamd:*:62:62:Spam Daemon:/var/empty:/sbin/nologin
+www:*:67:67:HTTP Server:/var/www:/sbin/nologin
+_isakmpd:*:68:68:isakmpd privsep:/var/empty:/sbin/nologin
+_syslogd:*:73:73:Syslog Daemon:/var/empty:/sbin/nologin
+_pflogd:*:74:74:pflogd privsep:/var/empty:/sbin/nologin
+_bgpd:*:75:75:BGP Daemon:/var/empty:/sbin/nologin
+_tcpdump:*:76:76:tcpdump privsep:/var/empty:/sbin/nologin
+_dhcp:*:77:77:DHCP programs:/var/empty:/sbin/nologin
+_mopd:*:78:78:MOP Daemon:/var/empty:/sbin/nologin
+_tftpd:*:79:79:TFTP Daemon:/var/empty:/sbin/nologin
+_rbootd:*:80:80:rbootd Daemon:/var/empty:/sbin/nologin
+_ppp:*:82:82:PPP utilities:/var/empty:/sbin/nologin
+_ntp:*:83:83:NTP Daemon:/var/empty:/sbin/nologin
+_ftp:*:84:84:FTP Daemon:/var/empty:/sbin/nologin
+_ospfd:*:85:85:OSPF Daemon:/var/empty:/sbin/nologin
+_hostapd:*:86:86:HostAP Daemon:/var/empty:/sbin/nologin
+_dvmrpd:*:87:87:DVMRP Daemon:/var/empty:/sbin/nologin
+_ripd:*:88:88:RIP Daemon:/var/empty:/sbin/nologin
+_relayd:*:89:89:Relay Daemon:/var/empty:/sbin/nologin
+_ospf6d:*:90:90:OSPF6 Daemon:/var/empty:/sbin/nologin
+_snmpd:*:91:91:SNMP Daemon:/var/empty:/sbin/nologin
+_ypldap:*:93:93:YP to LDAP Daemon:/var/empty:/sbin/nologin
+_rad:*:94:94:IPv6 Router Advertisement Daemon:/var/empty:/sbin/nologin
+_smtpd:*:95:95:SMTP Daemon:/var/empty:/sbin/nologin
+_rwalld:*:96:96:rpc.rwalld:/var/empty:/sbin/nologin
+_nsd:*:97:97:NSD Daemon:/var/empty:/sbin/nologin
+_ldpd:*:98:98:LDP Daemon:/var/empty:/sbin/nologin
+_sndio:*:99:99:sndio privsep:/var/empty:/sbin/nologin
+_ldapd:*:100:100:LDAP Daemon:/var/empty:/sbin/nologin
+_iked:*:101:101:IKEv2 Daemon:/var/empty:/sbin/nologin
+_iscsid:*:102:102:iSCSI Daemon:/var/empty:/sbin/nologin
+_smtpq:*:103:103:SMTP Daemon:/var/empty:/sbin/nologin
+_file:*:104:104:file privsep:/var/empty:/sbin/nologin
+_radiusd:*:105:105:RADIUS Daemon:/var/empty:/sbin/nologin
+_eigrpd:*:106:106:EIGRP Daemon:/var/empty:/sbin/nologin
+_vmd:*:107:107:VM Daemon:/var/empty:/sbin/nologin
+_tftp_proxy:*:108:108:tftp proxy daemon:/nonexistent:/sbin/nologin
+_ftp_proxy:*:109:109:ftp proxy daemon:/nonexistent:/sbin/nologin
+_sndiop:*:110:110:sndio privileged user:/var/empty:/sbin/nologin
+_syspatch:*:112:112:syspatch unprivileged user:/var/empty:/sbin/nologin
+_slaacd:*:115:115:SLAAC Daemon:/var/empty:/sbin/nologin
+_postgresql:*:503:503:PostgreSQL Manager:/var/postgresql:/bin/sh
+_pgadmin4:*:511:511::/usr/local/pgadmin4:/usr/local/bin/bash
+_fortune:*:512:512::/var/appsrv/fortune:/sbin/nologin
+_sshauth:*:513:513::/var/appsrv/sshauth:/sbin/nologin
+nobody:*:32767:32767:Unprivileged user:/nonexistent:/sbin/nologin
+charlie:*:1000:1000:Charlie:/home/charlie:/bin/ksh
+bob:*:1001:1001::/home/bob:/bin/ksh
+nfsuser:*:1002:1002::/home/nfsuser:/usr/sbin/authpf
+
+
+[00;31m[-] Super user account(s):[00m
+root
+
+
+[00;31m[-] Are permissions on /home directories lax:[00m
+total 20
+drwxr-xr-x   5 root     wheel     512B Nov  2 21:19 .
+drwxr-xr-x  13 root     wheel     512B Mar 16 20:41 ..
+drwxr-xr-x   5 bob      bob       512B Mar 16 22:07 bob
+drwxr-x---   3 charlie  charlie   512B Mar 16 22:05 charlie
+drwxr-xr-x   2 nfsuser  nfsuser   512B Nov  2 22:39 nfsuser
+
+
+[00;31m[-] Files owned by our user:[00m
+-rw-------  1 charlie  charlie  402 Mar 16 21:15 /home/charlie/.ssh/authorized_keys
+-rw-r-----  1 charlie  charlie  87 Oct 11 15:18 /home/charlie/.Xdefaults
+-rw-r-----  1 charlie  charlie  771 Oct 11 15:18 /home/charlie/.cshrc
+-rw-r-----  1 charlie  charlie  101 Oct 11 15:18 /home/charlie/.cvsrc
+-rw-r-----  1 charlie  charlie  359 Oct 11 15:18 /home/charlie/.login
+-rw-r-----  1 charlie  charlie  175 Oct 11 15:18 /home/charlie/.mailrc
+-rw-r-----  1 charlie  charlie  216 Oct 11 15:18 /home/charlie/.profile
+-rw-------  1 charlie  charlie  608 Nov  3 11:20 /home/charlie/mbox
+-r--------  1 charlie  charlie  33 Nov  3 16:12 /home/charlie/user.txt
+-rwxr-xr-x  1 charlie  charlie  45639 Mar 16 21:19 /home/charlie/LinEnum.sh
+-rw-------  1 charlie  charlie  15 Mar 16 21:22 /home/charlie/.bash_history
+-rw-r--r--  1 charlie  charlie  13091 Mar 16 22:07 /home/charlie/charlie-linenum.txt
+-rw-------  1 charlie  charlie  0 Nov  3 11:21 /var/mail/charlie
+
+
+[00;31m[-] Hidden files:[00m
+-rw-r-----  1 charlie  charlie  87 Oct 11 15:18 /home/charlie/.Xdefaults
+-rw-r-----  1 charlie  charlie  771 Oct 11 15:18 /home/charlie/.cshrc
+-rw-r-----  1 charlie  charlie  101 Oct 11 15:18 /home/charlie/.cvsrc
+-rw-r-----  1 charlie  charlie  359 Oct 11 15:18 /home/charlie/.login
+-rw-r-----  1 charlie  charlie  175 Oct 11 15:18 /home/charlie/.mailrc
+-rw-r-----  1 charlie  charlie  216 Oct 11 15:18 /home/charlie/.profile
+-rw-------  1 charlie  charlie  15 Mar 16 21:22 /home/charlie/.bash_history
+-rw-r--r--  1 bob  bob  87 Oct 11 15:18 /home/bob/.Xdefaults
+-rw-r--r--  1 bob  bob  771 Oct 11 15:18 /home/bob/.cshrc
+-rw-r--r--  1 bob  bob  101 Oct 11 15:18 /home/bob/.cvsrc
+-rw-r--r--  1 bob  bob  359 Oct 11 15:18 /home/bob/.login
+-rw-r--r--  1 bob  bob  175 Oct 11 15:18 /home/bob/.mailrc
+-rw-r--r--  1 bob  bob  215 Oct 11 15:18 /home/bob/.profile
+-rw-------  1 bob  bob  13 Nov  3 16:29 /home/bob/.psql_history
+-rw-r--r--  1 nfsuser  nfsuser  87 Oct 11 15:18 /home/nfsuser/.Xdefaults
+-rw-r--r--  1 nfsuser  nfsuser  771 Oct 11 15:18 /home/nfsuser/.cshrc
+-rw-r--r--  1 nfsuser  nfsuser  101 Oct 11 15:18 /home/nfsuser/.cvsrc
+-rw-r--r--  1 nfsuser  nfsuser  359 Oct 11 15:18 /home/nfsuser/.login
+-rw-r--r--  1 nfsuser  nfsuser  175 Oct 11 15:18 /home/nfsuser/.mailrc
+-rw-r--r--  1 nfsuser  nfsuser  215 Oct 11 15:18 /home/nfsuser/.profile
+-rw-r--r--  1 root  bin  80574 Oct 11 15:19 /usr/libdata/perl5/amd64-openbsd/.packlist
+-rw-r--r--  1 root  bin  17 Apr 26  2018 /usr/local/share/examples/py3-flask/flaskr/.gitignore
+-rw-r--r--  1 root  bin  19 Apr 26  2018 /usr/local/share/examples/py3-flask/minitwit/.gitignore
+-rw-r-----  1 _pgadmin4  wheel  43 Nov  2 23:28 /usr/local/pgadmin4/.bash_profile
+-rw-r--r--  1 _pgadmin4  wheel  712 Oct  1 05:27 /usr/local/pgadmin4/pgadmin4-3.4/.gitignore
+-rw-r--r--  1 _pgadmin4  wheel  18 Oct  1 05:27 /usr/local/pgadmin4/pgadmin4-3.4/docs/en_US/.gitignore
+-rw-r--r--  1 _pgadmin4  wheel  48 Oct  1 05:27 /usr/local/pgadmin4/pgadmin4-3.4/pkg/docker/.dockerignore
+-rw-r--r--  1 _pgadmin4  wheel  102 Oct  1 05:27 /usr/local/pgadmin4/pgadmin4-3.4/pkg/mac/.gitignore
+-rw-r--r--  1 _pgadmin4  wheel  135 Oct  1 05:27 /usr/local/pgadmin4/pgadmin4-3.4/runtime/.gitignore
+-rw-r--r--  1 _pgadmin4  wheel  515 Oct  1 05:27 /usr/local/pgadmin4/pgadmin4-3.4/web/.editorconfig
+-rw-r--r--  1 _pgadmin4  wheel  59 Oct  1 05:27 /usr/local/pgadmin4/pgadmin4-3.4/web/.eslintignore
+-rw-r--r--  1 _pgadmin4  wheel  745 Oct  1 05:27 /usr/local/pgadmin4/pgadmin4-3.4/web/.eslintrc.js
+-rw-r--r--  1 _pgadmin4  wheel  201 Oct  1 05:27 /usr/local/pgadmin4/pgadmin4-3.4/web/.pycodestyle
+-rw-r--r--  1 _pgadmin4  wheel  128 Oct  1 05:27 /usr/local/pgadmin4/pgadmin4-3.4/web/regression/.gitignore
+-rw-r--r--  1 root  wheel  87 Oct 11 15:18 /etc/skel/.Xdefaults
+-rw-r--r--  1 root  wheel  771 Oct 11 15:18 /etc/skel/.cshrc
+-rw-r--r--  1 root  wheel  101 Oct 11 15:18 /etc/skel/.cvsrc
+-rw-r--r--  1 root  wheel  359 Oct 11 15:18 /etc/skel/.login
+-rw-r--r--  1 root  wheel  175 Oct 11 15:18 /etc/skel/.mailrc
+-rw-r--r--  1 root  wheel  215 Oct 11 15:18 /etc/skel/.profile
+-rw-------  1 _postgresql  wheel  48 Mar 16 21:38 /tmp/.s.PGSQL.5432.lock
+-rw-------  1 _postgresql  _postgresql  409 Nov  2 22:34 /var/postgresql/.psql_history
+-r--------  1 _sshauth  _sshauth  61 Nov  2 23:02 /var/appsrv/sshauth/.pgpass
+-rw-r--r--  1 root  wheel  578 Oct 11 15:18 /.cshrc
+-rw-r--r--  1 root  wheel  468 Oct 11 15:18 /.profile
+
+
+[00;31m[-] World-readable files within /home:[00m
+-rwxr-xr-x  1 charlie  charlie  45639 Mar 16 21:19 /home/charlie/LinEnum.sh
+-rw-r--r--  1 charlie  charlie  17552 Mar 16 22:07 /home/charlie/charlie-linenum.txt
+-rw-r--r--  1 bob  bob  87 Oct 11 15:18 /home/bob/.Xdefaults
+-rw-r--r--  1 bob  bob  771 Oct 11 15:18 /home/bob/.cshrc
+-rw-r--r--  1 bob  bob  101 Oct 11 15:18 /home/bob/.cvsrc
+-rw-r--r--  1 bob  bob  359 Oct 11 15:18 /home/bob/.login
+-rw-r--r--  1 bob  bob  175 Oct 11 15:18 /home/bob/.mailrc
+-rw-r--r--  1 bob  bob  215 Oct 11 15:18 /home/bob/.profile
+-r--r--r--  1 bob  bob  2053 Oct 29 20:44 /home/bob/ca/certs/ca.cert.pem
+-rw-r--r--  1 bob  bob  2061 Oct 29 20:56 /home/bob/ca/newcerts/1000.pem
+-rw-r--r--  1 bob  bob  115 Oct 29 20:56 /home/bob/ca/index.txt
+-rw-r--r--  1 bob  bob  5 Oct 29 20:56 /home/bob/ca/serial
+-rw-r--r--  1 bob  bob  4200 Oct 29 20:55 /home/bob/ca/openssl.cnf
+-r--r--r--  1 bob  bob  2061 Oct 29 20:56 /home/bob/ca/intermediate/certs/intermediate.cert.pem
+-r--r--r--  1 bob  bob  4114 Oct 29 20:58 /home/bob/ca/intermediate/certs/ca-chain.cert.pem
+-r--r--r--  1 bob  bob  1996 Oct 29 21:13 /home/bob/ca/intermediate/certs/fortune.htb.cert.pem
+-rw-r--r--  1 bob  bob  1716 Oct 29 20:53 /home/bob/ca/intermediate/csr/intermediate.csr.pem
+-rw-r--r--  1 bob  bob  1013 Oct 29 21:12 /home/bob/ca/intermediate/csr/fortune.htb.csr.pem
+-rw-r--r--  1 bob  bob  1996 Oct 29 21:13 /home/bob/ca/intermediate/newcerts/1000.pem
+-rw-r--r--  1 bob  bob  3243 Oct 29 20:48 /home/bob/ca/intermediate/private/intermediate.key.pem
+-rw-r--r--  1 bob  bob  107 Oct 29 21:13 /home/bob/ca/intermediate/index.txt
+-rw-r--r--  1 bob  bob  5 Oct 29 21:13 /home/bob/ca/intermediate/serial
+-rw-r--r--  1 bob  bob  5 Oct 29 20:47 /home/bob/ca/intermediate/crlnumber
+-rw-r--r--  1 bob  bob  4328 Oct 29 20:56 /home/bob/ca/intermediate/openssl.cnf
+-rw-r--r--  1 bob  bob  21 Oct 29 21:13 /home/bob/ca/intermediate/index.txt.attr
+-rw-r--r--  1 bob  bob  5 Oct 29 21:13 /home/bob/ca/intermediate/serial.old
+-rw-r--r--  1 bob  bob  21 Oct 29 20:56 /home/bob/ca/index.txt.attr
+-rw-r--r--  1 bob  bob  5 Oct 29 20:37 /home/bob/ca/serial.old
+-rw-r--r--  1 bob  bob  0 Oct 29 20:37 /home/bob/ca/index.txt.old
+-rw-r--r--  1 bob  bob  195 Nov  2 22:40 /home/bob/dba/authpf.sql
+-rw-r--r--  1 bob  bob  45639 Mar 16 22:06 /home/bob/LinEnum.sh
+-rw-r--r--  1 bob  bob  22923 Mar 16 22:07 /home/bob/bob-linenum.txt
+-rw-r--r--  1 nfsuser  nfsuser  87 Oct 11 15:18 /home/nfsuser/.Xdefaults
+-rw-r--r--  1 nfsuser  nfsuser  771 Oct 11 15:18 /home/nfsuser/.cshrc
+-rw-r--r--  1 nfsuser  nfsuser  101 Oct 11 15:18 /home/nfsuser/.cvsrc
+-rw-r--r--  1 nfsuser  nfsuser  359 Oct 11 15:18 /home/nfsuser/.login
+-rw-r--r--  1 nfsuser  nfsuser  175 Oct 11 15:18 /home/nfsuser/.mailrc
+-rw-r--r--  1 nfsuser  nfsuser  215 Oct 11 15:18 /home/nfsuser/.profile
+
+
+[00;31m[-] Home directory contents:[00m
+total 180
+drwxr-x---  3 charlie  charlie   512B Mar 16 22:05 .
+drwxr-xr-x  5 root     wheel     512B Nov  2 21:19 ..
+-rw-r-----  1 charlie  charlie    87B Oct 11 15:18 .Xdefaults
+-rw-------  1 charlie  charlie    15B Mar 16 21:22 .bash_history
+-rw-r-----  1 charlie  charlie   771B Oct 11 15:18 .cshrc
+-rw-r-----  1 charlie  charlie   101B Oct 11 15:18 .cvsrc
+-rw-r-----  1 charlie  charlie   359B Oct 11 15:18 .login
+-rw-r-----  1 charlie  charlie   175B Oct 11 15:18 .mailrc
+-rw-r-----  1 charlie  charlie   216B Oct 11 15:18 .profile
+drwx------  2 charlie  charlie   512B Mar 16 21:15 .ssh
+-rwxr-xr-x  1 charlie  charlie  44.6K Mar 16 21:19 LinEnum.sh
+-rw-r--r--  1 charlie  charlie  19.9K Mar 16 22:07 charlie-linenum.txt
+-rw-------  1 charlie  charlie   608B Nov  3 11:20 mbox
+-r--------  1 charlie  charlie    33B Nov  3 16:12 user.txt
+
+
+[00;31m[-] SSH keys/host information found in the following locations:[00m
+-rw-------  1 charlie  charlie  402 Mar 16 21:15 /home/charlie/.ssh/authorized_keys
+
+
+[00;33m### ENVIRONMENTAL #######################################[00m
+[00;31m[-] Environment information:[00m
+SSH_CONNECTION=10.10.14.2 40316 10.10.10.127 22
+OLDPWD=/home/bob
+USER=charlie
+PWD=/home/charlie
+HOME=/home/charlie
+SSH_CLIENT=10.10.14.2 40316 22
+SSH_TTY=/dev/ttyp1
+MAIL=/var/mail/charlie
+TERM=screen
+SHELL=/bin/ksh
+SHLVL=1
+LOGNAME=charlie
+PATH=/home/charlie/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:/usr/games
+_=/usr/bin/env
+
+
+[00;31m[-] Path information:[00m
+/home/charlie/bin:/bin:/sbin:/usr/bin:/usr/sbin:/usr/X11R6/bin:/usr/local/bin:/usr/local/sbin:/usr/games
+
+
+[00;31m[-] Available shells:[00m
+#	$OpenBSD: shells,v 1.8 2009/02/14 17:06:40 sobrado Exp $
+#
+# list of acceptable shells for chpass(1).
+# ftpd(8) will not allow users to connect who are not using
+# one of these shells, unless the user is listed in /etc/ftpchroot.
+/bin/sh
+/bin/csh
+/bin/ksh
+/usr/local/bin/bash
+
+
+[00;31m[-] Current umask value:[00m
+0022
+u=rwx,g=rx,o=rx
+
+
+[00;33m### JOBS/TASKS ##########################################[00m
+[00;33m### NETWORKING  ##########################################[00m
+[00;31m[-] Network and IP info:[00m
+lo0: flags=8049<UP,LOOPBACK,RUNNING,MULTICAST> mtu 32768
+	index 3 priority 0 llprio 3
+	groups: lo
+	inet6 ::1 prefixlen 128
+	inet6 fe80::1%lo0 prefixlen 64 scopeid 0x3
+	inet 127.0.0.1 netmask 0xff000000
+em0: flags=8843<UP,BROADCAST,RUNNING,SIMPLEX,MULTICAST> mtu 1500
+	lladdr 00:50:56:a2:aa:43
+	index 1 priority 0 llprio 3
+	groups: egress
+	media: Ethernet autoselect (1000baseT full-duplex,master)
+	status: active
+	inet 10.10.10.127 netmask 0xffffff00 broadcast 10.10.10.255
+enc0: flags=0<>
+	index 2 priority 0 llprio 3
+	groups: enc
+	status: active
+pflog0: flags=141<UP,RUNNING,PROMISC> mtu 33136
+	index 4 priority 0 llprio 3
+	groups: pflog
+
+
+[00;31m[-] ARP history:[00m
+Host                                 Ethernet Address    Netif Expire    Flags
+10.10.10.2                           00:50:56:a2:8c:65     em0 19m43s    
+fortune.htb                          00:50:56:a2:aa:43     em0 permanent l
+
+
+[00;31m[-] Nameserver(s):[00m
+nameserver 8.8.8.8
+
+
+[00;33m### SERVICES #############################################[00m
+[00;31m[-] Running processes:[00m
+USER       PID %CPU %MEM   VSZ   RSS TT  STAT  STARTED       TIME COMMAND
+_fortune 55292  0.0  0.0     0     0 ??  Zp    -          0:00.00 (sh)
+root         1  0.0  0.0   404   460 ??  Is     5:46PM    0:01.00 /sbi
+root     40457  0.0  0.1   704   628 ??  Isp    5:46PM    0:00.00 /sbi
+_slaacd  34529  0.0  0.1   708   716 ??  Ip     5:46PM    0:00.00 slaa
+_slaacd  95489  0.0  0.1   724   748 ??  Ip     5:46PM    0:00.00 slaa
+_syslogd 85464  0.0  0.2  1100  1672 ??  Ip     5:46PM    0:00.04 /usr
+root     78559  0.0  0.2   532  2184 ??  Isp    5:46PM    0:00.01 sysl
+root     78522  0.0  0.1   708   644 ??  Is     5:46PM    0:00.00 pflo
+_pflogd  24719  0.0  0.1   744   580 ??  Sp     5:46PM    0:00.61 pflo
+root     66502  0.0  0.2   592  1612 ??  S<sp   5:46PM    0:00.02 /usr
+_ntp     91706  0.0  0.2   744  2512 ??  S<p    5:46PM    0:00.12 ntpd
+_ntp     28161  0.0  0.2   684  2456 ??  Sp     5:46PM    0:00.13 ntpd
+_portmap 73138  0.0  0.1   396  1240 ??  Isp    5:46PM    0:00.00 /usr
+root     20618  0.0  0.1   648   764 ??  Isp    5:46PM    0:00.00 moun
+root     20586  0.0  0.0   548   512 ??  I      5:46PM    0:00.01 moun
+root     88095  0.0  0.0   152   164 ??  I      5:46PM    0:00.00 nfsd
+root     59908  0.0  0.0   232   348 ??  Is     5:46PM    0:00.00 nfsd
+root     46825  0.0  0.0   152   164 ??  I      5:46PM    0:00.02 nfsd
+root     99604  0.0  0.0   152   164 ??  I      5:46PM    0:00.00 nfsd
+root      1551  0.0  0.0   152   164 ??  I      5:46PM    0:00.00 nfsd
+root     96952  0.0  0.2   988  1668 ??  Is     5:46PM    0:00.02 /usr
+_smtpq   57984  0.0  0.4  1484  3736 ??  Ip     5:46PM    0:00.01 smtp
+root     13782  0.0  0.2  1596  2376 ??  Isp    5:46PM    0:00.00 /usr
+_smtpd   20807  0.0  0.3  1268  3524 ??  Ip     5:46PM    0:00.01 smtp
+_smtpd   37422  0.0  0.4  1452  3716 ??  Ip     5:46PM    0:00.01 smtp
+_smtpd   29421  0.0  0.4  1360  3640 ??  Ip     5:46PM    0:00.01 smtp
+_smtpd   26603  0.0  0.4  1404  3716 ??  Ip     5:46PM    0:00.01 smtp
+_smtpd   73102  0.0  0.3  1256  3524 ??  Ip     5:46PM    0:00.02 smtp
+www      97040  0.0  0.3  1016  2972 ??  Isp    5:46PM    0:07.86 http
+www      19728  0.0  1.5  8220 15676 ??  Isp    5:46PM    0:17.74 http
+www      35578  0.0  1.6  8516 16056 ??  Isp    5:46PM    0:18.19 http
+www      15688  0.0  1.6  8628 16300 ??  Isp    5:46PM    0:18.50 http
+root     62021  0.0  0.3  1328  2612 ??  Isp    5:46PM    0:00.03 /usr
+_sndio   95917  0.0  0.1   432   780 ??  I<sp   5:46PM    0:00.00 /usr
+_sndiop   5607  0.0  0.1   408   900 ??  Isp    5:46PM    0:00.00 sndi
+_postgre 39275  0.0  0.3  5932  3576 ??  Ss     5:46PM    0:02.27 post
+_postgre 36000  0.0  0.4 147832  4340 ??  Is     5:46PM    0:00.02 post
+_postgre 34327  0.0  0.5 148016  4748 ??  Ss     5:46PM    0:00.45 post
+_postgre 46325  0.0  0.8 147600  7836 ??  Ss     5:46PM    0:00.10 post
+_postgre 64651  0.0  0.5 147604  4964 ??  Ss     5:46PM    0:00.12 post
+_postgre 28264  0.0  0.5 147728  5344 ??  Is     5:46PM    0:00.02 post
+_fortune 73111  0.0  2.5 18960 25876 ??  S      5:46PM    0:00.91 /usr
+_sshauth 78239  0.0  2.6 19360 26392 ??  S      5:46PM    0:01.03 /usr
+root     28248  0.0  0.1   668  1320 ??  Isp    5:46PM    0:00.03 /usr
+_fortune 91072  0.0  0.5 18960  5488 ??  I      5:46PM    0:00.00 /usr
+_fortune 38530  0.0  1.9 20024 20080 ??  I      5:46PM    0:00.52 /usr
+_fortune 36275  0.0  0.5 18980  5472 ??  I      5:46PM    0:00.00 /usr
+_sshauth 21617  0.0  0.5 19364  5544 ??  I      5:46PM    0:00.00 /usr
+_sshauth  4966  0.0  2.7 23824 28204 ??  I      5:46PM    0:00.61 /usr
+_sshauth 69565  0.0  0.5 19364  5544 ??  I      5:46PM    0:00.00 /usr
+root     92963  0.0  0.4  1084  3748 ??  Is     8:52PM    0:00.03 sshd
+nfsuser  94212  0.0  0.3  1048  2984 ??  I      8:52PM    0:00.01 sshd
+root     39725  0.0  0.4  1032  3780 ??  Is     9:15PM    0:00.02 sshd
+charlie   9515  0.0  0.4  2044  3968 ??  I      9:15PM    0:00.42 sshd
+root     16117  0.0  0.4  1028  3800 ??  Is    10:03PM    0:00.02 sshd
+bob      20617  0.0  0.3  1072  3012 ??  S     10:03PM    0:00.06 sshd
+nfsuser  70129  0.0  0.1   416  1372 p0  Ss+    8:52PM    0:00.01 -aut
+charlie  44118  0.0  0.1   880   980 p1  Is+p   9:15PM    0:00.14 -ksh
+charlie  60273  0.0  0.2  1312  1996 p1  Tp     9:20PM    0:00.02 ksh 
+charlie  42261  0.0  0.1   248   968 p1  Tp     9:20PM    0:00.00 tee 
+charlie  79580  0.0  0.2  1408  1572 p1  Tp     9:20PM    0:00.06 ksh 
+charlie  26969  0.0  0.0  1408     8 p1  Tp     9:21PM    0:00.00 ksh 
+charlie    546  0.0  0.3   740  3512 p1  T      9:21PM    0:00.01 psql
+charlie  57731  0.0  0.3  1720  3412 p1  I     10:07PM    0:00.01 bash
+charlie  75383  0.0  0.3  1808  2916 p1  S     10:07PM    0:00.05 bash
+charlie  37655  0.0  0.1   248   964 p1  Sp    10:07PM    0:00.01 tee 
+charlie  57396  0.0  0.0   448   480 p1  Rp    10:08PM    0:00.00 ps -
+charlie  21425  0.0  0.2  1808  1736 p1  S     10:08PM    0:00.00 bash
+bob      90036  0.0  0.1   812   932 p2  Ss+p  10:03PM    0:00.03 -ksh
+bob      86876  0.0  0.3  1720  3372 p2  T     10:07PM    0:00.01 bash
+bob      68591  0.0  0.3  1872  2920 p2  T     10:07PM    0:00.08 bash
+bob      27082  0.0  0.1   244   956 p2  Tp    10:07PM    0:00.02 tee 
+bob      94211  0.0  0.1   296  1204 p2  Tp    10:08PM    0:00.00 grep
+bob      97790  0.0  0.2  1872  1584 p2  T     10:08PM    0:00.00 bash
+bob      84541  0.0  0.3   732  3504 p2  T     10:08PM    0:00.01 psql
+_postgre 38142  0.0  1.3 147596 13380 C0- S      5:46PM    0:00.67 /usr
+root     92944  0.0  0.1   312  1324 C0  Is+p   5:46PM    0:00.00 /usr
+root     13726  0.0  0.1   316  1332 C1  Is+p   5:46PM    0:00.00 /usr
+root     88531  0.0  0.1   312  1332 C2  Is+p   5:46PM    0:00.00 /usr
+root     10022  0.0  0.1   312  1328 C3  Is+p   5:46PM    0:00.00 /usr
+root     68831  0.0  0.1   312  1332 C5  Is+p   5:46PM    0:00.00 /usr
+
+
+[00;31m[-] Process binaries and associated permissions (from above list):[00m
+/usr:
+total 80
+drwxr-xr-x  15 root   wheel   512 Nov  2 21:05 .
+drwxr-xr-x  13 root   wheel   512 Mar 16 20:41 ..
+drwxr-xr-x   2 root   wheel  5632 Nov  2 17:05 bin
+drwxr-xr-x   2 root   wheel  1024 Nov  2 17:05 games
+drwxr-xr-x  29 root   bin    3072 Nov  2 17:05 include
+drwxr-xr-x   7 root   wheel  3072 Mar 16 17:46 lib
+drwxr-xr-x   5 root   wheel   512 Nov  2 17:05 libdata
+drwxr-xr-x   6 root   wheel  1024 Mar 16 17:46 libexec
+drwxr-xr-x  12 root   wheel   512 Nov  2 21:19 local
+drwxr-xr-x   2 root   wheel   512 Oct 11 15:19 mdec
+drwxrwx---   2 build  wobj    512 Nov  2 21:05 obj
+drwxr-xr-x   2 root   wheel  4096 Nov  2 21:06 sbin
+drwxr-xr-x  17 root   wheel   512 Oct 11 15:19 share
+drwxrwxr-x   2 root   wsrc    512 Nov  2 21:05 src
+drwxrwx---   2 build  wobj    512 Nov  2 21:05 xobj
+
+
+[00;33m### SOFTWARE #############################################[00m
+[00;31m[-] Postgres version:[00m
+psql (PostgreSQL) 10.5
+
+
