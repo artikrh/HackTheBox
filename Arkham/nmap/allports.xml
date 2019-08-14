@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Sun Mar 17 05:34:47 2019 as: nmap -p- -oA nmap/allports -v 10.10.10.130 -->
+<nmaprun scanner="nmap" args="nmap -p- -oA nmap/allports -v 10.10.10.130" start="1552797287" startstr="Sun Mar 17 05:34:47 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1552797287"/>
+<taskend task="Ping Scan" time="1552797287" extrainfo="1 total hosts"/>
+<taskbegin task="Connect Scan" time="1552797287"/>
+<taskprogress task="Connect Scan" time="1552797318" percent="7.51" remaining="382" etc="1552797700"/>
+<taskprogress task="Connect Scan" time="1552797348" percent="22.42" remaining="212" etc="1552797559"/>
+<taskprogress task="Connect Scan" time="1552797378" percent="32.87" remaining="186" etc="1552797564"/>
+<taskprogress task="Connect Scan" time="1552797408" percent="45.89" remaining="143" etc="1552797551"/>
+<taskprogress task="Connect Scan" time="1552797438" percent="64.01" remaining="85" etc="1552797523"/>
+<taskprogress task="Connect Scan" time="1552797468" percent="85.44" remaining="31" etc="1552797499"/>
+<taskend task="Connect Scan" time="1552797486" extrainfo="65535 total ports"/>
+<host starttime="1552797287" endtime="1552797486"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.10.130" addrtype="ipv4"/>
+<hostnames>
+<hostname name="arkham.htb" type="PTR"/>
+</hostnames>
+<ports><extraports state="filtered" count="65528">
+<extrareasons reason="no-responses" count="65528"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="139"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="netbios-ssn" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="8080"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http-proxy" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49666"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+<port protocol="tcp" portid="49667"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+</ports>
+<times srtt="166695" rttvar="2588" to="177047"/>
+</host>
+<runstats><finished time="1552797486" timestr="Sun Mar 17 05:38:06 2019" elapsed="199.12" summary="Nmap done at Sun Mar 17 05:38:06 2019; 1 IP address (1 host up) scanned in 199.12 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

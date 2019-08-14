@@ -1,0 +1,15 @@
+# Nmap 7.70 scan initiated Sun Mar 17 05:34:47 2019 as: nmap -p- -oA nmap/allports -v 10.10.10.130
+Nmap scan report for arkham.htb (10.10.10.130)
+Host is up (0.17s latency).
+Not shown: 65528 filtered ports
+PORT      STATE SERVICE
+80/tcp    open  http
+135/tcp   open  msrpc
+139/tcp   open  netbios-ssn
+445/tcp   open  microsoft-ds
+8080/tcp  open  http-proxy
+49666/tcp open  unknown
+49667/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Mar 17 05:38:06 2019 -- 1 IP address (1 host up) scanned in 199.12 seconds

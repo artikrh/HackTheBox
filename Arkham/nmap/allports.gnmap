@@ -1,0 +1,5 @@
+# Nmap 7.70 scan initiated Sun Mar 17 05:34:47 2019 as: nmap -p- -oA nmap/allports -v 10.10.10.130
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.130 (arkham.htb)	Status: Up
+Host: 10.10.10.130 (arkham.htb)	Ports: 80/open/tcp//http///, 135/open/tcp//msrpc///, 139/open/tcp//netbios-ssn///, 445/open/tcp//microsoft-ds///, 8080/open/tcp//http-proxy///, 49666/open/tcp/////, 49667/open/tcp/////	Ignored State: filtered (65528)
+# Nmap done at Sun Mar 17 05:38:06 2019 -- 1 IP address (1 host up) scanned in 199.12 seconds
