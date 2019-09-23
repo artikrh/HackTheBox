@@ -1,0 +1,24 @@
+# Nmap 7.70 scan initiated Tue Apr  9 12:58:26 2019 as: nmap -sC -sV -oA nmap/initial -v 10.10.10.129
+Nmap scan report for 10.10.10.129
+Host is up (0.055s latency).
+Not shown: 998 closed ports
+PORT   STATE SERVICE VERSION
+22/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 2c:b3:7e:10:fa:91:f3:6c:4a:cc:d7:f4:88:0f:08:90 (RSA)
+|   256 0c:cd:47:2b:96:a2:50:5e:99:bf:bd:d0:de:05:5d:ed (ECDSA)
+|_  256 e6:5a:cb:c8:dc:be:06:04:cf:db:3a:96:e7:5a:d5:aa (ED25519)
+80/tcp open  http    Apache httpd 2.4.29 ((Ubuntu))
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+|_http-title: Cryptor Login
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Apr  9 12:58:35 2019 -- 1 IP address (1 host up) scanned in 9.64 seconds

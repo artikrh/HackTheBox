@@ -1,0 +1,5 @@
+# Nmap 7.70 scan initiated Tue Apr  9 13:04:17 2019 as: nmap -p- -oA nmap/allports -v --max-retries 1 10.10.10.129
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.129 ()	Status: Up
+Host: 10.10.10.129 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 555/filtered/tcp//dsf///, 3041/filtered/tcp//di-traceware///, 12762/filtered/tcp/////, 22403/filtered/tcp/////, 26172/filtered/tcp/////, 36757/filtered/tcp/////, 38807/filtered/tcp/////, 47384/filtered/tcp/////, 47557/filtered/tcp//dbbrowse///, 48008/filtered/tcp/////, 50992/filtered/tcp/////, 55835/filtered/tcp/////, 62276/filtered/tcp/////, 64978/filtered/tcp/////	Ignored State: closed (65519)
+# Nmap done at Tue Apr  9 13:05:33 2019 -- 1 IP address (1 host up) scanned in 75.91 seconds

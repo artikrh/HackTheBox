@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Tue Apr  9 13:04:17 2019 as: nmap -p- -oA nmap/allports -v -&#45;max-retries 1 10.10.10.129 -->
+<nmaprun scanner="nmap" args="nmap -p- -oA nmap/allports -v -&#45;max-retries 1 10.10.10.129" start="1554807857" startstr="Tue Apr  9 13:04:17 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="1"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1554807857"/>
+<taskend task="Ping Scan" time="1554807857" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1554807857"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1554807857"/>
+<taskbegin task="Connect Scan" time="1554807857"/>
+<taskprogress task="Connect Scan" time="1554807861" percent="4.73" remaining="81" etc="1554807942"/>
+<taskprogress task="Connect Scan" time="1554807861" percent="5.83" remaining="65" etc="1554807926"/>
+<taskprogress task="Connect Scan" time="1554807862" percent="6.81" remaining="69" etc="1554807930"/>
+<taskprogress task="Connect Scan" time="1554807862" percent="7.95" remaining="58" etc="1554807920"/>
+<taskprogress task="Connect Scan" time="1554807863" percent="9.03" remaining="61" etc="1554807923"/>
+<taskprogress task="Connect Scan" time="1554807896" percent="47.07" remaining="44" etc="1554807940"/>
+<taskend task="Connect Scan" time="1554807933" extrainfo="65535 total ports"/>
+<host starttime="1554807857" endtime="1554807933"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.10.129" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="65519">
+<extrareasons reason="conn-refused" count="65519"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="555"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="dsf" method="table" conf="3"/></port>
+<port protocol="tcp" portid="3041"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="di-traceware" method="table" conf="3"/></port>
+<port protocol="tcp" portid="12762"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="22403"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="26172"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="36757"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="38807"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="47384"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="47557"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="dbbrowse" method="table" conf="3"/></port>
+<port protocol="tcp" portid="48008"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="50992"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="55835"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="62276"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+<port protocol="tcp" portid="64978"><state state="filtered" reason="no-response" reason_ttl="0"/></port>
+</ports>
+<times srtt="79478" rttvar="5223" to="100370"/>
+</host>
+<runstats><finished time="1554807933" timestr="Tue Apr  9 13:05:33 2019" elapsed="75.91" summary="Nmap done at Tue Apr  9 13:05:33 2019; 1 IP address (1 host up) scanned in 75.91 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
