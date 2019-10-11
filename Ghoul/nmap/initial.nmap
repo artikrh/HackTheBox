@@ -1,0 +1,35 @@
+# Nmap 7.70 scan initiated Sat May  4 23:18:21 2019 as: nmap -sC -sV -oA nmap/initial -v -T3 10.10.10.101
+Increasing send delay for 10.10.10.101 from 5 to 10 due to 24 out of 78 dropped probes since last increase.
+Increasing send delay for 10.10.10.101 from 20 to 40 due to 11 out of 25 dropped probes since last increase.
+Increasing send delay for 10.10.10.101 from 40 to 80 due to 11 out of 32 dropped probes since last increase.
+Increasing send delay for 10.10.10.101 from 160 to 320 due to 11 out of 24 dropped probes since last increase.
+Increasing send delay for 10.10.10.101 from 320 to 640 due to 11 out of 28 dropped probes since last increase.
+Nmap scan report for 10.10.10.101
+Host is up (0.43s latency).
+Not shown: 996 closed ports
+PORT     STATE SERVICE VERSION
+22/tcp   open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.1 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 c1:1c:4b:0c:c6:de:ae:99:49:15:9e:f9:bc:80:d2:3f (RSA)
+|_  256 a8:21:59:7d:4c:e7:97:ad:78:51:da:e5:f0:f9:ab:7d (ECDSA)
+80/tcp   open  http    Apache httpd 2.4.29 ((Ubuntu))
+|_http-favicon: Unknown favicon MD5: A64A06AAE4304C2B3921E4FA5C9FF39C
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.29 (Ubuntu)
+2222/tcp open  ssh     OpenSSH 7.6p1 Ubuntu 4ubuntu0.2 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 63:59:8b:4f:8d:0a:e1:15:44:14:57:27:e7:af:fb:3b (RSA)
+|   256 8c:8b:a0:a8:85:10:3d:27:07:51:29:ad:9b:ec:57:e3 (ECDSA)
+|_  256 9a:f5:31:4b:80:11:89:26:59:61:95:ff:5c:68:bc:a7 (ED25519)
+8080/tcp open  http    Apache Tomcat/Coyote JSP engine 1.1
+| http-auth: 
+| HTTP/1.1 401 Unauthorized\x0D
+|_  Basic realm=Aogiri
+|_http-server-header: Apache-Coyote/1.1
+|_http-title: Apache Tomcat/7.0.88 - Error report
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat May  4 23:22:25 2019 -- 1 IP address (1 host up) scanned in 243.82 seconds
