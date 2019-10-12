@@ -1,0 +1,12 @@
+GET /writeup/index.php?page=writeup HTTP/1.1
+Host: 10.10.10.138
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Connection: close
+Cookie: CMSSESSID9d372ef93962=4ghaa7neh3h1q2qrs17odtleo5
+Upgrade-Insecure-Requests: 1
+If-Modified-Since: Fri, 19 Apr 2019 08:36:26 GMT
+Cache-Control: max-age=0
+

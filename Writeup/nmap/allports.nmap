@@ -1,0 +1,12 @@
+# Nmap 7.70 scan initiated Sat Jun  8 21:02:12 2019 as: nmap -p- -T3 -oA nmap/allports -vvv 10.10.10.138
+Nmap scan report for writeup.htb (10.10.10.138)
+Host is up, received conn-refused (0.055s latency).
+Scanned at 2019-06-08 21:02:12 CEST for 193s
+Not shown: 65533 filtered ports
+Reason: 65533 no-responses
+PORT   STATE  SERVICE REASON
+22/tcp open   ssh     syn-ack
+80/tcp closed http    conn-refused
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Jun  8 21:05:25 2019 -- 1 IP address (1 host up) scanned in 192.22 seconds
