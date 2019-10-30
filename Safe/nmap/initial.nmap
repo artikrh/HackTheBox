@@ -1,0 +1,25 @@
+# Nmap 7.70 scan initiated Sat Jul 27 21:00:46 2019 as: nmap -sC -sV -oA nmap/initial -vv -T4 10.10.10.147
+Nmap scan report for safe.htb (10.10.10.147)
+Host is up, received syn-ack (0.049s latency).
+Scanned at 2019-07-27 21:00:47 CEST for 14s
+Not shown: 998 closed ports
+Reason: 998 conn-refused
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 7.4p1 Debian 10+deb9u6 (protocol 2.0)
+| ssh-hostkey: 
+|   2048 6d:7c:81:3d:6a:3d:f9:5f:2e:1f:6a:97:e5:00:ba:de (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC1lhlptw4YE96mogUlBKcqkeUXEOiCLbQxwjfzb4Zv7ddGBtF3jBi1mitjd+njlQQn9KqVXjPjtoEp17iSyI851O++s5SiSt1bIALdd4DA+n65dGZUvotBah+rTCrPa8yUyQ9NaXO1e2ALHZ+qWJJDBYULqTYrqObF1fErk+uaJ2EInSm4O3E4a1rDJP9M6OFInq9er3dVVXzR7pyIyLLiGOnmwrm+XX9/YZ3i9R+S4yb4OexUzLE6s52ZQMPaznExnAnA7EXFojw1+VT5sncZ4hiqBvaYXFHLRZTytiKYO4Bf/Ntl1+IOOQjyvpSnxVy+Riew/AZXMm3qwl/MrNdX
+|   256 99:7e:1e:22:76:72:da:3c:c9:61:7d:74:d7:80:33:d2 (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBCBjZCYZ/SIu/q2bMhVAICKM1a09kOxqXxGZ/Skm0OnzqhoF3Tj2+F6OfYr7yFoF8/SzWiKAOdmyYafg/mTJVT8=
+|   256 6a:6b:c3:8e:4b:28:f7:60:85:b1:62:ff:54:bc:d8:d6 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINspYs2G7atyE7B4AbsflH8zPxqXWDZv89V1FD9q5ZtB
+80/tcp open  http    syn-ack Apache httpd 2.4.25 ((Debian))
+| http-methods: 
+|_  Supported Methods: HEAD GET POST OPTIONS
+|_http-server-header: Apache/2.4.25 (Debian)
+|_http-title: Apache2 Debian Default Page: It works
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Jul 27 21:01:01 2019 -- 1 IP address (1 host up) scanned in 14.82 seconds

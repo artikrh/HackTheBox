@@ -1,0 +1,26 @@
+# Nmap 7.70 scan initiated Sat May 18 21:00:59 2019 as: nmap -sC -sV -oA nmap/initial -vv -T3 10.10.10.139
+Nmap scan report for ellingson.htb (10.10.10.139)
+Host is up, received syn-ack (0.044s latency).
+Scanned at 2019-05-18 21:01:00 CEST for 14s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 7.6p1 Ubuntu 4 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 49:e8:f1:2a:80:62:de:7e:02:40:a1:f4:30:d2:88:a6 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDNekDYOEF9YFIYWBGwCNM94Oy44bjNn9VlRp8oG8/a+yOHjo0sNd/aYksGIznnzYovF+0h6GDbM1dl/tX3eJgNy8Yil1BOe/sEYajT0vVn8BgJKcdHzAfA9AfpVwkQiJeigy2hcX7urDdoEi5L5uhjl8EqWU15m4bErudukQjmNeTGn1RgW88g8SKNOMI4/weDc2tI8G1J+ZLB/+wpcJe5gCdfnTyhucJqmeZzVy9lDHLpeXlET6Nx931KuJh6+ToXFVT5qB6yMuTnQRgn814uTABbEhxLUUWeFtOtCxLoAjQtpJrQLYaYPaVeewOHWDgDWvhPxYFIZFtiYw7wxsyf
+|   256 c8:02:cf:a0:f2:d8:5d:4f:7d:c7:66:0b:4d:5d:0b:df (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBAmN0IVX/rflrwZLRjH3CC3nkAP5gXJwVUK3N7xctzWzR5IpPThLnVpjqGb9IwgROMmS8uTi0ZCQQ/9WSspATFg=
+|   256 a5:a9:95:f5:4a:f4:ae:f8:b6:37:92:b8:9a:2a:b4:66 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIM8R/Ym8nOpVNvOnGkx6ndSdgJV1UWXwYaCu76M1HYNb
+80/tcp open  http    syn-ack nginx 1.14.0 (Ubuntu)
+| http-methods: 
+|_  Supported Methods: GET HEAD OPTIONS
+|_http-server-header: nginx/1.14.0 (Ubuntu)
+| http-title: Ellingson Mineral Corp
+|_Requested resource was http://ellingson.htb/index
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat May 18 21:01:14 2019 -- 1 IP address (1 host up) scanned in 14.70 seconds
