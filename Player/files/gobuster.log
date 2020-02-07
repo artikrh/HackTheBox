@@ -1,0 +1,8 @@
+/.hta (Status: 403)
+/.hta.php (Status: 403)
+/.htaccess (Status: 403)
+/.htaccess.php (Status: 403)
+/.htpasswd (Status: 403)
+/.htpasswd.php (Status: 403)
+/launcher (Status: 200)
+/server-status (Status: 403)

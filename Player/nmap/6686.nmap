@@ -1,0 +1,11 @@
+# Nmap 7.70 scan initiated Fri Jul 19 17:43:30 2019 as: nmap -p 6686 -sV -sC -oA nmap/6686 -vv -Pn player.htb
+Nmap scan report for player.htb (10.10.10.145)
+Host is up, received user-set (0.052s latency).
+Scanned at 2019-07-19 17:43:30 CEST for 5s
+
+PORT     STATE SERVICE    REASON  VERSION
+6686/tcp open  tcpwrapped syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Jul 19 17:43:35 2019 -- 1 IP address (1 host up) scanned in 5.71 seconds

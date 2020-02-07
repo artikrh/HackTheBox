@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="referrer" content="no-referrer">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/dataTables.bootstrap.min.css" type="text/css" integrity="sha384-VEpVDzPR2x8NbTDZ8NFW4AWbtT2g/ollEzX/daZdW/YvUBlbgVtsxMftnJ84k0Cn" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha384-fJU6sGmyn07b+uD1nMk7/iSb4yvaowcueiQhfVgQuD98rfva8mcr1eSvjchfpMrH" crossorigin="anonymous"></script><script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js" integrity="sha384-rgWRqC0OFPisxlUvl332tiM/qmaNxnlY46eksSZD84t+s2vZlqGeHrncwIRX7CGp" crossorigin="anonymous"></script><script src="https://cdn.datatables.net/1.10.19/js/dataTables.bootstrap.min.js" integrity="sha384-7PXRkl4YJnEpP8uU4ev9652TTZSxrqC8uOpcV1ftVEC7LVyLZqqDUAaq+Y+lGgr9" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><style>
+          .target:before {
+            content: "";
+            display: block;
+            height: 50px;
+            margin: -20px 0 0;
+          }
+          @media only screen and (min-width:1900px) {
+            .container {
+              width: 1800px;
+              }
+          }
+          .footer {
+            margin-top:60px;
+            padding-top:60px;
+            width: 100%;
+            height: 180px;
+            background-color: #f5f5f5;
+          }
+        </style>
+<title>Scan Report Nmap 7.70</title>
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top"><div class="container-fluid">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"><span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button><a class="navbar-brand" href="#"><span class="glyphicon glyphicon-home"></span></a>
+</div>
+<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"><ul class="nav navbar-nav">
+<li><a href="#scannedhosts">Scanned Hosts</a></li>
+<li><a href="#onlinehosts">Online Hosts</a></li>
+<li><a href="#openservices">Open Services</a></li>
+</ul></div>
+</div></nav><div class="container">
+<div class="jumbotron">
+<h1>Scan Report<br><small>Nmap 7.70</small>
+</h1>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sC -sV -oA nmap/initial -vv -T4 10.10.10.110</pre>
+<p class="lead">Tue Jul 16 13:17:56 2019 – Tue Jul 16 13:18:22 2019<br>1 hosts scanned.
+              1 hosts up.
+              0 hosts down.
+            </p>
+<div class="progress">
+<div class="progress-bar progress-bar-success" style="width:100%;">1<span class="sr-only"></span>
+</div>
+<div class="progress-bar progress-bar-danger" style="width:0%;">0<span class="sr-only"></span>
+</div>
+</div>
+</div>
+<h2 id="scannedhosts" class="target">Scanned Hosts</h2>
+<div class="table-responsive"><table id="table-overview" class="table table-striped dataTable" role="grid">
+<thead><tr>
+<th>State</th>
+<th>Address</th>
+<th>Hostname</th>
+<th>TCP (open)</th>
+<th>UDP (open)</th>
+</tr></thead>
+<tbody><tr>
+<td><span class="label label-success">up</span></td>
+<td>10.10.10.110</td>
+<td></td>
+<td>2</td>
+<td>0</td>
+</tr></tbody>
+</table></div>
+<script>
+            $(document).ready(function() {
+              $('#table-overview').DataTable();
+            });
+          </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
+<div class="panel panel-default">
+<div class="panel-heading"><h3 class="panel-title">10.10.10.110</h3></div>
+<div class="panel-body">
+<h4>Ports</h4>
+<div class="table-responsive"><table class="table table-bordered">
+<thead><tr>
+<th>Port</th>
+<th>Protocol</th>
+<th>State<br>Reason</th>
+<th>Service</th>
+<th>Product</th>
+<th>Version</th>
+<th>Extra Info</th>
+</tr></thead>
+<tbody>
+<tr class="success">
+<td title="Port">22</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">ssh</td>
+<td title="Product">OpenSSH</td>
+<td title="Version">7.4p1 Debian 10+deb9u5</td>
+<td title="Extra Info">protocol 2.0</td>
+</tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:openbsd:openssh:7.4p1">cpe:/a:openbsd:openssh:7.4p1</a><h5>ssh-hostkey</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  2048 bd:e7:6c:22:81:7a:db:3e:c0:f0:73:1d:f3:af:77:65 (RSA)
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCscULO5kzW5659eWy5BdBJWCHxBSvqKIn6TZwEdp4NG3cLJc6aVQxEUknoSoMa2RAy2CFv/IWKbFIEY33XM2PRhKTuSJd/aNrMKs0jX40q/0zpmRv4/HzLdWE33t9on739xRWgsnNI0JOaGAwa4ryubOeKo53ykP9fTgLeHvT37GthWJIzfXNA7UFXJen3T4+4xmbxA2Low8D8xAGjqVLoEgKGVy05oL+zGucd0C5LyclT0Gkxm3NCk3MLdFdPOuaVX5jlX32yKUA//Go9fN9OlGffcHkLfgTA7s+PLememC14H/r8ZLYJYByeBj2MqR6ndkQ3+OkmSjeOBPEamkqz
+  256 82:b5:f9:d1:95:3b:6d:80:0f:35:91:86:2d:b3:d7:66 (ECDSA)
+ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJAzk0wAfmy1zhnnnQOEoqLN0OK0zF9VwqqwIRkG58ARwaVlwSARRf3BS7Ywo2AfjZS9EWZycsXxy3/7MwEQS1U=
+  256 28:3b:26:18:ec:df:b3:36:85:9c:27:54:8d:8c:e1:33 (ED25519)
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJsBTHLrhy1IfI4AeEWxjJBm9z6wm/F9mMPMUbpRt2+K</pre>
+</td></tr>
+<tr class="success">
+<td title="Port">443</td>
+<td title="Protocol">tcp</td>
+<td title="State / Reason">open<br>syn-ack</td>
+<td title="Service">http</td>
+<td title="Product">nginx</td>
+<td title="Version">1.15.8</td>
+<td title="Extra Info"></td>
+</tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx:1.15.8">cpe:/a:igor_sysoev:nginx:1.15.8</a><h5>http-methods</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  Supported Methods: OPTIONS GET HEAD POST</pre>
+<h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">nginx/1.15.8</pre>
+<h5>http-title</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">About</pre>
+<h5>ssl-cert</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Subject: commonName=craft.htb/organizationName=Craft/stateOrProvinceName=NY/countryName=US
+Issuer: commonName=Craft CA/organizationName=Craft/stateOrProvinceName=New York/countryName=US/localityName=Buffalo/emailAddress=admin@craft.htb/organizationalUnitName=Craft
+Public Key type: rsa
+Public Key bits: 2048
+Signature Algorithm: sha256WithRSAEncryption
+Not valid before: 2019-02-06T02:25:47
+Not valid after:  2020-06-20T02:25:47
+MD5:   0111 76e2 83c8 0f26 50e7 56e4 ce16 4766
+SHA-1: 2e11 62ef 4d2e 366f 196a 51f0 c5ca b8ce 8592 3730
+-----BEGIN CERTIFICATE-----
+MIIEQDCCAigCCQC6e7PJjcRLnzANBgkqhkiG9w0BAQsFADCBhTELMAkGA1UEBhMC
+VVMxETAPBgNVBAgMCE5ldyBZb3JrMRAwDgYDVQQHDAdCdWZmYWxvMQ4wDAYDVQQK
+DAVDcmFmdDEOMAwGA1UECwwFQ3JhZnQxETAPBgNVBAMMCENyYWZ0IENBMR4wHAYJ
+KoZIhvcNAQkBFg9hZG1pbkBjcmFmdC5odGIwHhcNMTkwMjA2MDIyNTQ3WhcNMjAw
+NjIwMDIyNTQ3WjA+MQswCQYDVQQGEwJVUzELMAkGA1UECAwCTlkxDjAMBgNVBAoM
+BUNyYWZ0MRIwEAYDVQQDDAljcmFmdC5odGIwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQDV6vf1Ki4fZhJeMOQBAUFx98hM70l6Hpu+4MlB4++i/u2fKRvV
+woGYPpz3KGuNKv+BvjR0+yGFM2HflIgZcc5yE//MGnb9F1fcjJ66rT3qBHjIfwls
+6MRygl9NRVSa09PvrXUbULBr95V624TTPewiEy1yZgMP+ByQzm9Td0jdTQ8HDugq
+kmOmUDX34kDtZc5u7iFBicTXYBpnYVZNEVsUoT6QVZiez07E5L9d0XZ9+iLeVvaB
+XmeimEdbaR2iKKDTmmWaduH/YLUAEP+gS0STM2lKiXL3euL13f9z6i0KjI8Tymby
+Sb6zeznqWCYuJRHfEZnYj+B26jcXU2ZE0GwrAgMBAAEwDQYJKoZIhvcNAQELBQAD
+ggIBACEEpKD0fivZFNx7Q8/q81SNE8TbAQKyfOP98SXU6LAMPOIfAf27tG8C8xGF
+NCmQcggUwpuz2PB+t8vN91oRHdehkpDsVa7ZOKPQm+RQYH7WlMyO65bz5M2zxkbq
+m7Eesaeakdj2XR4ah7TbCeSU7Mu2ePdOLgHme8qI60XjvTrNJ7sB7i5vc5cs7Q9j
+AgOQhQFJddhFsViOcuICei+m8WDg2w4/Kmbu1lSHCCAm4HPA+H8+dZcHN3v3EtqQ
+IRwoph/Jl5h9yxZXDDrFyGMburGjWtIwvrDJmC3m5eDigliUM1OZEWOmDEzBKfUG
+dpNln6Mku8EI2qrVITepg9Szb/7lbd8OJsWo1g4s9BPi2NA/ZGk3z3no6AvGPo6d
+74uNAzGaIBaPH9v2pyUsKbeNm/TY2GikZuOUVdSt/dXCEQ5I5TVxLBJYB9RmzA2+
+u5qS2hN6KOBNBWvYsvLTsAyq5VTzi6seRUk887S5oMoVzD4AxchcrwmBOKPaeyTS
+sUpN2F4Ea7TRPyQWN1IjVnIjkpRzN5mUwnKyyKovKyQaYE9HPM59PC8uTri59mIv
+Rtz++eBxJu/2FFDhI7AiOctOhzKTa7AN0JmTO1pp4OFY5uDl4yFk3t+1lMKhggMa
+UOpGWGGlST3o/VI2ebJq4nDewBf/LY3ZtJbNIKcXNpQQzB7/
+-----END CERTIFICATE-----
+</pre>
+<h5>ssl-date</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">TLS randomness does not represent time</pre>
+<h5>tls-alpn</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  http/1.1</pre>
+<h5>tls-nextprotoneg</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  http/1.1</pre>
+</td></tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<h2 id="openservices" class="target">Open Services</h2>
+<div class="table-responsive"><table id="table-services" class="table table-striped dataTable" role="grid">
+<thead><tr>
+<th>Address</th>
+<th>Port</th>
+<th>Protocol</th>
+<th>Service</th>
+<th>Product</th>
+<th>Version</th>
+<th>CPE</th>
+<th>Extra info</th>
+</tr></thead>
+<tbody>
+<tr>
+<td>10.10.10.110</td>
+<td>22</td>
+<td>tcp</td>
+<td>ssh</td>
+<td>OpenSSH</td>
+<td>7.4p1 Debian 10+deb9u5</td>
+<td>cpe:/a:openbsd:openssh:7.4p1</td>
+<td>protocol 2.0</td>
+</tr>
+<tr>
+<td>10.10.10.110</td>
+<td>443</td>
+<td>tcp</td>
+<td>http</td>
+<td>nginx</td>
+<td>1.15.8</td>
+<td>cpe:/a:igor_sysoev:nginx:1.15.8</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<script>
+            $(document).ready(function() {
+              $('#table-services').DataTable();
+            });
+          </script>
+</div>
+<footer class="footer"><div class="container"><p class="text-muted">
+              This report was generated with <a href="https://github.com/honze-net/nmap-bootstrap-xsl">Nmap Bootstrap XSL</a>.<br>
+              Licensed under <a href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons BY-SA</a>.<br>
+              Designed and built by Andreas Hontzia (<a href="https://www.twitter.com/honze_net">@honze_net</a>).<br></p></div></footer>
+</body>
+</html>

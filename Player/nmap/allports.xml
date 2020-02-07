@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Tue Jul  9 14:46:06 2019 as: nmap -p- -oA nmap/allports -vv -T4 10.10.10.145 -->
+<nmaprun scanner="nmap" args="nmap -p- -oA nmap/allports -vv -T4 10.10.10.145" start="1562676366" startstr="Tue Jul  9 14:46:06 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1562676366"/>
+<taskend task="Ping Scan" time="1562676366" extrainfo="1 total hosts"/>
+<taskbegin task="Connect Scan" time="1562676366"/>
+<taskend task="Connect Scan" time="1562676396" extrainfo="65535 total ports"/>
+<host starttime="1562676366" endtime="1562676396"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.10.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="player.htb" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65532">
+<extrareasons reason="conn-refused" count="65532"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="6686"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+</ports>
+<times srtt="50733" rttvar="1213" to="100000"/>
+</host>
+<runstats><finished time="1562676396" timestr="Tue Jul  9 14:46:36 2019" elapsed="29.83" summary="Nmap done at Tue Jul  9 14:46:36 2019; 1 IP address (1 host up) scanned in 29.83 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

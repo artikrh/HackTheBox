@@ -1,0 +1,5 @@
+# Nmap 7.70 scan initiated Fri Jul 19 17:43:30 2019 as: nmap -p 6686 -sV -sC -oA nmap/6686 -vv -Pn player.htb
+# Ports scanned: TCP(1;6686) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.145 (player.htb)	Status: Up
+Host: 10.10.10.145 (player.htb)	Ports: 6686/open/tcp//tcpwrapped///
+# Nmap done at Fri Jul 19 17:43:35 2019 -- 1 IP address (1 host up) scanned in 5.71 seconds

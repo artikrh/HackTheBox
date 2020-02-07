@@ -1,0 +1,1796 @@
+
+=============================================================================================================
+== Addons (URLS/PATHS)  
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/xulstore.json
+=> SHA256 hash: 405758427e4124ad5447af9b2453f06fb573e2c89264b1d07f27ffeb189facf7
+
+URL/PATH: "chrome://browser/content/browser.xul"
+
+URL/PATH: "chrome://mozapps/content/downloads/unknownContentType.xul"
+
+
+=============================================================================================================
+== Addons               
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/addons.json
+=> SHA256 hash: a13174f20dde2249a49853d6eae20f07ffc4ddf1e3007ab3e4911e511ecffc1c
+
+No data found!
+
+=============================================================================================================
+== Bookmarks            
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/places.sqlite
+=> SHA256 hash: aa17ab21890fcd82e104e7fe144217ab1e6c52ca2497287ec75c307edd79c519
+
+Title: 
+URL: https://support.mozilla.org/en-US/products/firefox
+Creation Time: 2019-03-14 02:45:14
+Last Modified: 2019-03-14 02:45:15
+
+Title: menu
+URL: https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize
+Creation Time: 2019-03-14 02:45:14
+Last Modified: 2019-03-14 02:45:15
+
+Title: toolbar
+URL: https://www.mozilla.org/en-US/contribute/
+Creation Time: 2019-03-14 02:45:14
+Last Modified: 2019-03-14 02:45:15
+
+Title: tags
+URL: https://www.mozilla.org/en-US/about/
+Creation Time: 2019-03-14 02:45:14
+Last Modified: 2019-03-14 02:45:14
+
+Title: unfiled
+URL: https://www.mozilla.org/en-US/firefox/central/
+Creation Time: 2019-03-14 02:45:14
+Last Modified: 2019-03-14 02:45:15
+
+Title: mobile
+URL: https://www.mozilla.org/privacy/firefox/
+Creation Time: 2019-03-14 02:45:14
+Last Modified: 2019-03-14 02:45:15
+
+Title: Mozilla Firefox
+URL: https://www.mozilla.org/en-US/privacy/firefox/
+Creation Time: 2019-03-14 02:45:15
+Last Modified: 2019-03-14 02:45:15
+
+Title: Help and Tutorials
+URL: https://www.google.com/search?client=firefox-b-1-d&q=libre+office
+Creation Time: 2019-03-14 02:45:15
+Last Modified: 2019-03-14 02:45:15
+
+Title: Customize Firefox
+URL: https://www.libreoffice.org/download/download/
+Creation Time: 2019-03-14 02:45:15
+Last Modified: 2019-03-14 02:45:15
+
+Title: Get Involved
+URL: https://www.libreoffice.org/donate/dl/win-x86_64/6.2.1/en-US/LibreOffice_6.2.1_Win_x64.msi
+Creation Time: 2019-03-14 02:45:15
+Last Modified: 2019-03-14 02:45:15
+
+Title: About Us
+URL: https://download.documentfoundation.org/libreoffice/stable/6.2.1/win/x86_64/LibreOffice_6.2.1_Win_x64.msi
+Creation Time: 2019-03-14 02:45:15
+Last Modified: 2019-03-14 02:45:15
+
+Title: Getting Started
+URL: http://tdf.mirrors.tds.net/pub/documentfoundation.org/libreoffice/stable/6.2.1/win/x86_64/LibreOffice_6.2.1_Win_x64.msi
+Creation Time: 2019-03-14 02:45:15
+Last Modified: 2019-03-14 02:45:15
+
+
+=============================================================================================================
+== Cookies              
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/cookies.sqlite
+=> SHA256 hash: 5bdd8558d70dae823c7e9109cf18fbf43a6dd7d1c4acd1a9f5052e27c88e92e9
+
+Domain: mozilla.org
+Host: www.mozilla.org
+Name: moz-stub-attribution-code
+Value: c291cmNlPXd3dy5tb3ppbGxhLm9yZyZtZWRpdW09KG5vbmUpJmNhbXBhaWduPShub3Qgc2V0KSZjb250ZW50PShub3Qgc2V0KQ..
+Path: /
+Expiry: 2019-03-15 02:45:17
+Last Access: 2019-03-14 02:45:17
+Creation Time: 2019-03-14 02:45:17
+Secure: No
+HttpOnly: No
+
+Domain: mozilla.org
+Host: www.mozilla.org
+Name: moz-stub-attribution-sig
+Value: 24f20c1791256511cbb5047975f1f4003fc1cb8cd216aba0cb34f9baa206a5f9
+Path: /
+Expiry: 2019-03-15 02:45:17
+Last Access: 2019-03-14 02:45:17
+Creation Time: 2019-03-14 02:45:17
+Secure: No
+HttpOnly: No
+
+Domain: google.com
+Host: .google.com
+Name: CGIC
+Value: Cg1maXJlZm94LWItMS1kIkp0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSxpbWFnZS93ZWJwLCovKjtxPTAuOA
+Path: /complete/search
+Expiry: 2019-09-12 18:39:55
+Last Access: 2019-03-14 02:45:19
+Creation Time: 2019-03-14 02:45:19
+Secure: No
+HttpOnly: Yes
+
+Domain: google.com
+Host: .google.com
+Name: CGIC
+Value: Cg1maXJlZm94LWItMS1kIkp0ZXh0L2h0bWwsYXBwbGljYXRpb24veGh0bWwreG1sLGFwcGxpY2F0aW9uL3htbDtxPTAuOSxpbWFnZS93ZWJwLCovKjtxPTAuOA
+Path: /search
+Expiry: 2019-09-12 18:39:55
+Last Access: 2019-03-20 22:43:15
+Creation Time: 2019-03-14 02:45:19
+Secure: No
+HttpOnly: Yes
+
+Domain: twitter.com
+Host: .syndication.twitter.com
+Name: metrics_token
+Value: "v1:15525279245828555485456322"
+Path: /i/jot/syndication
+Expiry: 2019-04-16 03:45:24
+Last Access: 2019-03-14 02:45:24
+Creation Time: 2019-03-14 02:45:24
+Secure: No
+HttpOnly: No
+
+Domain: bitpay.com
+Host: .bitpay.com
+Name: __cfduid
+Value: d8a303a784fcf47ea97907e0fb60dfe831552527927
+Path: /
+Expiry: 2020-03-13 02:45:27
+Last Access: 2019-03-14 02:45:27
+Creation Time: 2019-03-14 02:45:27
+Secure: No
+HttpOnly: Yes
+
+Domain: stripe.com
+Host: checkout.stripe.com
+Name: cid
+Value: 2950c86d-4083-4c33-9947-2ee72cedd652
+Path: /m/v3/
+Expiry: 
+Last Access: 2019-03-14 02:45:27
+Creation Time: 2019-03-14 02:45:27
+Secure: No
+HttpOnly: No
+
+Domain: stripe.com
+Host: .checkout.stripe.com
+Name: __stripe_mid
+Value: 56016f60-225a-45e8-9ee1-f85cb3ea907a
+Path: /
+Expiry: 2020-03-13 02:45:27
+Last Access: 2019-03-14 02:45:27
+Creation Time: 2019-03-14 02:45:27
+Secure: No
+HttpOnly: No
+
+Domain: stripe.com
+Host: .checkout.stripe.com
+Name: __stripe_sid
+Value: dc0066e3-1f77-408b-88ed-2a0de7682a7c
+Path: /
+Expiry: 2019-03-14 03:15:27
+Last Access: 2019-03-14 02:45:27
+Creation Time: 2019-03-14 02:45:27
+Secure: No
+HttpOnly: No
+
+Domain: stripe.com
+Host: checkout.stripe.com
+Name: ab_disable_remember_me
+Value: control
+Path: /api/
+Expiry: 2026-03-14 02:45:27
+Last Access: 2019-03-14 02:45:27
+Creation Time: 2019-03-14 02:45:27
+Secure: No
+HttpOnly: Yes
+
+Domain: stripe.com
+Host: checkout.stripe.com
+Name: checkout-live-session
+Value: d19ea442-95cf-4f57-b583-96dbf69c60ef
+Path: /
+Expiry: 2029-03-14 02:45:27
+Last Access: 2019-03-14 02:45:27
+Creation Time: 2019-03-14 02:45:27
+Secure: Yes
+HttpOnly: Yes
+
+Domain: google.com
+Host: .google.com
+Name: NID
+Value: 164=VKj7emwN2JAxzWwIq5WyspHnZ0z_pzfSl5a40C9VpoZPvFtYoMQKAodJqqg41bH8Knl5J9WtRRusvBfzjKjT5PebHSeDZy-KiWjO2jdPi4mBrxwHY09NGHuYcHAzJV09QOQI1jyMw4bmI4gZOQVqhvAxrPnENjlJLA3V8UB08Lg
+Path: /
+Expiry: 2019-09-13 03:45:44
+Last Access: 2019-03-15 18:22:59
+Creation Time: 2019-03-14 02:45:44
+Secure: No
+HttpOnly: Yes
+
+Domain: google.com
+Host: .google.com
+Name: NID
+Value: 179=C_RiRqnq-X9RPBiC0JZT93Oqa_PmO-WPs9dGEw_bQ7dE0zy2Uu84E6N22hYFpekSR7iC0bkVT8fkPA1oNCc1oROxXYM3pPf8dyx8e0dE_u3g3C2L99de55qoBxAYETA8ElFWOofz-xrNdRqVxehm79-Sti5FC8i466okYVCkzl0
+Path: /
+Expiry: 2019-09-13 03:45:46
+Last Access: 2019-03-20 22:43:09
+Creation Time: 2019-03-14 02:45:19
+Secure: No
+HttpOnly: Yes
+
+Domain: dropbox.com
+Host: www.dropbox.com
+Name: seen-sl-signup-modal
+Value: VHJ1ZQ%3D%3D
+Path: /
+Expiry: 2019-04-13 03:45:55
+Last Access: 2019-03-14 13:12:33
+Creation Time: 2019-03-14 02:45:55
+Secure: Yes
+HttpOnly: No
+
+Domain: dropbox.com
+Host: .dropbox.com
+Name: locale
+Value: en
+Path: /
+Expiry: 2024-03-12 02:45:55
+Last Access: 2019-03-14 13:11:33
+Creation Time: 2019-03-14 02:45:55
+Secure: Yes
+HttpOnly: No
+
+Domain: dropbox.com
+Host: www.dropbox.com
+Name: gvc
+Value: MjczNzYyNzY2NDI3NTA2MDA2MjY3MDY5MDYwNDA0OTU0MTEwMzI0
+Path: /
+Expiry: 2024-03-12 02:45:55
+Last Access: 2019-03-14 13:12:33
+Creation Time: 2019-03-14 02:45:55
+Secure: Yes
+HttpOnly: Yes
+
+Domain: dropboxstatic.com
+Host: .dropboxstatic.com
+Name: __cfduid
+Value: d949e84080ab59af2b8cbcd85b02bcc731552527955
+Path: /
+Expiry: 2020-03-13 02:45:55
+Last Access: 2019-03-14 02:46:57
+Creation Time: 2019-03-14 02:45:55
+Secure: No
+HttpOnly: Yes
+
+Domain: dropbox.com
+Host: www.dropbox.com
+Name: seen-sl-download-modal
+Value: VHJ1ZQ%3D%3D
+Path: /
+Expiry: 2019-04-13 03:46:47
+Last Access: 2019-03-14 13:12:33
+Creation Time: 2019-03-14 02:46:47
+Secure: Yes
+HttpOnly: No
+
+Domain: dropbox.com
+Host: www.dropbox.com
+Name: __Host-js_csrf
+Value: TjvHL13SGBmBKLdM5TeXgdHS
+Path: /
+Expiry: 2022-03-13 02:46:47
+Last Access: 2019-03-14 13:12:33
+Creation Time: 2019-03-14 02:45:55
+Secure: Yes
+HttpOnly: No
+
+Domain: dropbox.com
+Host: .dropbox.com
+Name: t
+Value: TjvHL13SGBmBKLdM5TeXgdHS
+Path: /
+Expiry: 2022-03-13 02:46:47
+Last Access: 2019-03-14 13:11:33
+Creation Time: 2019-03-14 02:45:55
+Secure: Yes
+HttpOnly: Yes
+
+Domain: dropbox.com
+Host: www.dropbox.com
+Name: __Host-ss
+Value: P-qH3pQFKE
+Path: /
+Expiry: 2022-03-13 02:46:47
+Last Access: 2019-03-14 13:12:33
+Creation Time: 2019-03-14 02:45:55
+Secure: Yes
+HttpOnly: Yes
+
+Domain: github.com
+Host: .github.com
+Name: logged_in
+Value: no
+Path: /
+Expiry: 2039-03-14 14:33:37
+Last Access: 2019-03-14 14:33:37
+Creation Time: 2019-03-14 14:33:37
+Secure: Yes
+HttpOnly: Yes
+
+Domain: github.com
+Host: github.com
+Name: has_recent_activity
+Value: 1
+Path: /
+Expiry: 2019-03-14 15:33:41
+Last Access: 2019-03-14 14:33:41
+Creation Time: 2019-03-14 14:33:37
+Secure: No
+HttpOnly: No
+
+Domain: oldversion.com
+Host: www.oldversion.com
+Name: AWSELB
+Value: 491501950ACDD4F7CCFD3FEF6BE693D0821EBE2FA218D901A19FAB72094AC0C9752D026AD8AA46DF699DF3E7B982037D3185EF7A36DD86C1D9798FD70A266012D8B5E4EB19
+Path: /
+Expiry: 2019-03-15 18:45:34
+Last Access: 2019-03-15 18:22:45
+Creation Time: 2019-03-15 18:21:34
+Secure: No
+HttpOnly: No
+
+Domain: twitter.com
+Host: .twitter.com
+Name: tfw_exp
+Value: 0
+Path: /
+Expiry: 2019-03-16 18:21:35
+Last Access: 2019-03-15 18:22:46
+Creation Time: 2019-03-15 18:21:35
+Secure: No
+HttpOnly: No
+
+Domain: addtoany.com
+Host: .addtoany.com
+Name: __cfduid
+Value: d1d25f907a4a19f14b229efd2366e759e1552670501
+Path: /
+Expiry: 2020-03-14 18:21:41
+Last Access: 2019-03-15 18:21:41
+Creation Time: 2019-03-15 18:21:41
+Secure: No
+HttpOnly: Yes
+
+Domain: addtoany.com
+Host: .addtoany.com
+Name: uvc
+Value: 1
+Path: /
+Expiry: 2019-03-16 18:21:41
+Last Access: 2019-03-15 18:21:41
+Creation Time: 2019-03-15 18:21:41
+Secure: No
+HttpOnly: No
+
+Domain: facebook.com
+Host: .facebook.com
+Name: fr
+Value: 0J5rO5xYmsSYdnUgG..Bci98l...1.0.Bci98l.
+Path: /
+Expiry: 2019-06-13 19:21:41
+Last Access: 2019-03-15 18:22:43
+Creation Time: 2019-03-15 18:21:41
+Secure: Yes
+HttpOnly: Yes
+
+Domain: disqus.com
+Host: .disqus.com
+Name: G_ENABLED_IDPS
+Value: google
+Path: /
+Expiry: 9999-12-31 13:00:00
+Last Access: 2019-03-15 18:21:41
+Creation Time: 2019-03-15 18:21:41
+Secure: No
+HttpOnly: No
+
+Domain: mcafee.com
+Host: .mcafee.com
+Name: _fbp
+Value: fb.1.1552670501891.1389569527
+Path: /
+Expiry: 2019-06-13 19:21:42
+Last Access: 2019-03-15 18:21:42
+Creation Time: 2019-03-15 18:21:41
+Secure: No
+HttpOnly: No
+
+Domain: disqus.com
+Host: disqus.com
+Name: disqusauth
+Value: 
+Path: /
+Expiry: 2019-03-15 18:22:47
+Last Access: 2019-03-15 18:22:46
+Creation Time: 2019-03-15 18:22:46
+Secure: Yes
+HttpOnly: No
+
+Domain: disqus.com
+Host: .disqus.com
+Name: disqus_unique
+Value: 2f1055jo73697
+Path: /
+Expiry: 2020-03-14 18:22:47
+Last Access: 2019-03-15 18:22:47
+Creation Time: 2019-03-15 18:21:37
+Secure: Yes
+HttpOnly: No
+
+Domain: disqus.com
+Host: disqus.com
+Name: __jid
+Value: 2f1mil82pj6jhu
+Path: /
+Expiry: 2019-03-15 18:52:47
+Last Access: 2019-03-15 18:22:47
+Creation Time: 2019-03-15 18:21:37
+Secure: Yes
+HttpOnly: No
+
+Domain: peazip.org
+Host: www.peazip.org
+Name: CookieConsent
+Value: {stamp:'jSChltqiBgNb9sAdRBKusESI+45Nf0/dSl4MLPhyhcEpmHVVjaweNg=='%2Cnecessary:true%2Cpreferences:true%2Cstatistics:true%2Cmarketing:true%2Cver:1}
+Path: /
+Expiry: 2020-03-20 22:41:02
+Last Access: 2019-03-20 22:41:02
+Creation Time: 2019-03-20 22:41:00
+Secure: No
+HttpOnly: No
+
+Domain: fsdn.com
+Host: .fsdn.com
+Name: __cfduid
+Value: dd07738365644d5887f6ce14f42edf1181553118087
+Path: /
+Expiry: 2020-03-19 22:41:27
+Last Access: 2019-03-20 22:41:27
+Creation Time: 2019-03-20 22:41:27
+Secure: No
+HttpOnly: Yes
+
+Domain: google.com
+Host: www.google.com
+Name: DV
+Value: Awpgkf-J2WUloC9nATwu2DLXC-_QmVbXn5dzrfWIFwUAAAA
+Path: /
+Expiry: 2019-03-20 22:53:16
+Last Access: 2019-03-20 22:43:16
+Creation Time: 2019-03-20 22:40:49
+Secure: No
+HttpOnly: No
+
+Domain: google.com
+Host: .google.com
+Name: 1P_JAR
+Value: 2019-03-20-21
+Path: /
+Expiry: 2019-04-19 23:43:17
+Last Access: 2019-03-20 22:43:17
+Creation Time: 2019-03-14 02:45:19
+Secure: No
+HttpOnly: No
+
+Domain: microsoft.com
+Host: .microsoft.com
+Name: bm_sv
+Value: 28DCAE5451B314C987A11E6C278DD151~iDF3ZJXdQ7ZN3tKaTbpNFyjA6mv+NQ4Gkdqf2wrHxQ19OWiZiFAt5EKcIY4x0J3ae5ps4Jd+Lj22R1h/j5NsiiaW8DaoRHcY+hMfksQBq2bCkeQK2hV7hIL6lAxknzCgIgf4Xz5cXp5naqaH9GKNfk3ouV/kI/xT/euf9aQ2i1c=
+Path: /
+Expiry: 2019-03-21 00:43:18
+Last Access: 2019-03-20 22:53:41
+Creation Time: 2019-03-20 22:43:18
+Secure: No
+HttpOnly: Yes
+
+Domain: microsoft.com
+Host: .microsoft.com
+Name: ak_bmsc
+Value: 244C88800AA74F177DF498F315329BF6173027BE00280000F5B3925CC6520E7A~ple+ecDmLoMjrZOAQHlpmh0nmmtkaYx23fhlsBQXszN7RaETmK6R+yDdR9JhDL+1M7urOhH6PrULHo0acXIw/JX/W9M84rF5rCWYTJr1VSUieo31+R+p6Znccy8mGBKh9yVDQd2ISVMKgBDW0VS28xUDqvI9UHJG3m35abIWxxPD4dflCH0/MIgIf3YHSnqxgP/5atDZltiw9g322We7POYaAPu3us714mxfZkpOfej98jBuliMZJPo5vjLu4eobYC
+Path: /
+Expiry: 2019-03-21 00:43:17
+Last Access: 2019-03-20 22:53:41
+Creation Time: 2019-03-20 22:43:17
+Secure: No
+HttpOnly: Yes
+
+
+=============================================================================================================
+== Directories          
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/content-prefs.sqlite
+=> SHA256 hash: 2dc7f29463bc2f7a210f1e6160e843170054e4e1bff51d0947c86f8a8793b18c
+
+No data found!
+
+=============================================================================================================
+== Downloads history    
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/places.sqlite
+=> SHA256 hash: aa17ab21890fcd82e104e7fe144217ab1e6c52ca2497287ec75c307edd79c519
+
+Date: 2019-03-14 02:45:33
+URL: http://tdf.mirrors.tds.net/pub/documentfoundation.org/libreoffice/stable/6.2.1/win/x86_64/LibreOffice_6.2.1_Win_x64.msi
+Name: file:///C:/Users/luke/Downloads/LibreOffice_6.2.1_Win_x64.msi
+
+Date: 2019-03-14 02:47:07
+URL: https://ucff356fba92c658255d45810d55.dl.dropboxusercontent.com/cd/0/get/AdB0F6O9E6uIdTcKWKppTsU5avOrC2694w_Y482rySvG1kArSt8Ch0pq1AvH-COIKs22cwNuzV4vrG2U0ojGZcrbXuF0cxdLaJuoXxMJ5CXZyeT3ij6XTGQxQ24evaFfm5w/file?_download_id=526476486586193337133023560821954726368721936234911555353563993465&_notify_domain=www.dropbox.com&dl=1
+Name: file:///C:/Users/luke/AppData/Local/Temp/yara-3.9.0-win64.zip
+
+Date: 2019-03-14 02:47:41
+URL: https://ucff356fba92c658255d45810d55.dl.dropboxusercontent.com/cd/0/get/AdB0F6O9E6uIdTcKWKppTsU5avOrC2694w_Y482rySvG1kArSt8Ch0pq1AvH-COIKs22cwNuzV4vrG2U0ojGZcrbXuF0cxdLaJuoXxMJ5CXZyeT3ij6XTGQxQ24evaFfm5w/file?_download_id=9348777827822808123094556821360954464480314643345433385248685095925&_notify_domain=www.dropbox.com&dl=1
+Name: file:///C:/Users/luke/AppData/Local/Temp/yara-3.9.0-win64-1.zip
+
+Date: 2019-03-14 13:13:05
+URL: https://notepad-plus-plus.org/repository/7.x/7.6.4/npp.7.6.4.Installer.x64.exe
+Name: file:///C:/Users/luke/Downloads/npp.7.6.4.Installer.x64.exe
+
+Date: 2019-03-14 14:33:46
+URL: https://download.sysinternals.com/files/SysinternalsSuite.zip
+Name: file:///C:/Users/luke/AppData/Local/Temp/SysinternalsSuite.zip
+
+Date: 2019-03-14 15:49:24
+URL: http://10.1.1.41/msf.odt
+Name: file:///C:/Users/luke/Downloads/msf.odt
+
+Date: 2019-03-15 18:22:59
+URL: http://software.oldversion.com/download.php?f=YTo1OntzOjQ6InRpbWUiO2k6MTU1MjY3MDU2ODtzOjI6ImlkIjtpOjM3MDcyO3M6NDoiZmlsZSI7czoyNjoid2lucmFyLTUtNTAtYmV0YS0xLXg4Ni5leGUiO3M6MzoidXJsIjtzOjU2OiJodHRwOi8vd3d3Lm9sZHZlcnNpb24uY29tL3dpbmRvd3Mvd2lucmFyLTUtNTAtYmV0YS0xLXg4NiI7czo0OiJwYXNzIjtzOjMyOiJjMzcxNzI2YTU0ZmU2NGFmMGY1YmQ2N2JiNjM4MmU3MiI7fQ%3D%3D
+Name: file:///C:/Users/luke/Downloads/winrar-5-50-beta-1-x86.exe
+
+
+=============================================================================================================
+== Search Engines       
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/search.json.mozlz4
+=> SHA256 hash: 39b0b079858b238ee24d83c05fff882597eea600b47b052c44fbe19d2a3b880e
+
+Name: Google
+Description: Google Search
+Path: jar:[app]/omni.ja!/google-b-1-d.xml
+
+Name: Amazon.com
+Description: Amazon.com Search
+Path: jar:[app]/omni.ja!/amazondotcom.xml
+
+Name: Bing
+Description: Bing. Search by Microsoft.
+Path: jar:[app]/omni.ja!/bing.xml
+
+Name: DuckDuckGo
+Description: Search DuckDuckGo
+Path: jar:[app]/omni.ja!/ddg.xml
+
+Name: eBay
+Description: eBay - Online auctions
+Path: jar:[app]/omni.ja!/ebay.xml
+
+Name: Twitter
+Description: Realtime Twitter Search
+Path: jar:[app]/omni.ja!/twitter.xml
+
+Name: Wikipedia (en)
+Description: Wikipedia, the Free Encyclopedia
+Path: jar:[app]/omni.ja!/wikipedia.xml
+
+
+=============================================================================================================
+== Extensions           
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/extensions.json
+=> SHA256 hash: c8105f34b85d257c30595c094d2d8b5535311fc63dff5775f34483a068fff998
+
+Name: Form Autofill
+Type: extension
+Id: formautofill@mozilla.org
+Descriptor: 
+Version: 1.0
+Release: 
+Install Date: 2019-02-25 17:47:26
+Update Date: 2019-02-25 17:47:26
+Active: True
+
+Name: Firefox Screenshots
+Type: extension
+Id: screenshots@mozilla.org
+Descriptor: 
+Version: 35.0.0
+Release: 
+Install Date: 2019-02-25 17:47:26
+Update Date: 2019-02-25 17:47:26
+Active: True
+
+Name: WebCompat Reporter
+Type: extension
+Id: webcompat-reporter@mozilla.org
+Descriptor: 
+Version: 1.1.0
+Release: 
+Install Date: 2019-02-25 17:47:26
+Update Date: 2019-02-25 17:47:26
+Active: 
+
+Name: Web Compat
+Type: extension
+Id: webcompat@mozilla.org
+Descriptor: 
+Version: 3.0.0
+Release: 
+Install Date: 2019-02-25 17:47:26
+Update Date: 2019-02-25 17:47:26
+Active: 
+
+Name: Firefox Monitor
+Type: extension
+Id: fxmonitor@mozilla.org
+Descriptor: 
+Version: 2.8
+Release: 
+Install Date: 2019-03-14 02:55:45
+Update Date: 2019-03-14 02:55:45
+Active: True
+
+Name: Web Compat
+Type: extension
+Id: webcompat@mozilla.org
+Descriptor: 
+Version: 3.0.1
+Release: 
+Install Date: 2019-03-14 02:55:46
+Update Date: 2019-03-14 02:55:46
+Active: True
+
+
+=============================================================================================================
+== Forms                
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/formhistory.sqlite
+=> SHA256 hash: aeddd7853d18452579042734713efe782a0ec2e3864833a26ef6a9d663d293e2
+
+Name: id
+Value: 187610925152304
+Times Used: 1
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: ev
+Value: Microdata
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: dl
+Value: https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/attackers-exploiting-winrar-unacev2-dll-vulnerability-cve-2018-20250/
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: rl
+Value: https://www.google.com/
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: if
+Value: false
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: cd[Schema.org]
+Value: []
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: cd[DataLayer]
+Value: []
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: sw
+Value: 1024
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: sh
+Value: 768
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: v
+Value: 2.8.42
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: r
+Value: stable
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: ec
+Value: 1
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: o
+Value: 30
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: fbp
+Value: fb.1.1552670501891.1389569527
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: it
+Value: 1552670501808
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: coo
+Value: false
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: es
+Value: automatic
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: rqm
+Value: formPOST
+Times Used: 2
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: id
+Value: 766537420057144
+Times Used: 1
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+Name: ts
+Value: 1552670502611
+Times Used: 1
+First Used: 2019-03-15 18:21:42
+Last Used: 2019-03-15 18:21:42
+
+
+=============================================================================================================
+== History              
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/places.sqlite
+=> SHA256 hash: aa17ab21890fcd82e104e7fe144217ab1e6c52ca2497287ec75c307edd79c519
+
+Last Access: 2019-03-15 18:22:46
+Title: Download WinRAR 5.50 beta 1 (x86) for Windows - OldVersion.com
+URL: http://www.oldversion.com/windows/winrar-5-50-beta-1-x86
+Frequency: 3
+
+Last Access: 2019-03-14 02:46:47
+Title: Dropbox - yara-downloads - Simplify your life
+URL: https://www.dropbox.com/sh/umip8ndplytwzj1/AADdLRsrpJL1CM1vPVAxc5JZa?dl=0
+Frequency: 2
+
+Last Access: 2019-03-14 02:46:57
+Title: Dropbox - yara-downloads - Simplify your life
+URL: https://www.dropbox.com/sh/umip8ndplytwzj1/AADdLRsrpJL1CM1vPVAxc5JZa?dl=0&preview=yara-3.9.0-win64.zip
+Frequency: 2
+
+Last Access: 2019-03-15 18:22:19
+Title: Download Old Versions of WinRAR for Windows - OldVersion.com
+URL: http://www.oldversion.com/windows/winrar/
+Frequency: 2
+
+Last Access: 2019-03-14 02:45:15
+Title: 
+URL: https://www.mozilla.org/privacy/firefox/
+Frequency: 1
+
+Last Access: 2019-03-14 02:45:16
+Title: Firefox Privacy Notice — Mozilla
+URL: https://www.mozilla.org/en-US/privacy/firefox/
+Frequency: 1
+
+Last Access: 2019-03-14 02:45:19
+Title: libre office - Google Search
+URL: https://www.google.com/search?client=firefox-b-1-d&q=libre+office
+Frequency: 1
+
+Last Access: 2019-03-14 02:45:22
+Title: Download LibreOffice | LibreOffice - Free Office Suite - Fun Project - Fantastic People
+URL: https://www.libreoffice.org/download/download/
+Frequency: 1
+
+Last Access: 2019-03-14 02:45:26
+Title: Donate to LibreOffice | LibreOffice - Free Office Suite - Fun Project - Fantastic People
+URL: https://www.libreoffice.org/donate/dl/win-x86_64/6.2.1/en-US/LibreOffice_6.2.1_Win_x64.msi
+Frequency: 1
+
+Last Access: 2019-03-14 02:45:28
+Title: 
+URL: https://download.documentfoundation.org/libreoffice/stable/6.2.1/win/x86_64/LibreOffice_6.2.1_Win_x64.msi
+Frequency: 1
+
+Last Access: 2019-03-14 02:45:46
+Title: install yara windows - Google Search
+URL: https://www.google.com/search?client=firefox-b-1-d&q=install+yara+windows
+Frequency: 1
+
+Last Access: 2019-03-14 02:45:48
+Title: 
+URL: http://yara.readthedocs.io/en/v3.7.0/gettingstarted.html
+Frequency: 1
+
+Last Access: 2019-03-14 02:45:49
+Title: Getting started — yara 3.7.0 documentation
+URL: https://yara.readthedocs.io/en/v3.7.0/gettingstarted.html
+Frequency: 1
+
+Last Access: 2019-03-14 02:46:53
+Title: Dropbox - yara-downloads - Simplify your life
+URL: https://www.dropbox.com/sh/umip8ndplytwzj1/AADdLRsrpJL1CM1vPVAxc5JZa?dl=0&preview=yara-3.9.0-win32.zip
+Frequency: 1
+
+Last Access: 2019-03-14 13:12:34
+Title: notepad++ - Google Search
+URL: https://www.google.com/search?client=firefox-b-1-d&q=notepad%2B%2B
+Frequency: 1
+
+Last Access: 2019-03-14 13:12:54
+Title: Notepad++ Home
+URL: https://notepad-plus-plus.org/
+Frequency: 1
+
+Last Access: 2019-03-14 13:12:56
+Title: 
+URL: https://notepad-plus-plus.org/download/
+Frequency: 1
+
+Last Access: 2019-03-14 13:12:56
+Title: Notepad++ v7.6.4 - Current Version
+URL: https://notepad-plus-plus.org/download/v7.6.4.html
+Frequency: 1
+
+Last Access: 2019-03-14 14:33:34
+Title: sysinternals - Google Search
+URL: https://www.google.com/search?client=firefox-b-1-d&q=sysinternals
+Frequency: 1
+
+Last Access: 2019-03-14 14:33:36
+Title: Windows Sysinternals - Windows Sysinternals | Microsoft Docs
+URL: https://docs.microsoft.com/en-us/sysinternals/
+Frequency: 1
+
+Last Access: 2019-03-14 14:33:41
+Title: Sysinternals Utilities - Windows Sysinternals | Microsoft Docs
+URL: https://docs.microsoft.com/en-us/sysinternals/downloads/
+Frequency: 1
+
+Last Access: 2019-03-14 15:49:18
+Title: Directory listing for /
+URL: http://10.1.1.41/
+Frequency: 1
+
+Last Access: 2019-03-15 18:21:32
+Title: old winrar - Google Search
+URL: https://www.google.com/search?client=firefox-b-1-d&q=old+winrar
+Frequency: 1
+
+Last Access: 2019-03-15 18:21:39
+Title: winrar vulnerability - Google Search
+URL: https://www.google.com/search?client=firefox-b-1-d&q=winrar+vulnerability
+Frequency: 1
+
+Last Access: 2019-03-15 18:21:40
+Title: Attackers Exploiting WinRAR UNACEV2.DLL Vulnerability (CVE-2018-20250) | McAfee Blogs
+URL: https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/attackers-exploiting-winrar-unacev2-dll-vulnerability-cve-2018-20250/
+Frequency: 1
+
+Last Access: 2019-03-15 18:21:47
+Title: Download WinRAR 3.62 for Windows - OldVersion.com
+URL: http://www.oldversion.com/windows/winrar-3-62
+Frequency: 1
+
+Last Access: 2019-03-20 22:40:49
+Title: peazip rar - Google Search
+URL: https://www.google.com/search?client=firefox-b-1-d&q=peazip+rar
+Frequency: 1
+
+Last Access: 2019-03-20 22:41:00
+Title: PeaZip (Windows) free archiver, RAR TAR ZIP files extractor
+URL: http://www.peazip.org/download-installer-p-windows.html
+Frequency: 1
+
+Last Access: 2019-03-20 22:41:19
+Title: 7z create rar - Google Search
+URL: https://www.google.com/search?client=firefox-b-1-d&q=7z+create+rar
+Frequency: 1
+
+Last Access: 2019-03-20 22:41:27
+Title: 7-Zip / Feature Requests / #1198 Option to create RAR files?
+URL: https://sourceforge.net/p/sevenzip/feature-requests/1198/
+Frequency: 1
+
+Last Access: 2019-03-20 22:43:15
+Title: powershell make zip - Google Search
+URL: https://www.google.com/search?client=firefox-b-1-d&q=powershell+make+zip
+Frequency: 1
+
+Last Access: 2019-03-20 22:43:17
+Title: 
+URL: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/compress-archive
+Frequency: 1
+
+Last Access: 2019-03-20 22:43:17
+Title: Compress-Archive
+URL: https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.archive/compress-archive?view=powershell-6
+Frequency: 1
+
+Last Access: 
+Title: 
+URL: https://support.mozilla.org/en-US/products/firefox
+Frequency: 
+
+Last Access: 
+Title: 
+URL: https://support.mozilla.org/en-US/kb/customize-firefox-controls-buttons-and-toolbars?utm_source=firefox-browser&utm_medium=default-bookmarks&utm_campaign=customize
+Frequency: 
+
+Last Access: 
+Title: 
+URL: https://www.mozilla.org/en-US/contribute/
+Frequency: 
+
+Last Access: 
+Title: 
+URL: https://www.mozilla.org/en-US/about/
+Frequency: 
+
+Last Access: 
+Title: 
+URL: https://www.mozilla.org/en-US/firefox/central/
+Frequency: 
+
+Last Access: 2019-03-14 02:45:32
+Title: LibreOffice_6.2.1_Win_x64.msi
+URL: http://tdf.mirrors.tds.net/pub/documentfoundation.org/libreoffice/stable/6.2.1/win/x86_64/LibreOffice_6.2.1_Win_x64.msi
+Frequency: 
+
+Last Access: 2019-03-14 02:47:07
+Title: yara-3.9.0-win64.zip
+URL: https://ucff356fba92c658255d45810d55.dl.dropboxusercontent.com/cd/0/get/AdB0F6O9E6uIdTcKWKppTsU5avOrC2694w_Y482rySvG1kArSt8Ch0pq1AvH-COIKs22cwNuzV4vrG2U0ojGZcrbXuF0cxdLaJuoXxMJ5CXZyeT3ij6XTGQxQ24evaFfm5w/file?_download_id=526476486586193337133023560821954726368721936234911555353563993465&_notify_domain=www.dropbox.com&dl=1
+Frequency: 
+
+Last Access: 2019-03-14 02:47:41
+Title: yara-3.9.0-win64-1.zip
+URL: https://ucff356fba92c658255d45810d55.dl.dropboxusercontent.com/cd/0/get/AdB0F6O9E6uIdTcKWKppTsU5avOrC2694w_Y482rySvG1kArSt8Ch0pq1AvH-COIKs22cwNuzV4vrG2U0ojGZcrbXuF0cxdLaJuoXxMJ5CXZyeT3ij6XTGQxQ24evaFfm5w/file?_download_id=9348777827822808123094556821360954464480314643345433385248685095925&_notify_domain=www.dropbox.com&dl=1
+Frequency: 
+
+Last Access: 2019-03-14 13:13:05
+Title: npp.7.6.4.Installer.x64.exe
+URL: https://notepad-plus-plus.org/repository/7.x/7.6.4/npp.7.6.4.Installer.x64.exe
+Frequency: 
+
+Last Access: 2019-03-14 14:33:46
+Title: SysinternalsSuite.zip
+URL: https://download.sysinternals.com/files/SysinternalsSuite.zip
+Frequency: 
+
+Last Access: 2019-03-14 15:49:24
+Title: msf.odt
+URL: http://10.1.1.41/msf.odt
+Frequency: 
+
+Last Access: 2019-03-15 18:22:59
+Title: winrar-5-50-beta-1-x86.exe
+URL: http://software.oldversion.com/download.php?f=YTo1OntzOjQ6InRpbWUiO2k6MTU1MjY3MDU2ODtzOjI6ImlkIjtpOjM3MDcyO3M6NDoiZmlsZSI7czoyNjoid2lucmFyLTUtNTAtYmV0YS0xLXg4Ni5leGUiO3M6MzoidXJsIjtzOjU2OiJodHRwOi8vd3d3Lm9sZHZlcnNpb24uY29tL3dpbmRvd3Mvd2lucmFyLTUtNTAtYmV0YS0xLXg4NiI7czo0OiJwYXNzIjtzOjMyOiJjMzcxNzI2YTU0ZmU2NGFmMGY1YmQ2N2JiNjM4MmU3MiI7fQ%3D%3D
+Frequency: 
+
+
+=============================================================================================================
+== Public Key Pinning   
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/SiteSecurityServiceState.txt
+=> SHA256 hash: 3207b7b850c5d0dd9f0e4330241f7523d556a332074d960c59f290bf5a2a6b50
+
+Site: disqus.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-14 00:00:00
+Expiry-Date: 2019-03-15 18:27:46
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: accounts.firefox.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2019-09-10 03:45:17
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: www.microsoft.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2020-03-13 14:33:37
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: notepad-plus-plus.org
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2019-09-13 02:13:04
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: snippets.cdn.mozilla.net
+Type: HSTS
+Access-Score: 1
+Last-Access: 2019-03-14 00:00:00
+Expiry-Date: 2020-03-14 18:21:26
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: classify-client.services.mozilla.com
+Type: HSTS
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:45:10
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: cdnjs.cloudflare.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2019-09-13 05:32:57
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: firefox.settings.services.mozilla.com
+Type: HSTS
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:50:41
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: services.addons.mozilla.org
+Type: HSTS
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:51:10
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: tiles.services.mozilla.com
+Type: HSTS
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:45:41
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: www.mozilla.org
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2020-03-13 02:45:17
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: www.google.com
+Type: HSTS
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:43:17
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: www.facebook.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-14 00:00:00
+Expiry-Date: 2019-09-11 19:22:48
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: cdn.syndication.twimg.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2039-03-13 23:00:43
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: services.addons.mozilla.org
+Type: HPKP
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2019-05-19 23:51:10
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+Pin-1: WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18
+Pin-2: r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E
+
+Site: versioncheck-bg.addons.mozilla.org
+Type: HSTS
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2019-03-20 22:56:11
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: fonts.googleapis.com
+Type: HSTS
+Access-Score: 1
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:41:27
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: avatars1.githubusercontent.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2020-03-13 20:33:41
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: github.com
+Type: HSTS
+Access-Score: 1
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-13 14:33:41
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: c.disquscdn.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-14 00:00:00
+Expiry-Date: 2019-03-15 18:26:38
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: static.addtoany.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-14 00:00:00
+Expiry-Date: 2020-03-14 18:21:41
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: checkout.stripe.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2020-03-13 08:34:14
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: connect.facebook.net
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-14 00:00:00
+Expiry-Date: 2020-03-14 18:21:41
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: static.docs.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2019-09-19 11:43:18
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: staticxx.facebook.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-14 00:00:00
+Expiry-Date: 2019-09-11 19:21:41
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: versioncheck-bg.addons.mozilla.org
+Type: HPKP
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2019-05-19 23:51:11
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+Pin-1: WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18
+Pin-2: r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E
+
+Site: apis.google.com
+Type: HSTS
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-14 18:21:41
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: cdn.jsdelivr.net
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-14 00:00:00
+Expiry-Date: 2020-03-14 18:21:40
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: aus5.mozilla.org
+Type: HSTS
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:51:11
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: www.google.com^firstPartyDomain=google-b-1-d.search.suggestions.mozilla
+Type: HSTS
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:43:15
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: blocklists.settings.services.mozilla.com
+Type: HSTS
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:53:10
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: img-getpocket.cdn.mozilla.net
+Type: HSTS
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2021-03-19 22:45:41
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: m.stripe.network
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2020-03-13 08:34:13
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: dropbox.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2019-09-10 03:45:55
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: docs.microsoft.com
+Type: HSTS
+Access-Score: 1
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:43:18
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: oldversion.disqus.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-14 00:00:00
+Expiry-Date: 2019-03-15 18:27:46
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: normandy.cdn.mozilla.net
+Type: HPKP
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2019-03-15 02:45:19
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+Pin-1: WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18
+Pin-2: r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E
+Pin-3: YLh1dUR9y6Kja30RrAn7JKnbQG/uEtLMkBgFF2Fuihg
+Pin-4: sRHdihwgkaib1P1gxX8HFszlD+7/gTfNvuAybgLPNis
+
+Site: ucff356fba92c658255d45810d55.dl.dropboxusercontent.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2019-09-10 03:47:39
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: shavar.services.mozilla.com^firstPartyDomain=safebrowsing.86868755-6b82-4842-b301-72671a0db32e.mozilla
+Type: HSTS
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:40:44
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: www.dropbox.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2019-09-10 14:12:33
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: avatars2.githubusercontent.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2020-03-13 20:33:37
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: syndication.twitter.com
+Type: HSTS
+Access-Score: 1
+Last-Access: 2019-03-14 00:00:00
+Expiry-Date: 2039-03-15 14:38:05
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: js.stripe.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2020-03-13 08:34:13
+Security-Property-State: 1 - Enabled
+Include-Subdomains: Yes
+
+Site: mozilla.org
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2020-03-13 02:45:16
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: a.fsdn.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:41:28
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: normandy.cdn.mozilla.net
+Type: HSTS
+Access-Score: 2
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:45:11
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: avatars0.githubusercontent.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-13 00:00:00
+Expiry-Date: 2020-03-13 20:33:37
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: apps.facebook.com
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-14 00:00:00
+Expiry-Date: 2019-09-11 19:21:41
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+Site: sourceforge.net
+Type: HSTS
+Access-Score: 0
+Last-Access: 2019-03-19 00:00:00
+Expiry-Date: 2020-03-19 22:41:28
+Security-Property-State: 1 - Enabled
+Include-Subdomains: No
+
+
+=============================================================================================================
+== Permissions          
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/permissions.sqlite
+=> SHA256 hash: 693d7c395e1594775d4ac02a0b48351ca4b01db4716bcdd50852d21a397e4ad1
+
+Host: https://www.google.com
+Type: storageAccessAPI
+Permission: 1 (allow)
+Expire Time: 2019-04-19 23:43:17
+
+Host: https://www.libreoffice.org
+Type: storageAccessAPI
+Permission: 1 (allow)
+Expire Time: 2019-04-13 03:45:24
+
+Host: https://yara.readthedocs.io
+Type: storageAccessAPI
+Permission: 1 (allow)
+Expire Time: 2019-04-13 04:15:50
+
+Host: https://www.dropbox.com
+Type: storageAccessAPI
+Permission: 1 (allow)
+Expire Time: 2019-04-13 04:16:53
+
+Host: https://notepad-plus-plus.org
+Type: storageAccessAPI
+Permission: 1 (allow)
+Expire Time: 2019-04-13 14:42:58
+
+Host: https://docs.microsoft.com
+Type: storageAccessAPI
+Permission: 1 (allow)
+Expire Time: 2019-04-19 23:43:19
+
+Host: http://10.1.1.41
+Type: storageAccessAPI
+Permission: 1 (allow)
+Expire Time: 2019-04-13 17:19:21
+
+Host: https://securingtomorrow.mcafee.com
+Type: storageAccessAPI
+Permission: 1 (allow)
+Expire Time: 2019-04-14 19:21:41
+
+Host: http://www.oldversion.com
+Type: storageAccessAPI
+Permission: 1 (allow)
+Expire Time: 2019-04-14 19:22:53
+
+Host: http://www.peazip.org
+Type: storageAccessAPI
+Permission: 1 (allow)
+Expire Time: 2019-04-19 23:41:02
+
+Host: https://sourceforge.net
+Type: storageAccessAPI
+Permission: 1 (allow)
+Expire Time: 2019-04-19 23:41:28
+
+
+=============================================================================================================
+== Preferences          
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/prefs.js
+=> SHA256 hash: affb6d13281fcc28a9c656c5eb93121f4ba31b59029b2832bdbe45733f4880e7
+
+App Normandy First run: false
+
+App Normandy Startupexperimentprefs Dom Push Alwaysconnect: true
+
+App Normandy Startuprolloutprefs Browser Newtabpage Activity-stream Improvesearch Topsitesearchshortcuts: true
+
+App Normandy Startuprolloutprefs Extensions Fxmonitor Enabled: true
+
+App Normandy User id: 033c082d-070f-47bd-a04e-8318d91f087e
+
+App Update Auto Migrated: true
+
+App Update Lastupdatetime Addon-background-update-timer: 2019-03-20 22:51:10
+
+App Update Lastupdatetime Background-update-timer: 2019-03-20 22:47:10
+
+App Update Lastupdatetime Blocklist-background-update-timer: 2019-03-20 22:53:10
+
+App Update Lastupdatetime Browser-cleanup-thumbnails: 2019-03-20 22:41:10
+
+App Update Lastupdatetime Recipe-client-addon-run: 2019-03-20 22:45:10
+
+App Update Lastupdatetime Search-engine-update-timer: 2019-03-20 22:43:10
+
+App Update Lastupdatetime Services-settings-poll-changes: 2019-03-20 22:49:10
+
+App Update Lastupdatetime Telemetry modules ping: 2019-03-14 03:01:45
+
+App Update Lastupdatetime Xpi-signature-verification: 2019-03-15 18:35:55
+
+App Update Migrated Updatedir2 E7cf176e110c211b: true
+
+Browser Bookmarks Restore default bookmarks: false
+
+Browser Cache Disk Capacity: 860160
+
+Browser Cache Disk Filesystem reported: 1
+
+Browser Cache Disk Smart size First run: false
+
+Browser Contentblocking Category: standard
+
+Browser Download Panel Shown: true
+
+Browser Laterrun Bookkeeping Profilecreationtime: 2019-03-14 02:45:14
+
+Browser Laterrun Bookkeeping Sessioncount: 3
+
+Browser Laterrun Enabled: true
+
+Browser Migration Version: 77
+
+Browser Newtabpage Activity-stream Feeds Section Topstories Rec Impressions: {}
+
+Browser Newtabpage Activity-stream Feeds Section Topstories Spoc Impressions: {\788\:[1552670486264,1552670496774,1553118041760,1553118076922]}
+
+Browser Newtabpage Activity-stream Impressionid: {6f6cd3d7-8711-4e89-904f-22e7f744357a}
+
+Browser Newtabpage Activity-stream Improvesearch Topsitesearchshortcuts Havepinned: google,amazon
+
+Browser Newtabpage Activity-stream Migrationexpired: true
+
+Browser Newtabpage Activity-stream Migrationlastshowndate: 2019-03-15 08:00:00
+
+Browser Newtabpage Activity-stream Migrationremainingdays: 2
+
+Browser Newtabpage Pinned: [{\url\:\https://google.com\,\label\:\@google\,\searchTopSite\:true},{\url\:\https://amazon.com\,\label\:\@amazon\,\searchTopSite\:true}]
+
+Browser Newtabpage Storageversion: 1
+
+Browser Pageactions Persistedactions: {\version\:1,\ids\:[\bookmark\,\bookmarkSeparator\,\copyURL\,\emailLink\,\addSearchEngine\,\sendToDevice\,\shareURL\,\pocket\,\screenshots_mozilla_org\],\idsInUrlbar\:[\pocket\,\bookmark\]}
+
+Browser Pagethumbnails Storage version: 3
+
+Browser Safebrowsing Provider Google4 Lastupdatetime: 1553118043912
+
+Browser Safebrowsing Provider Google4 Nextupdatetime: 1553119820912
+
+Browser Safebrowsing Provider Mozilla Lastupdatetime: 1553118044193
+
+Browser Safebrowsing Provider Mozilla Nextupdatetime: 1553121644193
+
+Browser Search Cohort: nov17-2
+
+Browser Search Region: US
+
+Browser Sessionstore Upgradebackup Latestbuildid: 20190225143501
+
+Browser Shell Checkdefaultbrowser: false
+
+Browser Shell Didskipdefaultbrowsercheckonfirstrun: true
+
+Browser Slowstartup Averagetime: 1333
+
+Browser Slowstartup Samples: 3
+
+Browser Startup Homepage override Buildid: 20190225143501
+
+Browser Startup Homepage override Mstone: 65.0.2
+
+Browser Uicustomization State: {\placements\:{\widget-overflow-fixed-list\:[],\nav-bar\:[\back-button\,\forward-button\,\stop-reload-button\,\home-button\,\customizableui-special-spring1\,\urlbar-container\,\customizableui-special-spring2\,\downloads-button\,\library-button\,\sidebar-button\],\toolbar-menubar\:[\menubar-items\],\TabsToolbar\:[\tabbrowser-tabs\,\new-tab-button\,\alltabs-button\],\PersonalToolbar\:[\personal-bookmarks\]},\seen\:[\developer-button\],\dirtyAreaCache\:[\nav-bar\,\toolbar-menubar\,\TabsToolbar\,\PersonalToolbar\],\currentVersion\:15,\newElementCount\:2}
+
+Browser Urlbar Placeholdername: Google
+
+Browser Urlbar Timesbeforehidingsuggestionshint: 0
+
+Datareporting Policy Datasubmissionpolicyacceptedversion: 2
+
+Datareporting Policy Datasubmissionpolicynotifiedtime: 1552527917124
+
+Devtools Onboarding Telemetry Logged: true
+
+Distribution Inifile Exists Appversion: 65.0.2
+
+Distribution Inifile Exists Value: false
+
+Dom Forms Autocomplete Formautofill: true
+
+Dom Push Useragentid: 9f88e9a346b74a628a8d8d87f24262cc
+
+Extensions Blocklist Lastmodified: We
+
+Extensions Blocklist Pingcounttotal: 4
+
+Extensions Blocklist Pingcountversion: 4
+
+Extensions Databaseschema: 28
+
+Extensions Getaddons Cache Lastupdate: 2019-03-20 22:51:11
+
+Extensions Getaddons Databaseschema: 5
+
+Extensions Lastappbuildid: 20190225143501
+
+Extensions Lastappversion: 65.0.2
+
+Extensions Lastplatformversion: 65.0.2
+
+Extensions Pendingoperations: false
+
+Extensions Systemaddonset: {\schema\:1,\directory\:\{91b5ede8-097c-44ad-9414-a27a1d7a0c66}\,\addons\:{\fxmonitor@mozilla.org\:{\version\:\2.8\},\webcompat@mozilla.org\:{\version\:\3.0.1\}}}
+
+Extensions Webcompat Perform injections: true
+
+Extensions Webcompat Perform ua overrides: true
+
+Extensions Webextensions Uuids: {\formautofill@mozilla.org\:\902f3651-134c-4d3b-8bcc-3a141441ec68\,\screenshots@mozilla.org\:\71235a2c-1b9f-46ce-8197-914930b59950\,\webcompat-reporter@mozilla.org\:\2d42932a-2b49-493a-981f-7d63c409f480\,\webcompat@mozilla.org\:\c99759d3-a320-4789-b482-9a4c7e611dd8\,\fxmonitor@mozilla.org\:\0b7a916f-9184-42ce-ae05-03038e12a4f4\}
+
+Font Internaluseonly Changed: true
+
+Idle Lastdailynotification: 2019-03-20 22:42:56
+
+Layers Mlgpu Sanity-test-failed: false
+
+Lightweightthemes Usedthemes: []
+
+Media Gmp-gmpopenh264 Abi: x86-msvc-x64
+
+Media Gmp-gmpopenh264 Lastupdate: 2019-03-14 02:49:48
+
+Media Gmp-gmpopenh264 Version: 1.7.1
+
+Media Gmp-manager Buildid: 20190225143501
+
+Media Gmp-manager Lastcheck: 2019-03-20 22:42:17
+
+Media Gmp-widevinecdm Abi: x86-msvc-x64
+
+Media Gmp-widevinecdm Lastupdate: 2019-03-14 02:49:49
+
+Media Gmp-widevinecdm Version: 4.10.1146.0
+
+Media Gmp Storage Version Observed: 1
+
+Media Hardware-video-decoding Failed: false
+
+Network Predictor Cleaned-up: true
+
+Pdfjs Enabledcache State: true
+
+Pdfjs Migrationversion: 2
+
+Pdfjs Previoushandler Alwaysaskbeforehandling: true
+
+Places Database Lastmaintenance: 2019-03-14 02:56:45
+
+Places History Expiration Transient current max pages: 112348
+
+Plugin Disable full page plugin for types: application/pdf
+
+Privacy Sanitize Pending: []
+
+Sanity-test Advanced-layers: true
+
+Sanity-test Device-id: 0xbeef
+
+Sanity-test Driver-version: 10.0.17763.1
+
+Sanity-test Running: false
+
+Sanity-test Version: 20190225143501
+
+Security Sandbox Content Tempdirsuffix: {e4e17285-9c47-401b-9e4b-e5b9f00d7ba6}
+
+Security Sandbox Plugin Tempdirsuffix: {a2509d4e-c8b5-43b8-b061-5cdf6a9811a6}
+
+Services Blocklist Addons Checked: 1553114422
+
+Services Blocklist Gfx Checked: 1553114422
+
+Services Blocklist Onecrl Checked: 1553114422
+
+Services Blocklist Pinning Checked: 1553114422
+
+Services Blocklist Plugins Checked: 1553114422
+
+Services Settings Clock skew seconds: 0
+
+Services Settings Last etag: \1553118552422\
+
+Services Settings Last update seconds: 2019-03-20 22:50:41
+
+Services Settings Main Fxmonitor-breaches Last check: 2019-03-20 21:40:22
+
+Services Settings Main Language-dictionaries Last check: 2019-03-20 21:40:22
+
+Services Settings Main Onboarding Last check: 2019-03-20 21:40:22
+
+Services Settings Main Sites-classification Last check: 2019-03-20 21:40:22
+
+Services Settings Main Tippytop Last check: 2019-03-20 21:40:22
+
+Services Sync Engine Addresses Available: true
+
+Signon Importedfromsqlite: true
+
+Storage Vacuum Last Index: 1
+
+Storage Vacuum Last Places Sqlite: 2019-03-14 02:56:45
+
+Toolkit Startup Last success: 2019-03-20 22:40:40
+
+Toolkit Telemetry Cachedclientid: fe339104-8ccb-4ad1-b1aa-7d54cf94fcd0
+
+Toolkit Telemetry Previousbuildid: 20190225143501
+
+Toolkit Telemetry Reportingpolicy Firstrun: false
+
+Ui Osk Debug Keyboarddisplayreason: IKPO
+
+
+=============================================================================================================
+== Sessions             
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/sessionstore.jsonlz4
+=> SHA256 hash: 93b506c240403ee55de421bf6dd086fd4f0cc9fda564f8adccd4ec81f68c881b
+
+No data found!
+
+=============================================================================================================
+== Sessions             
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/sessionstore-backups/previous.jsonlz4
+=> SHA256 hash: ba6750f1bc67f6704f3336d43b5ff425ffd47cbcdecc37192f671a9f24d4fa5e
+
+No data found!
+
+=============================================================================================================
+== Sessions             
+============================================================================================================
+=> Source file: /home/arti/htb/re/files/mozilla/Profiles/059jpd2l.default/sessionstore-backups/upgrade.jsonlz4-20190225143501
+=> SHA256 hash: 0b55c03507ddc008ac3b634a684a034c3dba1b3fb9319fdd87f2f57eb0b78e11
+
+No data found!
+
+===============================================================================================================
+== Total Information
+==============================================================================================================
+
+Total Addons (URLS/PATHS)  : 2
+Total Addons               : 0
+Total Bookmarks            : 12
+Total Cookies              : 39
+Total Directories          : 0
+Total Downloads history    : 7
+Total Search Engines       : 7
+Total Extensions           : 6
+Total Forms                : 20
+Total History              : 45
+Total Public Key Pinning   : 49
+Total Permissions          : 11
+Total Preferences          : 125
+Total Sessions             : 0
+

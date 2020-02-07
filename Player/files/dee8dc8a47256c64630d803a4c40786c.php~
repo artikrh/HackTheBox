@@ -1,0 +1,37 @@
+<?php
+require 'vendor/autoload.php';
+
+use \Firebase\JWT\JWT;
+
+$access = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9qZWN0IjoiUGxheUJ1ZmYiLCJhY2Nlc3NfY29kZSI6IkMwQjEzN0ZFMkQ3OTI0NTlGMjZGRjc2M0NDRTQ0NTc0QTVCNUFCMDMifQ.cjGwng6JiMiOWZGz7saOdOuhyr1vad5hAxOJCiM3uzU";
+$access = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9qZWN0IjoiUGxheUJ1ZmYiLCJhY2Nlc3NfY29kZSI6IjBFNzY2NTg1MjY2NTU3NTYyMDc2ODgyNzExNTk2MjQwMjYwMTEzOTMifQ.7i5yGxG5iPqU9BV5iqAOLhLAnTmmMpOoU73F2eGUhy8";
+
+$key = '_S0_R@nd0m_P@ss_';
+// SHOULD BE: 0E76658526655756207688271159624026011393
+$decoded = JWT::decode($access, base64_decode(strtr($key, '-_', '+/')), ['HS256']);
+
+print_r($decoded);
+/*
+			stdClass Object
+			(
+			[project] => PlayBuff
+			[access_code] => C0B137FE2D792459F26FF763CCE44574A5B5AB03
+			)
+*/
+
+/*
+eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJwcm9qZWN0IjoiUGxheUJ1ZmYiLCJhY2Nlc3NfY29kZSI6IkMwQjEzN0ZFMkQ3OTI0NTlGMjZGRjc2M0NDRTQ0NTc0QTVCNUFCMDMifQ.cjGwng6JiMiOWZGz7saOdOuhyr1vad5hAxOJCiM3uzU
+*/
+
+/*
+if($decoded->access_code === "0E76658526655756207688271159624026011393")
+{
+	header("Location: 7F2xxxxxxxxxxxxx/");
+}
+else
+{
+	header("Location: index.html");
+}
+*/
+
+?>

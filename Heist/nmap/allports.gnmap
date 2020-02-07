@@ -1,0 +1,5 @@
+# Nmap 7.70 scan initiated Wed Aug 14 11:01:11 2019 as: nmap -p- -oA nmap/allports -vv -T4 10.10.10.149
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.149 ()	Status: Up
+Host: 10.10.10.149 ()	Ports: 80/open/tcp//http///, 135/open/tcp//msrpc///, 445/open/tcp//microsoft-ds///, 5985/open/tcp//wsman///, 49669/open/tcp/////	Ignored State: filtered (65530)
+# Nmap done at Wed Aug 14 11:04:48 2019 -- 1 IP address (1 host up) scanned in 216.95 seconds

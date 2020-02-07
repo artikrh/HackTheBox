@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Tue Jul 16 13:17:56 2019 as: nmap -sC -sV -oA nmap/initial -vv -T4 10.10.10.110 -->
+<nmaprun scanner="nmap" args="nmap -sC -sV -oA nmap/initial -vv -T4 10.10.10.110" start="1563275876" startstr="Tue Jul 16 13:17:56 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3007,3011,3013,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5987-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1563275877"/>
+<taskend task="NSE" time="1563275877"/>
+<taskbegin task="NSE" time="1563275877"/>
+<taskend task="NSE" time="1563275877"/>
+<taskbegin task="Ping Scan" time="1563275877"/>
+<taskend task="Ping Scan" time="1563275877" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1563275877"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1563275877"/>
+<taskbegin task="Connect Scan" time="1563275877"/>
+<taskend task="Connect Scan" time="1563275885" extrainfo="1000 total ports"/>
+<taskbegin task="Service scan" time="1563275885"/>
+<taskend task="Service scan" time="1563275898" extrainfo="2 services on 1 host"/>
+<taskbegin task="NSE" time="1563275898"/>
+<taskend task="NSE" time="1563275902"/>
+<taskbegin task="NSE" time="1563275902"/>
+<taskend task="NSE" time="1563275902"/>
+<host starttime="1563275877" endtime="1563275902"><status state="up" reason="conn-refused" reason_ttl="0"/>
+<address addr="10.10.10.110" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="closed" count="998">
+<extrareasons reason="conn-refused" count="998"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" product="OpenSSH" version="7.4p1 Debian 10+deb9u5" extrainfo="protocol 2.0" ostype="Linux" method="probed" conf="10"><cpe>cpe:/a:openbsd:openssh:7.4p1</cpe><cpe>cpe:/o:linux:linux_kernel</cpe></service><script id="ssh-hostkey" output="&#xa;  2048 bd:e7:6c:22:81:7a:db:3e:c0:f0:73:1d:f3:af:77:65 (RSA)&#xa;ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCscULO5kzW5659eWy5BdBJWCHxBSvqKIn6TZwEdp4NG3cLJc6aVQxEUknoSoMa2RAy2CFv/IWKbFIEY33XM2PRhKTuSJd/aNrMKs0jX40q/0zpmRv4/HzLdWE33t9on739xRWgsnNI0JOaGAwa4ryubOeKo53ykP9fTgLeHvT37GthWJIzfXNA7UFXJen3T4+4xmbxA2Low8D8xAGjqVLoEgKGVy05oL+zGucd0C5LyclT0Gkxm3NCk3MLdFdPOuaVX5jlX32yKUA//Go9fN9OlGffcHkLfgTA7s+PLememC14H/r8ZLYJYByeBj2MqR6ndkQ3+OkmSjeOBPEamkqz&#xa;  256 82:b5:f9:d1:95:3b:6d:80:0f:35:91:86:2d:b3:d7:66 (ECDSA)&#xa;ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJAzk0wAfmy1zhnnnQOEoqLN0OK0zF9VwqqwIRkG58ARwaVlwSARRf3BS7Ywo2AfjZS9EWZycsXxy3/7MwEQS1U=&#xa;  256 28:3b:26:18:ec:df:b3:36:85:9c:27:54:8d:8c:e1:33 (ED25519)&#xa;ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJsBTHLrhy1IfI4AeEWxjJBm9z6wm/F9mMPMUbpRt2+K"><table>
+<elem key="type">ssh-rsa</elem>
+<elem key="bits">2048.0</elem>
+<elem key="fingerprint">bde76c22817adb3ec0f0731df3af7765</elem>
+<elem key="key">AAAAB3NzaC1yc2EAAAADAQABAAABAQCscULO5kzW5659eWy5BdBJWCHxBSvqKIn6TZwEdp4NG3cLJc6aVQxEUknoSoMa2RAy2CFv/IWKbFIEY33XM2PRhKTuSJd/aNrMKs0jX40q/0zpmRv4/HzLdWE33t9on739xRWgsnNI0JOaGAwa4ryubOeKo53ykP9fTgLeHvT37GthWJIzfXNA7UFXJen3T4+4xmbxA2Low8D8xAGjqVLoEgKGVy05oL+zGucd0C5LyclT0Gkxm3NCk3MLdFdPOuaVX5jlX32yKUA//Go9fN9OlGffcHkLfgTA7s+PLememC14H/r8ZLYJYByeBj2MqR6ndkQ3+OkmSjeOBPEamkqz</elem>
+</table>
+<table>
+<elem key="type">ecdsa-sha2-nistp256</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">82b5f9d1953b6d800f3591862db3d766</elem>
+<elem key="key">AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBJAzk0wAfmy1zhnnnQOEoqLN0OK0zF9VwqqwIRkG58ARwaVlwSARRf3BS7Ywo2AfjZS9EWZycsXxy3/7MwEQS1U=</elem>
+</table>
+<table>
+<elem key="type">ssh-ed25519</elem>
+<elem key="bits">256</elem>
+<elem key="fingerprint">283b2618ecdfb336859c27548d8ce133</elem>
+<elem key="key">AAAAC3NzaC1lZDI1NTE5AAAAIJsBTHLrhy1IfI4AeEWxjJBm9z6wm/F9mMPMUbpRt2+K</elem>
+</table>
+</script></port>
+<port protocol="tcp" portid="443"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" product="nginx" version="1.15.8" tunnel="ssl" method="probed" conf="10"><cpe>cpe:/a:igor_sysoev:nginx:1.15.8</cpe></service><script id="http-methods" output="&#xa;  Supported Methods: OPTIONS GET HEAD POST"><table key="Supported Methods">
+<elem>OPTIONS</elem>
+<elem>GET</elem>
+<elem>HEAD</elem>
+<elem>POST</elem>
+</table>
+</script><script id="http-server-header" output="nginx/1.15.8"><elem>nginx/1.15.8</elem>
+</script><script id="http-title" output="About"><elem key="title">About</elem>
+</script><script id="ssl-cert" output="Subject: commonName=craft.htb/organizationName=Craft/stateOrProvinceName=NY/countryName=US&#xa;Issuer: commonName=Craft CA/organizationName=Craft/stateOrProvinceName=New York/countryName=US/localityName=Buffalo/emailAddress=admin@craft.htb/organizationalUnitName=Craft&#xa;Public Key type: rsa&#xa;Public Key bits: 2048&#xa;Signature Algorithm: sha256WithRSAEncryption&#xa;Not valid before: 2019-02-06T02:25:47&#xa;Not valid after:  2020-06-20T02:25:47&#xa;MD5:   0111 76e2 83c8 0f26 50e7 56e4 ce16 4766&#xa;SHA-1: 2e11 62ef 4d2e 366f 196a 51f0 c5ca b8ce 8592 3730&#xa;-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIEQDCCAigCCQC6e7PJjcRLnzANBgkqhkiG9w0BAQsFADCBhTELMAkGA1UEBhMC&#xa;VVMxETAPBgNVBAgMCE5ldyBZb3JrMRAwDgYDVQQHDAdCdWZmYWxvMQ4wDAYDVQQK&#xa;DAVDcmFmdDEOMAwGA1UECwwFQ3JhZnQxETAPBgNVBAMMCENyYWZ0IENBMR4wHAYJ&#xa;KoZIhvcNAQkBFg9hZG1pbkBjcmFmdC5odGIwHhcNMTkwMjA2MDIyNTQ3WhcNMjAw&#xa;NjIwMDIyNTQ3WjA+MQswCQYDVQQGEwJVUzELMAkGA1UECAwCTlkxDjAMBgNVBAoM&#xa;BUNyYWZ0MRIwEAYDVQQDDAljcmFmdC5odGIwggEiMA0GCSqGSIb3DQEBAQUAA4IB&#xa;DwAwggEKAoIBAQDV6vf1Ki4fZhJeMOQBAUFx98hM70l6Hpu+4MlB4++i/u2fKRvV&#xa;woGYPpz3KGuNKv+BvjR0+yGFM2HflIgZcc5yE//MGnb9F1fcjJ66rT3qBHjIfwls&#xa;6MRygl9NRVSa09PvrXUbULBr95V624TTPewiEy1yZgMP+ByQzm9Td0jdTQ8HDugq&#xa;kmOmUDX34kDtZc5u7iFBicTXYBpnYVZNEVsUoT6QVZiez07E5L9d0XZ9+iLeVvaB&#xa;XmeimEdbaR2iKKDTmmWaduH/YLUAEP+gS0STM2lKiXL3euL13f9z6i0KjI8Tymby&#xa;Sb6zeznqWCYuJRHfEZnYj+B26jcXU2ZE0GwrAgMBAAEwDQYJKoZIhvcNAQELBQAD&#xa;ggIBACEEpKD0fivZFNx7Q8/q81SNE8TbAQKyfOP98SXU6LAMPOIfAf27tG8C8xGF&#xa;NCmQcggUwpuz2PB+t8vN91oRHdehkpDsVa7ZOKPQm+RQYH7WlMyO65bz5M2zxkbq&#xa;m7Eesaeakdj2XR4ah7TbCeSU7Mu2ePdOLgHme8qI60XjvTrNJ7sB7i5vc5cs7Q9j&#xa;AgOQhQFJddhFsViOcuICei+m8WDg2w4/Kmbu1lSHCCAm4HPA+H8+dZcHN3v3EtqQ&#xa;IRwoph/Jl5h9yxZXDDrFyGMburGjWtIwvrDJmC3m5eDigliUM1OZEWOmDEzBKfUG&#xa;dpNln6Mku8EI2qrVITepg9Szb/7lbd8OJsWo1g4s9BPi2NA/ZGk3z3no6AvGPo6d&#xa;74uNAzGaIBaPH9v2pyUsKbeNm/TY2GikZuOUVdSt/dXCEQ5I5TVxLBJYB9RmzA2+&#xa;u5qS2hN6KOBNBWvYsvLTsAyq5VTzi6seRUk887S5oMoVzD4AxchcrwmBOKPaeyTS&#xa;sUpN2F4Ea7TRPyQWN1IjVnIjkpRzN5mUwnKyyKovKyQaYE9HPM59PC8uTri59mIv&#xa;Rtz++eBxJu/2FFDhI7AiOctOhzKTa7AN0JmTO1pp4OFY5uDl4yFk3t+1lMKhggMa&#xa;UOpGWGGlST3o/VI2ebJq4nDewBf/LY3ZtJbNIKcXNpQQzB7/&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;"><table key="subject">
+<elem key="countryName">US</elem>
+<elem key="stateOrProvinceName">NY</elem>
+<elem key="commonName">craft.htb</elem>
+<elem key="organizationName">Craft</elem>
+</table>
+<table key="issuer">
+<elem key="localityName">Buffalo</elem>
+<elem key="stateOrProvinceName">New York</elem>
+<elem key="emailAddress">admin@craft.htb</elem>
+<elem key="countryName">US</elem>
+<elem key="organizationName">Craft</elem>
+<elem key="commonName">Craft CA</elem>
+<elem key="organizationalUnitName">Craft</elem>
+</table>
+<table key="pubkey">
+<elem key="type">rsa</elem>
+<elem key="bits">2048</elem>
+<elem key="modulus">userdata: 0x556d0080e708</elem>
+<elem key="exponent">userdata: 0x556d0080e748</elem>
+</table>
+<elem key="sig_algo">sha256WithRSAEncryption</elem>
+<table key="validity">
+<elem key="notBefore">2019-02-06T02:25:47</elem>
+<elem key="notAfter">2020-06-20T02:25:47</elem>
+</table>
+<elem key="md5">011176e283c80f2650e756e4ce164766</elem>
+<elem key="sha1">2e1162ef4d2e366f196a51f0c5cab8ce85923730</elem>
+<elem key="pem">-&#45;&#45;&#45;&#45;BEGIN CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;MIIEQDCCAigCCQC6e7PJjcRLnzANBgkqhkiG9w0BAQsFADCBhTELMAkGA1UEBhMC&#xa;VVMxETAPBgNVBAgMCE5ldyBZb3JrMRAwDgYDVQQHDAdCdWZmYWxvMQ4wDAYDVQQK&#xa;DAVDcmFmdDEOMAwGA1UECwwFQ3JhZnQxETAPBgNVBAMMCENyYWZ0IENBMR4wHAYJ&#xa;KoZIhvcNAQkBFg9hZG1pbkBjcmFmdC5odGIwHhcNMTkwMjA2MDIyNTQ3WhcNMjAw&#xa;NjIwMDIyNTQ3WjA+MQswCQYDVQQGEwJVUzELMAkGA1UECAwCTlkxDjAMBgNVBAoM&#xa;BUNyYWZ0MRIwEAYDVQQDDAljcmFmdC5odGIwggEiMA0GCSqGSIb3DQEBAQUAA4IB&#xa;DwAwggEKAoIBAQDV6vf1Ki4fZhJeMOQBAUFx98hM70l6Hpu+4MlB4++i/u2fKRvV&#xa;woGYPpz3KGuNKv+BvjR0+yGFM2HflIgZcc5yE//MGnb9F1fcjJ66rT3qBHjIfwls&#xa;6MRygl9NRVSa09PvrXUbULBr95V624TTPewiEy1yZgMP+ByQzm9Td0jdTQ8HDugq&#xa;kmOmUDX34kDtZc5u7iFBicTXYBpnYVZNEVsUoT6QVZiez07E5L9d0XZ9+iLeVvaB&#xa;XmeimEdbaR2iKKDTmmWaduH/YLUAEP+gS0STM2lKiXL3euL13f9z6i0KjI8Tymby&#xa;Sb6zeznqWCYuJRHfEZnYj+B26jcXU2ZE0GwrAgMBAAEwDQYJKoZIhvcNAQELBQAD&#xa;ggIBACEEpKD0fivZFNx7Q8/q81SNE8TbAQKyfOP98SXU6LAMPOIfAf27tG8C8xGF&#xa;NCmQcggUwpuz2PB+t8vN91oRHdehkpDsVa7ZOKPQm+RQYH7WlMyO65bz5M2zxkbq&#xa;m7Eesaeakdj2XR4ah7TbCeSU7Mu2ePdOLgHme8qI60XjvTrNJ7sB7i5vc5cs7Q9j&#xa;AgOQhQFJddhFsViOcuICei+m8WDg2w4/Kmbu1lSHCCAm4HPA+H8+dZcHN3v3EtqQ&#xa;IRwoph/Jl5h9yxZXDDrFyGMburGjWtIwvrDJmC3m5eDigliUM1OZEWOmDEzBKfUG&#xa;dpNln6Mku8EI2qrVITepg9Szb/7lbd8OJsWo1g4s9BPi2NA/ZGk3z3no6AvGPo6d&#xa;74uNAzGaIBaPH9v2pyUsKbeNm/TY2GikZuOUVdSt/dXCEQ5I5TVxLBJYB9RmzA2+&#xa;u5qS2hN6KOBNBWvYsvLTsAyq5VTzi6seRUk887S5oMoVzD4AxchcrwmBOKPaeyTS&#xa;sUpN2F4Ea7TRPyQWN1IjVnIjkpRzN5mUwnKyyKovKyQaYE9HPM59PC8uTri59mIv&#xa;Rtz++eBxJu/2FFDhI7AiOctOhzKTa7AN0JmTO1pp4OFY5uDl4yFk3t+1lMKhggMa&#xa;UOpGWGGlST3o/VI2ebJq4nDewBf/LY3ZtJbNIKcXNpQQzB7/&#xa;-&#45;&#45;&#45;&#45;END CERTIFICATE-&#45;&#45;&#45;&#45;&#xa;</elem>
+</script><script id="ssl-date" output="TLS randomness does not represent time"></script><script id="tls-alpn" output="&#xa;  http/1.1"><elem>http/1.1</elem>
+</script><script id="tls-nextprotoneg" output="&#xa;  http/1.1"><elem>http/1.1</elem>
+</script></port>
+</ports>
+<times srtt="53252" rttvar="4180" to="100000"/>
+</host>
+<taskbegin task="NSE" time="1563275902"/>
+<taskend task="NSE" time="1563275902"/>
+<taskbegin task="NSE" time="1563275902"/>
+<taskend task="NSE" time="1563275902"/>
+<runstats><finished time="1563275902" timestr="Tue Jul 16 13:18:22 2019" elapsed="26.23" summary="Nmap done at Tue Jul 16 13:18:22 2019; 1 IP address (1 host up) scanned in 26.23 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

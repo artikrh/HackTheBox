@@ -1,0 +1,13 @@
+# Nmap 7.80 scan initiated Sun Aug 25 14:53:12 2019 as: nmap -p- -oA nmap/allports -vv -T4 10.10.10.146
+Nmap scan report for 10.10.10.146
+Host is up, received syn-ack (0.071s latency).
+Scanned at 2019-08-25 14:53:12 CEST for 814s
+Not shown: 65532 filtered ports
+Reason: 64804 no-responses and 728 host-unreaches
+PORT    STATE  SERVICE REASON
+22/tcp  open   ssh     syn-ack
+80/tcp  open   http    syn-ack
+443/tcp closed https   conn-refused
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sun Aug 25 15:06:46 2019 -- 1 IP address (1 host up) scanned in 813.32 seconds

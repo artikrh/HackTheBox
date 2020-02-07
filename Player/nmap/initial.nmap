@@ -1,0 +1,27 @@
+# Nmap 7.70 scan initiated Tue Jul  9 14:43:40 2019 as: nmap -sC -sV -oA nmap/initial -vv -T4 10.10.10.145
+Nmap scan report for 10.10.10.145
+Host is up, received syn-ack (0.12s latency).
+Scanned at 2019-07-09 14:43:41 CEST for 51s
+Not shown: 998 closed ports
+Reason: 998 conn-refused
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 6.6.1p1 Ubuntu 2ubuntu2.11 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   1024 d7:30:db:b9:a0:4c:79:94:78:38:b3:43:a2:50:55:81 (DSA)
+| ssh-dss AAAAB3NzaC1kc3MAAACBANqJ2hnodPLniUfs3D+0FqejPLtrrETr9KOAejyFyq/qnLxmRTBcfgaMiLveU98x2vtJkOOhCMMh7c2tDg85fNFLufeScarVh8ZInsPGYTMZXtfW1V3Y3AITMhpjasRH1BM5d8mq5hiE+7DzjDNnhXpS/1SWyYRFQLaUZw7Ln/PVAAAAFQDeL6S1B7qnINkqIsVtN0VrdG/jJQAAAIBhmvL/NguMRBB8rvYanIRkHRGM2fRpue25mSMH0Ffp+zYiVdFSlpeK6WyAS0UsD6kZTI9pgXtVZpk0UOuqsXVlpfbl77e6sD2iRTgXA4/bUJBU+0ebFZXgPf4EYl/eekcFRjNSAA2hBoQzaOxQ0KV/AlsxLEjkyzwhgOOHtw9RHAAAAIEAyWUEkRktKq2UAqdzcw3lSOsMtDM6iBTtPw0OhtwPW4PS8NoJu04xVCHsOizPmsZBi/AmnqXegMB1eFpsgQHnd14Pa3J+5qAays+x0EJoR1LRjESt4gzhNqS0KNdDdWxF09uwWnH0ENHj7AelCiqpCErbBRSNgKewdLb8apqqJsc=
+|   2048 37:2b:e4:31:ee:a6:49:0d:9f:e7:e6:01:e6:3e:0a:66 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDHqTWXCjHaTNd1UMgEe+cXsfpjHQZR22ch30CbgzFJb7+mN6Lz2YOBweGD8ygL+0nSKVREuzcNoqSH3LPuyEIW9gQIe5ax2qXS525s2N68CRN4okpH9RI3MHc7bpd7T7qYs9XhfIsJOeWMt3EIlrruRRJOAwGr9vYVlWt1nkGibVuJ95RbGytHp1vuMNKgNlzVG04KDe6bQ7w7ft74bQtgS2U+rQe5AR4fn+B193SEnb2OYoTsVtyRO9BDszKxDEODiK4/E2yjvCfLNIFRbYr1ep9CAuBdcUYoxS5vtP4XC6a4BFsdfdIQ0Uksaa/d5gu81XZJoNKNnXllfFO2WXJj
+|   256 0c:6c:05:ed:ad:f1:75:e8:02:e4:d2:27:3e:3a:19:8f (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBNRxN8vUONwGvkJGeMbMQ9v9SfPsYBhrjHTY0Nn+EOhyGgdfOKNkbglA8mXlPiTtF2Q6r99yhRzWLv4IHexegR0=
+|   256 11:b8:db:f3:cc:29:08:4a:49:ce:bf:91:73:40:a2:80 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIJEXOd3zpYOhdHN49fw2QUqR33HT5ZD2O2w0L6IEMIES
+80/tcp open  http    syn-ack Apache httpd 2.4.7
+| http-methods: 
+|_  Supported Methods: GET HEAD POST OPTIONS
+|_http-server-header: Apache/2.4.7 (Ubuntu)
+|_http-title: 403 Forbidden
+Service Info: Host: player.htb; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue Jul  9 14:44:32 2019 -- 1 IP address (1 host up) scanned in 51.84 seconds

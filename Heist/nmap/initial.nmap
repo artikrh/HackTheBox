@@ -1,0 +1,41 @@
+# Nmap 7.70 scan initiated Wed Aug 14 10:53:39 2019 as: nmap -sC -sV -oA nmap/initial -vv -T4 10.10.10.149
+Nmap scan report for 10.10.10.149
+Host is up, received syn-ack (0.052s latency).
+Scanned at 2019-08-14 10:53:39 CEST for 76s
+Not shown: 997 filtered ports
+Reason: 997 no-responses
+PORT    STATE SERVICE       REASON  VERSION
+80/tcp  open  http          syn-ack Microsoft IIS httpd 10.0
+| http-cookie-flags: 
+|   /: 
+|     PHPSESSID: 
+|_      httponly flag not set
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+| http-title: Support Login Page
+|_Requested resource was login.php
+135/tcp open  msrpc         syn-ack Microsoft Windows RPC
+445/tcp open  microsoft-ds? syn-ack
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -2s, deviation: 0s, median: -2s
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 10514/tcp): CLEAN (Timeout)
+|   Check 2 (port 48515/tcp): CLEAN (Timeout)
+|   Check 3 (port 25486/udp): CLEAN (Timeout)
+|   Check 4 (port 20167/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2019-08-14 10:54:14
+|_  start_date: N/A
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Aug 14 10:54:55 2019 -- 1 IP address (1 host up) scanned in 76.62 seconds

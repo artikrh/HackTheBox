@@ -1,0 +1,24 @@
+# Nmap 7.80 scan initiated Sat Sep  7 21:01:30 2019 as: nmap -sC -sV -oA nmap/initial -vv -T4 10.10.10.114
+Nmap scan report for 10.10.10.114
+Host is up, received syn-ack (0.086s latency).
+Scanned at 2019-09-07 21:01:30 CEST for 71s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT   STATE SERVICE REASON  VERSION
+22/tcp open  ssh     syn-ack OpenSSH 7.6p1 Ubuntu 4ubuntu0.3 (Ubuntu Linux; protocol 2.0)
+| ssh-hostkey: 
+|   2048 a2:3b:b0:dd:28:91:bf:e8:f9:30:82:31:23:2f:92:18 (RSA)
+| ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQDSCR2AISBaUSpQGOWjsr3qEJ0/8CcRP0256a8V8+RP3/s8C2JjPF0VpQ0yREJi5GcaxaUT71Z/Iu4L+zSuGErOswMYOASHTsLQ1OiOX+pFPGos7dCho50xTZW/t7fznxpOZz5Z/q2vw68B+9w3nYBuSHgcOCJl9UVhd7nyzxdaTScQg3CLy3LbOmERh1PN/sVTYEncJgVZjZAWNj3Y1WCIsQaJS24IWHjDKv883oEVgRr9K7aF95SSpLdH1aG/uvQFEoYsE+/WvqD8lPZ+nbxmGVZWHVdHzKDHXJZTcMosAYi/OAdb8qrb17Rs1Uq66caY/GnTRMDNI73HK4PfUeQp
+|   256 e6:3b:fb:b3:7f:9a:35:a8:bd:d0:27:7b:25:d4:ed:dc (ECDSA)
+| ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBOTiIG0kUQzECqcEHxHyiK1WbdkW2Ncwk5twrushVNzzMgnydxaua2m3mg5k8UWt1HXeUOyUxTpXaoaPa7Gclg4=
+|   256 c9:54:3d:91:01:78:03:ab:16:14:6b:cc:f0:b7:3a:55 (ED25519)
+|_ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIMsgauIgMgKCiPSybbXatTK8ZsAgv7xsrJsR5FZ5M77i
+80/tcp open  http    syn-ack nginx
+| http-methods: 
+|_  Supported Methods: POST OPTIONS
+|_http-title: Site doesn't have a title (text/html).
+Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sat Sep  7 21:02:41 2019 -- 1 IP address (1 host up) scanned in 71.87 seconds

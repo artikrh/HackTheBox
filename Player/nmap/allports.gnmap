@@ -1,0 +1,5 @@
+# Nmap 7.70 scan initiated Tue Jul  9 14:46:06 2019 as: nmap -p- -oA nmap/allports -vv -T4 10.10.10.145
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.145 (player.htb)	Status: Up
+Host: 10.10.10.145 (player.htb)	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 6686/open/tcp/////	Ignored State: closed (65532)
+# Nmap done at Tue Jul  9 14:46:36 2019 -- 1 IP address (1 host up) scanned in 29.83 seconds

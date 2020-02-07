@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Fri Jul 19 17:43:30 2019 as: nmap -p 6686 -sV -sC -oA nmap/6686 -vv -Pn player.htb -->
+<nmaprun scanner="nmap" args="nmap -p 6686 -sV -sC -oA nmap/6686 -vv -Pn player.htb" start="1563551010" startstr="Fri Jul 19 17:43:30 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="1" services="6686"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="NSE" time="1563551010"/>
+<taskend task="NSE" time="1563551010"/>
+<taskbegin task="NSE" time="1563551010"/>
+<taskend task="NSE" time="1563551010"/>
+<taskbegin task="Connect Scan" time="1563551010"/>
+<taskend task="Connect Scan" time="1563551010" extrainfo="1 total ports"/>
+<taskbegin task="Service scan" time="1563551010"/>
+<taskend task="Service scan" time="1563551010" extrainfo="1 service on 1 host"/>
+<taskbegin task="NSE" time="1563551010"/>
+<taskend task="NSE" time="1563551015"/>
+<taskbegin task="NSE" time="1563551015"/>
+<taskend task="NSE" time="1563551015"/>
+<host starttime="1563551010" endtime="1563551015"><status state="up" reason="user-set" reason_ttl="0"/>
+<address addr="10.10.10.145" addrtype="ipv4"/>
+<hostnames>
+<hostname name="player.htb" type="user"/>
+<hostname name="player.htb" type="PTR"/>
+</hostnames>
+<ports><port protocol="tcp" portid="6686"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="tcpwrapped" method="probed" conf="8"/></port>
+</ports>
+<times srtt="52335" rttvar="52335" to="261675"/>
+</host>
+<taskbegin task="NSE" time="1563551015"/>
+<taskend task="NSE" time="1563551015"/>
+<taskbegin task="NSE" time="1563551015"/>
+<taskend task="NSE" time="1563551015"/>
+<runstats><finished time="1563551015" timestr="Fri Jul 19 17:43:35 2019" elapsed="5.71" summary="Nmap done at Fri Jul 19 17:43:35 2019; 1 IP address (1 host up) scanned in 5.71 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

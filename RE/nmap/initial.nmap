@@ -1,0 +1,35 @@
+# Nmap 7.70 scan initiated Mon Jul 22 10:06:14 2019 as: nmap -sC -sV -oA nmap/initial -vv -T4 10.10.10.144
+Nmap scan report for 10.10.10.144
+Host is up, received syn-ack (0.055s latency).
+Scanned at 2019-07-22 10:06:14 CEST for 55s
+Not shown: 998 filtered ports
+Reason: 998 no-responses
+PORT    STATE SERVICE       REASON  VERSION
+80/tcp  open  http          syn-ack Microsoft IIS httpd 10.0
+| http-methods: 
+|   Supported Methods: OPTIONS TRACE GET HEAD POST
+|_  Potentially risky methods: TRACE
+|_http-server-header: Microsoft-IIS/10.0
+|_http-title: Visit reblog.htb
+445/tcp open  microsoft-ds? syn-ack
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_clock-skew: mean: -1s, deviation: 0s, median: -1s
+| p2p-conficker: 
+|   Checking for Conficker.C or higher...
+|   Check 1 (port 58412/tcp): CLEAN (Timeout)
+|   Check 2 (port 39973/tcp): CLEAN (Timeout)
+|   Check 3 (port 50632/udp): CLEAN (Timeout)
+|   Check 4 (port 29025/udp): CLEAN (Timeout)
+|_  0/4 checks are positive: Host is CLEAN or ports are blocked
+| smb2-security-mode: 
+|   2.02: 
+|_    Message signing enabled but not required
+| smb2-time: 
+|   date: 2019-07-22 10:06:33
+|_  start_date: N/A
+
+Read data files from: /usr/bin/../share/nmap
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jul 22 10:07:09 2019 -- 1 IP address (1 host up) scanned in 55.41 seconds

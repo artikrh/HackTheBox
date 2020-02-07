@@ -1,0 +1,5 @@
+# Nmap 7.80 scan initiated Sun Aug 25 14:53:12 2019 as: nmap -p- -oA nmap/allports -vv -T4 10.10.10.146
+# Ports scanned: TCP(65535;1-65535) UDP(0;) SCTP(0;) PROTOCOLS(0;)
+Host: 10.10.10.146 ()	Status: Up
+Host: 10.10.10.146 ()	Ports: 22/open/tcp//ssh///, 80/open/tcp//http///, 443/closed/tcp//https///	Ignored State: filtered (65532)
+# Nmap done at Sun Aug 25 15:06:46 2019 -- 1 IP address (1 host up) scanned in 813.32 seconds

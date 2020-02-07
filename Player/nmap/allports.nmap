@@ -1,0 +1,13 @@
+# Nmap 7.70 scan initiated Tue Jul  9 14:46:06 2019 as: nmap -p- -oA nmap/allports -vv -T4 10.10.10.145
+Nmap scan report for player.htb (10.10.10.145)
+Host is up, received syn-ack (0.051s latency).
+Scanned at 2019-07-09 14:46:06 CEST for 30s
+Not shown: 65532 closed ports
+Reason: 65532 conn-refused
+PORT     STATE SERVICE REASON
+22/tcp   open  ssh     syn-ack
+80/tcp   open  http    syn-ack
+6686/tcp open  unknown syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Tue Jul  9 14:46:36 2019 -- 1 IP address (1 host up) scanned in 29.83 seconds

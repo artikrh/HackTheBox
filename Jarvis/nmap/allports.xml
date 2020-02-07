@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Sat Jun 22 21:03:20 2019 as: nmap -p- -T3 -oA nmap/allports 10.10.10.143 -->
+<nmaprun scanner="nmap" args="nmap -p- -T3 -oA nmap/allports 10.10.10.143" start="1561230200" startstr="Sat Jun 22 21:03:20 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="0"/>
+<debugging level="0"/>
+<taskprogress task="Connect Scan" time="1561230323" percent="70.89" remaining="51" etc="1561230374"/>
+<taskprogress task="Connect Scan" time="1561230368" percent="82.39" remaining="36" etc="1561230404"/>
+<taskprogress task="Connect Scan" time="1561230369" percent="82.80" remaining="36" etc="1561230404"/>
+<taskprogress task="Connect Scan" time="1561230369" percent="82.87" remaining="35" etc="1561230404"/>
+<taskprogress task="Connect Scan" time="1561230369" percent="82.92" remaining="35" etc="1561230404"/>
+<taskprogress task="Connect Scan" time="1561230369" percent="82.97" remaining="35" etc="1561230404"/>
+<taskprogress task="Connect Scan" time="1561230370" percent="83.00" remaining="35" etc="1561230405"/>
+<taskprogress task="Connect Scan" time="1561230405" percent="93.04" remaining="16" etc="1561230420"/>
+<taskprogress task="Connect Scan" time="1561230405" percent="93.13" remaining="16" etc="1561230420"/>
+<taskprogress task="Connect Scan" time="1561230405" percent="93.19" remaining="15" etc="1561230420"/>
+<taskend task="Connect Scan" time="1561230429" extrainfo="65535 total ports"/>
+<host starttime="1561230200" endtime="1561230429"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.10.143" addrtype="ipv4"/>
+<hostnames>
+<hostname name="supersecurehotel.htb" type="PTR"/>
+</hostnames>
+<ports><extraports state="closed" count="65532">
+<extrareasons reason="conn-refused" count="65532"/>
+</extraports>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="64999"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+</ports>
+<times srtt="57614" rttvar="4047" to="100000"/>
+</host>
+<runstats><finished time="1561230429" timestr="Sat Jun 22 21:07:09 2019" elapsed="229.82" summary="Nmap done at Sat Jun 22 21:07:09 2019; 1 IP address (1 host up) scanned in 229.82 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

@@ -1,0 +1,1 @@
+00CFF78C  02C53938  "-ssh root@gitlab.htb -pw \"Qf7]8YSV.wDNF*[7d?j&eD4^\""

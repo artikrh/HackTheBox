@@ -1,0 +1,12 @@
+# Nmap 7.70 scan initiated Sat Jun 22 21:03:20 2019 as: nmap -p- -T3 -oA nmap/allports 10.10.10.143
+Nmap scan report for supersecurehotel.htb (10.10.10.143)
+Host is up (0.058s latency).
+Scanned at 2019-06-22 21:03:20 CEST for 229s
+Not shown: 65532 closed ports
+PORT      STATE SERVICE
+22/tcp    open  ssh
+80/tcp    open  http
+64999/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Sat Jun 22 21:07:09 2019 -- 1 IP address (1 host up) scanned in 229.82 seconds

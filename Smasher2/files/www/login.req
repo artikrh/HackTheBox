@@ -1,0 +1,14 @@
+POST /auth HTTP/1.1
+Host: wonderfulsessionmanager.smasher2.htb
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:67.0) Gecko/20100101 Firefox/67.0
+Accept: application/json, text/javascript, */*; q=0.01
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://wonderfulsessionmanager.smasher2.htb/login
+Content-Type: application/json
+X-Requested-With: XMLHttpRequest
+Content-Length: 67
+Connection: close
+Cookie: session=eyJpZCI6eyIgYiI6IlpHUmpNVGd6TVRReU0ySXlNV0V5WkdGaVlUUTRNVGhqT1RGak5UbGlOell5TXpBMU4ySTNOZz09In19.XPbhag.81oo9iJnlo6A_QIgIuaqwym8EaM
+
+{"action":"auth","data":{"username":"admin","password":"password"}}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Wed Aug 14 11:01:11 2019 as: nmap -p- -oA nmap/allports -vv -T4 10.10.10.149 -->
+<nmaprun scanner="nmap" args="nmap -p- -oA nmap/allports -vv -T4 10.10.10.149" start="1565773271" startstr="Wed Aug 14 11:01:11 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1565773271"/>
+<taskend task="Ping Scan" time="1565773271" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1565773271"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1565773271"/>
+<taskbegin task="Connect Scan" time="1565773271"/>
+<taskprogress task="Connect Scan" time="1565773302" percent="2.74" remaining="1103" etc="1565774404"/>
+<taskprogress task="Connect Scan" time="1565773332" percent="8.94" remaining="622" etc="1565773953"/>
+<taskprogress task="Connect Scan" time="1565773362" percent="18.70" remaining="396" etc="1565773758"/>
+<taskprogress task="Connect Scan" time="1565773392" percent="33.41" remaining="242" etc="1565773633"/>
+<taskprogress task="Connect Scan" time="1565773422" percent="48.48" remaining="161" etc="1565773582"/>
+<taskprogress task="Connect Scan" time="1565773452" percent="70.05" remaining="78" etc="1565773529"/>
+<taskend task="Connect Scan" time="1565773488" extrainfo="65535 total ports"/>
+<host starttime="1565773271" endtime="1565773488"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.10.149" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65530">
+<extrareasons reason="no-responses" count="65530"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="135"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="msrpc" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+<port protocol="tcp" portid="5985"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="wsman" method="table" conf="3"/></port>
+<port protocol="tcp" portid="49669"><state state="open" reason="syn-ack" reason_ttl="0"/></port>
+</ports>
+<times srtt="54791" rttvar="4609" to="100000"/>
+</host>
+<runstats><finished time="1565773488" timestr="Wed Aug 14 11:04:48 2019" elapsed="216.95" summary="Nmap done at Wed Aug 14 11:04:48 2019; 1 IP address (1 host up) scanned in 216.95 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>

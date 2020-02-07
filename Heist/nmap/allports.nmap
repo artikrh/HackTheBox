@@ -1,0 +1,15 @@
+# Nmap 7.70 scan initiated Wed Aug 14 11:01:11 2019 as: nmap -p- -oA nmap/allports -vv -T4 10.10.10.149
+Nmap scan report for 10.10.10.149
+Host is up, received syn-ack (0.055s latency).
+Scanned at 2019-08-14 11:01:11 CEST for 217s
+Not shown: 65530 filtered ports
+Reason: 65530 no-responses
+PORT      STATE SERVICE      REASON
+80/tcp    open  http         syn-ack
+135/tcp   open  msrpc        syn-ack
+445/tcp   open  microsoft-ds syn-ack
+5985/tcp  open  wsman        syn-ack
+49669/tcp open  unknown      syn-ack
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Wed Aug 14 11:04:48 2019 -- 1 IP address (1 host up) scanned in 216.95 seconds

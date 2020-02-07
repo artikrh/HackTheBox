@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nmaprun>
+<?xml-stylesheet href="file:///usr/bin/../share/nmap/nmap.xsl" type="text/xsl"?>
+<!-- Nmap 7.70 scan initiated Mon Jul 22 10:07:57 2019 as: nmap -p- -oA nmap/allports -vv -T4 10.10.10.144 -->
+<nmaprun scanner="nmap" args="nmap -p- -oA nmap/allports -vv -T4 10.10.10.144" start="1563782877" startstr="Mon Jul 22 10:07:57 2019" version="7.70" xmloutputversion="1.04">
+<scaninfo type="connect" protocol="tcp" numservices="65535" services="1-65535"/>
+<verbose level="2"/>
+<debugging level="0"/>
+<taskbegin task="Ping Scan" time="1563782877"/>
+<taskend task="Ping Scan" time="1563782877" extrainfo="1 total hosts"/>
+<taskbegin task="Parallel DNS resolution of 1 host." time="1563782877"/>
+<taskend task="Parallel DNS resolution of 1 host." time="1563782877"/>
+<taskbegin task="Connect Scan" time="1563782877"/>
+<taskprogress task="Connect Scan" time="1563782908" percent="21.13" remaining="116" etc="1563783024"/>
+<taskprogress task="Connect Scan" time="1563782938" percent="57.09" remaining="46" etc="1563782984"/>
+<taskend task="Connect Scan" time="1563782976" extrainfo="65535 total ports"/>
+<host starttime="1563782877" endtime="1563782976"><status state="up" reason="syn-ack" reason_ttl="0"/>
+<address addr="10.10.10.144" addrtype="ipv4"/>
+<hostnames>
+</hostnames>
+<ports><extraports state="filtered" count="65533">
+<extrareasons reason="no-responses" count="65533"/>
+</extraports>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="445"><state state="open" reason="syn-ack" reason_ttl="0"/><service name="microsoft-ds" method="table" conf="3"/></port>
+</ports>
+<times srtt="54930" rttvar="6032" to="100000"/>
+</host>
+<runstats><finished time="1563782976" timestr="Mon Jul 22 10:09:36 2019" elapsed="99.50" summary="Nmap done at Mon Jul 22 10:09:36 2019; 1 IP address (1 host up) scanned in 99.50 seconds" exit="success"/><hosts up="1" down="0" total="1"/>
+</runstats>
+</nmaprun>
